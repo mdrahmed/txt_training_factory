@@ -1,0 +1,18 @@
+User:  main is calling _ZN2ft20TxtMqttFactoryClient23publishStationBroadcastENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEdS6_S6_S6_l
+_ZN2ft20TxtMqttFactoryClient23publishStationBroadcastENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEdS6_S6_S6_l is called from this callInst  invoke void @_ZN2ft20TxtMqttFactoryClient23publishStationBroadcastENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEdS6_S6_S6_l(%"class.ft::TxtMqttFactoryClient"* noundef nonnull align 4 dereferenceable(604) %788, %"class.std::__cxx11::basic_string"* noundef %59, double noundef %786, %"class.std::__cxx11::basic_string"* noundef %61, %"class.std::__cxx11::basic_string"* noundef %62, %"class.std::__cxx11::basic_string"* noundef %64, i32 noundef 60000)
+          to label %803 unwind label %844, !dbg !29088
+
+
+arguments:  _ZN2ft20TxtMqttFactoryClient23publishStationBroadcastENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEdS6_S6_S6_l 
+ _ZN2ft20TxtMqttFactoryClient23publishStationBroadcastENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEdS6_S6_S6_l %"class.ft::TxtMqttFactoryClient"* %0
+ _ZN2ft20TxtMqttFactoryClient23publishStationBroadcastENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEdS6_S6_S6_l %"class.ft::TxtMqttFactoryClient"* %0%"class.std::__cxx11::basic_string"* %1
+ _ZN2ft20TxtMqttFactoryClient23publishStationBroadcastENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEdS6_S6_S6_l %"class.ft::TxtMqttFactoryClient"* %0%"class.std::__cxx11::basic_string"* %1double %2
+ _ZN2ft20TxtMqttFactoryClient23publishStationBroadcastENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEdS6_S6_S6_l %"class.ft::TxtMqttFactoryClient"* %0%"class.std::__cxx11::basic_string"* %1double %2%"class.std::__cxx11::basic_string"* %3
+ _ZN2ft20TxtMqttFactoryClient23publishStationBroadcastENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEdS6_S6_S6_l %"class.ft::TxtMqttFactoryClient"* %0%"class.std::__cxx11::basic_string"* %1double %2%"class.std::__cxx11::basic_string"* %3%"class.std::__cxx11::basic_string"* %4
+ _ZN2ft20TxtMqttFactoryClient23publishStationBroadcastENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEdS6_S6_S6_l %"class.ft::TxtMqttFactoryClient"* %0%"class.std::__cxx11::basic_string"* %1double %2%"class.std::__cxx11::basic_string"* %3%"class.std::__cxx11::basic_string"* %4%"class.std::__cxx11::basic_string"* %5
+ _ZN2ft20TxtMqttFactoryClient23publishStationBroadcastENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEdS6_S6_S6_l %"class.ft::TxtMqttFactoryClient"* %0%"class.std::__cxx11::basic_string"* %1double %2%"class.std::__cxx11::basic_string"* %3%"class.std::__cxx11::basic_string"* %4%"class.std::__cxx11::basic_string"* %5i32 %6
+arg_values:   = 3204445520
+  = 3204444448
+  = 3889515023
+Segmentation fault
+

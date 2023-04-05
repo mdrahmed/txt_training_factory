@@ -1,0 +1,22 @@
+digraph "clang" {
+node [style=filled fillcolor="#f8f8f8"]
+subgraph cluster_L { "File: clang" [shape=box fontsize=16 label="File: clang\lType: inuse_space\lShowing nodes accounting for 67364.02MB, 100% of 67364.81MB total\lDropped 4 nodes (cum <= 336.82MB)\l" tooltip="clang"] }
+N1 [label="[libclang-cpp.so.14]\n877.04MB (1.30%)\nof 67357.39MB (100%)" id="node1" fontsize=10 shape=box tooltip="[libclang-cpp.so.14] (67357.39MB)" color="#b20000" fillcolor="#edd5d5"]
+N2 [label="[libLLVM-14.so.1]\n66486.98MB (98.70%)\nof 66872.52MB (99.27%)" id="node2" fontsize=24 shape=box tooltip="[libLLVM-14.so.1] (66872.52MB)" color="#b20000" fillcolor="#edd5d5"]
+NN2_0 [label = "1.80MB..3.09MB" id="NN2_0" fontsize=8 shape=box3d tooltip="37095.21MB"]
+N2 -> NN2_0 [label=" 37095.21MB" weight=100 tooltip="37095.21MB" labeltooltip="37095.21MB"]
+NN2_1 [label = "498.40kB..1.71MB" id="NN2_1" fontsize=8 shape=box3d tooltip="19146.55MB"]
+N2 -> NN2_1 [label=" 19146.55MB" weight=100 tooltip="19146.55MB" labeltooltip="19146.55MB"]
+NN2_2 [label = "3.26MB" id="NN2_2" fontsize=8 shape=box3d tooltip="3479.41MB"]
+N2 -> NN2_2 [label=" 3479.41MB" weight=100 tooltip="3479.41MB" labeltooltip="3479.41MB"]
+NN2_3 [label = "3.18MB" id="NN2_3" fontsize=8 shape=box3d tooltip="3367.41MB"]
+N2 -> NN2_3 [label=" 3367.41MB" weight=100 tooltip="3367.41MB" labeltooltip="3367.41MB"]
+N3 [label="[clang]\n0 of 65675.18MB (97.49%)" id="node3" fontsize=8 shape=box tooltip="[clang] (65675.18MB)" color="#b20100" fillcolor="#edd5d5"]
+N4 [label="[libc-2.27.so]\n0 of 65059.14MB (96.58%)" id="node4" fontsize=8 shape=box tooltip="[libc-2.27.so] (65059.14MB)" color="#b20100" fillcolor="#edd5d5"]
+N1 -> N2 [label=" 66837.63MB" weight=100 penwidth=5 color="#b20000" tooltip="[libclang-cpp.so.14] -> [libLLVM-14.so.1] (66837.63MB)" labeltooltip="[libclang-cpp.so.14] -> [libLLVM-14.so.1] (66837.63MB)"]
+N3 -> N1 [label=" 65671.14MB" weight=98 penwidth=5 color="#b20100" tooltip="[clang] -> [libclang-cpp.so.14] (65671.14MB)" labeltooltip="[clang] -> [libclang-cpp.so.14] (65671.14MB)"]
+N1 -> N3 [label=" 65483.64MB" weight=98 penwidth=5 color="#b20100" tooltip="[libclang-cpp.so.14] -> [clang] (65483.64MB)" labeltooltip="[libclang-cpp.so.14] -> [clang] (65483.64MB)"]
+N2 -> N1 [label=" 65401.56MB" weight=98 penwidth=5 color="#b20100" tooltip="[libLLVM-14.so.1] -> [libclang-cpp.so.14] (65401.56MB)" labeltooltip="[libLLVM-14.so.1] -> [libclang-cpp.so.14] (65401.56MB)" minlen=2]
+N4 -> N3 [label=" 65059.14MB" weight=97 penwidth=5 color="#b20100" tooltip="[libc-2.27.so] -> [clang] (65059.14MB)" labeltooltip="[libc-2.27.so] -> [clang] (65059.14MB)"]
+N3 -> N4 [label=" 64923.68MB" weight=97 penwidth=5 color="#b20100" tooltip="[clang] -> [libc-2.27.so] (64923.68MB)" labeltooltip="[clang] -> [libc-2.27.so] (64923.68MB)"]
+}
