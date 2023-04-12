@@ -6,7 +6,7 @@
 #include "TxtJoystickXYBController.h"
 #include "Utils.h"
 #include "TxtAxis.h"
-#include "TxtSound.h"
+#include "TxtSound.h" 
 
 #include "KeLibTxtDl.h"     // TXT Lib
 #include "FtShmem.h"        // TXT Transfer Area
@@ -82,8 +82,8 @@ class callback : public virtual mqtt::callback
 	// Callback for when a message arrives.
 	void message_arrived(mqtt::const_message_ptr msg) override {
 		assert(msg);
-		printf("Topic: %s\n", msg->get_topic().c_str());
-		std::cout << "message_arrived mqtt::const_message_ptr msg: "<<msg<<std::endl;
+		printf("Topic from ClientMain: %s\n", msg->get_topic().c_str());
+		//std::cout << "message_arrived mqtt::const_message_ptr msg: "<<msg<<std::endl;
 		SPDLOG_LOGGER_DEBUG(spdlog::get("console"), "message_arrived  message:{} payload:{}", msg->get_topic(), msg->to_string());
 		//BUGFIX: msg->get_topic() is empty
 		//FIX paho.mqtt.cpp: https://github.com/eclipse/paho.mqtt.c/issues/440#issuecomment-380161713

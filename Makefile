@@ -17,7 +17,7 @@ HEAPPROFILE=my_heap_profile_output
 
 # Main txt folder and files
 # Worked
- EXECUTEABLE_g++ = clang++-14 --target=arm-linux-gnueabihf
+EXECUTEABLE_g++ = clang++-14 --target=arm-linux-gnueabihf
 # Worked with PASS
 # EXECUTEABLE_g++ = clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/ubuntu-18/LLVM_passes/injectFunc/printf.so
 
@@ -156,8 +156,15 @@ TxtFactoryClient/src/%.ll: TxtFactoryClient/src/%.cpp
 # llvm-as-14 main.ll -o e.bc
 # llc-14 -mtriple=arm-linux-gnueabihf -filetype=obj -relocation-model=pic e.bc -o e.o
 # Now use that e.o obj file to compile the $(BIN_DIR)/TxtFactoryHBW - make binFromIR/TxtFactoryHBW
+binFromIR/TxtFactoryHBW_from-ll: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a
+	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_RELEASE) -D"CLIENT_HBW" -emit-llvm -S -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"TxtFactoryClient/HBW_Release/src/main.d" -o "TxtFactoryClient/HBW_Release/src/hbw.ll" TxtFactoryClient/src/main.cpp
+
 binFromIR/TxtFactoryHBW: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a
 #	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_RELEASE) -D"CLIENT_HBW" -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"TxtFactoryClient/HBW_Release/src/main.d" -o "TxtFactoryClient/HBW_Release/src/main.o" TxtFactoryClient/src/main.cpp
+	$(EXECUTEABLE_g++) -Wl,-rpath=/opt/knobloch/libs/ TxtFactoryClient/src/e.o $(LINKER_FLAGS_RELEASE_PATHS) $(LINKER_FLAGS_LIBS) -o "$@"
+
+binFromIR/TxtFactoryVGR: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a
+#	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_RELEASE) -D"CLIENT_VGR" -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"TxtFactoryClient/VGR_Release/src/main.d" -o "TxtFactoryClient/VGR_Release/src/main.o" TxtFactoryClient/src/main.cpp
 	$(EXECUTEABLE_g++) -Wl,-rpath=/opt/knobloch/libs/ TxtFactoryClient/src/e.o $(LINKER_FLAGS_RELEASE_PATHS) $(LINKER_FLAGS_LIBS) -o "$@"
 
 
