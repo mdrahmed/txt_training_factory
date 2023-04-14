@@ -17,16 +17,16 @@ HEAPPROFILE=my_heap_profile_output
 
 # Main txt folder and files
 # Worked
-EXECUTEABLE_g++ = clang++-14 --target=arm-linux-gnueabihf
+# EXECUTEABLE_g++ = clang++-14 --target=arm-linux-gnueabihf
 # Worked with PASS
 # EXECUTEABLE_g++ = clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/ubuntu-18/LLVM_passes/injectFunc/printf.so
 
 #EXECUTEABLE_g++ = clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/ubuntu-18/LLVM_passes/functionPassses/funcNArg.so
 
 # WORKING WITH THIS ONE,
-# EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
-
-
+EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
+# /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
+# /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt
 #Using LD_PRELOAD & HEAPPROFILE
 #EXECUTEABLE_g++ = env LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libtcmalloc.so HEAPPROFILE=./profiles/my_heap_profile_output  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/instrument.so
 
@@ -153,8 +153,8 @@ TxtFactoryClient/src/%.ll: TxtFactoryClient/src/%.cpp
 # make TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a
 # also compile the TxtFactoryClient/src/main.ll with this cmd - make TxtFactoryClient/src/main.ll
 # now to compile the obj file from TxtFactoryClient/src/%.ll with following cmds,
-# llvm-as-14 main.ll -o e.bc
-# llc-14 -mtriple=arm-linux-gnueabihf -filetype=obj -relocation-model=pic e.bc -o e.o
+# llvm-as-14 TxtFactoryClient/src/main.ll -o TxtFactoryClient/src/e.bc
+# llc-14 -mtriple=arm-linux-gnueabihf -filetype=obj -relocation-model=pic TxtFactoryClient/src/e.bc -o TxtFactoryClient/src/e.o
 # Now use that e.o obj file to compile the $(BIN_DIR)/TxtFactoryHBW - make binFromIR/TxtFactoryHBW
 binFromIR/TxtFactoryHBW_from-ll: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a
 	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_RELEASE) -D"CLIENT_HBW" -emit-llvm -S -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"TxtFactoryClient/HBW_Release/src/main.d" -o "TxtFactoryClient/HBW_Release/src/hbw.ll" TxtFactoryClient/src/main.cpp
@@ -163,9 +163,16 @@ binFromIR/TxtFactoryHBW: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.
 #	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_RELEASE) -D"CLIENT_HBW" -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"TxtFactoryClient/HBW_Release/src/main.d" -o "TxtFactoryClient/HBW_Release/src/main.o" TxtFactoryClient/src/main.cpp
 	$(EXECUTEABLE_g++) -Wl,-rpath=/opt/knobloch/libs/ TxtFactoryClient/src/e.o $(LINKER_FLAGS_RELEASE_PATHS) $(LINKER_FLAGS_LIBS) -o "$@"
 
+# This vgr is not compiled properly
 binFromIR/TxtFactoryVGR: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a
 #	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_RELEASE) -D"CLIENT_VGR" -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"TxtFactoryClient/VGR_Release/src/main.d" -o "TxtFactoryClient/VGR_Release/src/main.o" TxtFactoryClient/src/main.cpp
 	$(EXECUTEABLE_g++) -Wl,-rpath=/opt/knobloch/libs/ TxtFactoryClient/src/e.o $(LINKER_FLAGS_RELEASE_PATHS) $(LINKER_FLAGS_LIBS) -o "$@"
+
+# This is not generating the main.ll file properly
+TxtFactoryMain/src/%.ll: TxtFactoryMain/src/%.cpp
+	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_DEBUG) -emit-llvm -S -D"CLIENT_HBW" -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -o "$@" $<
+#	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_DEBUG) -emit-llvm -S -o "TxtFactoryMain/src/main.ll" TxtFactoryMain/src/main.cpp
+#	$(EXECUTEABLE_g++) -L"TxtSmartFactoryLib/Posix_Release" -L"TxtSmartFactoryLib/Posix_Release/libs" $(LIB_CFLAGS) -Wl,-rpath=/opt/knobloch/libs/ -o "$@.cloud" TxtFactoryMain/Posix_Release/src/main.o -lTxtSmartFactoryLib -lTxtControlLib -lSDLWidgetsLib -lMotorIOLib -lpaho-mqtt3c -lpaho-mqtt3a -lpaho-mqttpp3 -lopencv_core -lopencv_videoio -lopencv_imgcodecs -lopencv_imgproc -ljsoncpp -lalgobsec -lpthread -lSDL -lSDL_gfx -lSDL_ttf -lts -lfreetype -lz -lpng16 -lbz2 -ljpeg -lasound -lSDL_image -lnfc -lROBOProLib -lKeLibTxt
 
 
 TxtSmartFactoryLib/Posix_Debug/libs/%.o: TxtSmartFactoryLib/libs/%.c
@@ -224,7 +231,7 @@ $(BIN_DIR)/TxtFactorySLD: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib
 
 $(BIN_DIR)/TxtFactoryMain: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a TxtSmartFactoryLib/Posix_Release/libs/libalgobsec.a
 	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_RELEASE) -o "TxtFactoryMain/Posix_Release/src/main.o" TxtFactoryMain/src/main.cpp
-	#$(EXECUTEABLE_g++) -L"TxtSmartFactoryLib/Posix_Release" -L"TxtSmartFactoryLib/Posix_Release/libs" -L"deps/lib" -Wl,-rpath=/opt/knobloch/libs/ -o "$@.cloud" TxtFactoryMain/Posix_Release/src/main.o -lTxtSmartFactoryLib -lTxtControlLib -lSDLWidgetsLib -lMotorIOLib -lpaho-mqtt3c -lpaho-mqtt3a -lpaho-mqttpp3 -lopencv_core -lopencv_videoio -lopencv_imgcodecs -lopencv_imgproc -ljsoncpp -lalgobsec -lpthread -lSDL -lSDL_gfx -lSDL_ttf -lts -lfreetype -lz -lpng16 -lbz2 -ljpeg -lasound -lSDL_image -lnfc -lROBOProLib -lKeLibTxt
+#	$(EXECUTEABLE_g++) -L"TxtSmartFactoryLib/Posix_Release" -L"TxtSmartFactoryLib/Posix_Release/libs" -L"deps/lib" -Wl,-rpath=/opt/knobloch/libs/ -o "$@.cloud" TxtFactoryMain/Posix_Release/src/main.o -lTxtSmartFactoryLib -lTxtControlLib -lSDLWidgetsLib -lMotorIOLib -lpaho-mqtt3c -lpaho-mqtt3a -lpaho-mqttpp3 -lopencv_core -lopencv_videoio -lopencv_imgcodecs -lopencv_imgproc -ljsoncpp -lalgobsec -lpthread -lSDL -lSDL_gfx -lSDL_ttf -lts -lfreetype -lz -lpng16 -lbz2 -ljpeg -lasound -lSDL_image -lnfc -lROBOProLib -lKeLibTxt
 	$(EXECUTEABLE_g++) -L"TxtSmartFactoryLib/Posix_Release" -L"TxtSmartFactoryLib/Posix_Release/libs" $(LIB_CFLAGS) -Wl,-rpath=/opt/knobloch/libs/ -o "$@.cloud" TxtFactoryMain/Posix_Release/src/main.o -lTxtSmartFactoryLib -lTxtControlLib -lSDLWidgetsLib -lMotorIOLib -lpaho-mqtt3c -lpaho-mqtt3a -lpaho-mqttpp3 -lopencv_core -lopencv_videoio -lopencv_imgcodecs -lopencv_imgproc -ljsoncpp -lalgobsec -lpthread -lSDL -lSDL_gfx -lSDL_ttf -lts -lfreetype -lz -lpng16 -lbz2 -ljpeg -lasound -lSDL_image -lnfc -lROBOProLib -lKeLibTxt
 
 # PARKPOS

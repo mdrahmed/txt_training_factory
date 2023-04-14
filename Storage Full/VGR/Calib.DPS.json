@@ -1,0 +1,18 @@
+{
+ "VGR" : 
+ {
+  "colorsens" : 
+  {
+   "th1" : 973,
+   "th2" : 1483
+  },
+  "uid_actions" : 
+  {
+   "calib_mode" : "c40cdb28",
+   "order_blue" : "",
+   "order_red" : "",
+   "order_white" : "",
+   "reset_hbw" : "223f241f"
+  }
+ }
+}
