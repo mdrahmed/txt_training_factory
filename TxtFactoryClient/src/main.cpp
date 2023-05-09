@@ -82,7 +82,8 @@ class callback : public virtual mqtt::callback
 	// Callback for when a message arrives.
 	void message_arrived(mqtt::const_message_ptr msg) override {
 		assert(msg);
-		printf("Topic from ClientMain: %s\n", msg->get_topic().c_str());
+		//printf("Topic from ClientMain: %s\n", msg->get_topic().c_str());
+		std::cout<<"msg: "<<msg->to_string();
 		//std::cout << "message_arrived mqtt::const_message_ptr msg: "<<msg<<std::endl;
 		SPDLOG_LOGGER_DEBUG(spdlog::get("console"), "message_arrived  message:{} payload:{}", msg->get_topic(), msg->to_string());
 		//BUGFIX: msg->get_topic() is empty

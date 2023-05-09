@@ -1,0 +1,65 @@
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so -std=gnu++0x -std=c++0x -D"DEBUG" -D"SPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_TRACE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-psabi -emit-llvm -S -D"CLIENT_HBW" -fPIC -MMD -MP -MF"TxtFactoryClient/src/main.ll" -o "TxtFactoryClient/src/main.ll" TxtFactoryClient/src/main.cpp
+get_topic operand(0)  %207 = call noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIKN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.43"* noundef nonnull align 1 dereferenceable(1) %206) #3, !dbg !27411
+to_string(): ; Function Attrs: mustprogress noinline optnone
+define linkonce_odr void @_ZNK4mqtt7message9to_stringB5cxx11Ev(%"class.std::__cxx11::basic_string"* noalias sret(%"class.std::__cxx11::basic_string") align 4 %0, %"class.mqtt::message"* noundef nonnull align 4 dereferenceable(48) %1) #7 comdat align 2 !dbg !73773 {
+  %3 = alloca i8*, align 4
+  %4 = alloca %"class.mqtt::message"*, align 4
+  %5 = bitcast %"class.std::__cxx11::basic_string"* %0 to i8*
+  store i8* %5, i8** %3, align 4
+  store %"class.mqtt::message"* %1, %"class.mqtt::message"** %4, align 4
+  call void @llvm.dbg.declare(metadata %"class.mqtt::message"** %4, metadata !73778, metadata !DIExpression()), !dbg !73780
+  %6 = load %"class.mqtt::message"*, %"class.mqtt::message"** %4, align 4
+  %7 = call noundef nonnull align 4 dereferenceable(24) %"class.std::__cxx11::basic_string"* @_ZNK4mqtt7message15get_payload_strB5cxx11Ev(%"class.mqtt::message"* noundef nonnull align 4 dereferenceable(48) %6), !dbg !73781
+  %8 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1ERKS4_(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %0, %"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %7), !dbg !73781
+  ret void, !dbg !73782
+}
+
+msg value:  call void @_ZNK4mqtt7message9to_stringB5cxx11Ev(%"class.mqtt::message"* %207), !dbg !27414
+get_topic operand(0)  %475 = call noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIKN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.43"* noundef nonnull align 1 dereferenceable(1) %474) #3, !dbg !27482
+to_string(): ; Function Attrs: mustprogress noinline optnone
+define linkonce_odr void @_ZNK4mqtt7message9to_stringB5cxx11Ev(%"class.std::__cxx11::basic_string"* noalias sret(%"class.std::__cxx11::basic_string") align 4 %0, %"class.mqtt::message"* noundef nonnull align 4 dereferenceable(48) %1) #7 comdat align 2 !dbg !73773 {
+  %3 = alloca i8*, align 4
+  %4 = alloca %"class.mqtt::message"*, align 4
+  %5 = bitcast %"class.std::__cxx11::basic_string"* %0 to i8*
+  store i8* %5, i8** %3, align 4
+  store %"class.mqtt::message"* %1, %"class.mqtt::message"** %4, align 4
+  call void @llvm.dbg.declare(metadata %"class.mqtt::message"** %4, metadata !73778, metadata !DIExpression()), !dbg !73780
+  %6 = load %"class.mqtt::message"*, %"class.mqtt::message"** %4, align 4
+  %7 = call noundef nonnull align 4 dereferenceable(24) %"class.std::__cxx11::basic_string"* @_ZNK4mqtt7message15get_payload_strB5cxx11Ev(%"class.mqtt::message"* noundef nonnull align 4 dereferenceable(48) %6), !dbg !73781
+  %8 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1ERKS4_(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %0, %"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %7), !dbg !73781
+  ret void, !dbg !73782
+}
+
+msg value:  call void @_ZNK4mqtt7message9to_stringB5cxx11Ev(%"class.mqtt::message"* %475), !dbg !27485
+get_topic operand(0)  %844 = call noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIKN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.43"* noundef nonnull align 1 dereferenceable(1) %843) #3, !dbg !27576
+to_string(): ; Function Attrs: mustprogress noinline optnone
+define linkonce_odr void @_ZNK4mqtt7message9to_stringB5cxx11Ev(%"class.std::__cxx11::basic_string"* noalias sret(%"class.std::__cxx11::basic_string") align 4 %0, %"class.mqtt::message"* noundef nonnull align 4 dereferenceable(48) %1) #7 comdat align 2 !dbg !73773 {
+  %3 = alloca i8*, align 4
+  %4 = alloca %"class.mqtt::message"*, align 4
+  %5 = bitcast %"class.std::__cxx11::basic_string"* %0 to i8*
+  store i8* %5, i8** %3, align 4
+  store %"class.mqtt::message"* %1, %"class.mqtt::message"** %4, align 4
+  call void @llvm.dbg.declare(metadata %"class.mqtt::message"** %4, metadata !73778, metadata !DIExpression()), !dbg !73780
+  %6 = load %"class.mqtt::message"*, %"class.mqtt::message"** %4, align 4
+  %7 = call noundef nonnull align 4 dereferenceable(24) %"class.std::__cxx11::basic_string"* @_ZNK4mqtt7message15get_payload_strB5cxx11Ev(%"class.mqtt::message"* noundef nonnull align 4 dereferenceable(48) %6), !dbg !73781
+  %8 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1ERKS4_(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %0, %"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %7), !dbg !73781
+  ret void, !dbg !73782
+}
+
+msg value:  call void @_ZNK4mqtt7message9to_stringB5cxx11Ev(%"class.mqtt::message"* %844), !dbg !27579
+get_topic operand(0)  %1257 = call noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIKN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.43"* noundef nonnull align 1 dereferenceable(1) %1256) #3, !dbg !27753
+to_string(): ; Function Attrs: mustprogress noinline optnone
+define linkonce_odr void @_ZNK4mqtt7message9to_stringB5cxx11Ev(%"class.std::__cxx11::basic_string"* noalias sret(%"class.std::__cxx11::basic_string") align 4 %0, %"class.mqtt::message"* noundef nonnull align 4 dereferenceable(48) %1) #7 comdat align 2 !dbg !73773 {
+  %3 = alloca i8*, align 4
+  %4 = alloca %"class.mqtt::message"*, align 4
+  %5 = bitcast %"class.std::__cxx11::basic_string"* %0 to i8*
+  store i8* %5, i8** %3, align 4
+  store %"class.mqtt::message"* %1, %"class.mqtt::message"** %4, align 4
+  call void @llvm.dbg.declare(metadata %"class.mqtt::message"** %4, metadata !73778, metadata !DIExpression()), !dbg !73780
+  %6 = load %"class.mqtt::message"*, %"class.mqtt::message"** %4, align 4
+  %7 = call noundef nonnull align 4 dereferenceable(24) %"class.std::__cxx11::basic_string"* @_ZNK4mqtt7message15get_payload_strB5cxx11Ev(%"class.mqtt::message"* noundef nonnull align 4 dereferenceable(48) %6), !dbg !73781
+  %8 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1ERKS4_(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %0, %"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %7), !dbg !73781
+  ret void, !dbg !73782
+}
+
+msg value:  call void @_ZNK4mqtt7message9to_stringB5cxx11Ev(%"class.mqtt::message"* %1257), !dbg !27755

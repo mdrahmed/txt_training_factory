@@ -24,9 +24,13 @@ HEAPPROFILE=my_heap_profile_output
 #EXECUTEABLE_g++ = clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/ubuntu-18/LLVM_passes/functionPassses/funcNArg.so
 
 # WORKING WITH THIS ONE,
+
+# Following executable is using pass from recordCallInst which will extract all the call instruction and load instructions with values
+#EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so
+# Trying to extract topic using following executable from message_arrived function
 EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
 # /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
-# /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt
+# /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so ## is for checking conditions and callInsts
 #Using LD_PRELOAD & HEAPPROFILE
 #EXECUTEABLE_g++ = env LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libtcmalloc.so HEAPPROFILE=./profiles/my_heap_profile_output  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/instrument.so
 
@@ -163,10 +167,10 @@ binFromIR/TxtFactoryHBW: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.
 #	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_RELEASE) -D"CLIENT_HBW" -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"TxtFactoryClient/HBW_Release/src/main.d" -o "TxtFactoryClient/HBW_Release/src/main.o" TxtFactoryClient/src/main.cpp
 	$(EXECUTEABLE_g++) -Wl,-rpath=/opt/knobloch/libs/ TxtFactoryClient/src/e.o $(LINKER_FLAGS_RELEASE_PATHS) $(LINKER_FLAGS_LIBS) -o "$@"
 
-# This vgr is not compiled properly
-binFromIR/TxtFactoryVGR: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a
-#	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_RELEASE) -D"CLIENT_VGR" -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"TxtFactoryClient/VGR_Release/src/main.d" -o "TxtFactoryClient/VGR_Release/src/main.o" TxtFactoryClient/src/main.cpp
-	$(EXECUTEABLE_g++) -Wl,-rpath=/opt/knobloch/libs/ TxtFactoryClient/src/e.o $(LINKER_FLAGS_RELEASE_PATHS) $(LINKER_FLAGS_LIBS) -o "$@"
+## This vgr is not compiled properly
+# binFromIR/TxtFactoryVGR: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a
+# #	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_RELEASE) -D"CLIENT_VGR" -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"TxtFactoryClient/VGR_Release/src/main.d" -o "TxtFactoryClient/VGR_Release/src/main.o" TxtFactoryClient/src/main.cpp
+# 	$(EXECUTEABLE_g++) -Wl,-rpath=/opt/knobloch/libs/ TxtFactoryClient/src/e.o $(LINKER_FLAGS_RELEASE_PATHS) $(LINKER_FLAGS_LIBS) -o "$@"
 
 # This is not generating the main.ll file properly
 TxtFactoryMain/src/%.ll: TxtFactoryMain/src/%.cpp
