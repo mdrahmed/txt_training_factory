@@ -1,6 +1,12 @@
 ## This is the original file that is present in my ubuntu18. [TXT-testbed-main-ubuntu-18](https://github.com/mdrahmed/TXT-testbed-main-ubuntu-18) repo contains duplicate. But all the changes are made here.
 
 
+this is present as txt-factory.git in ubuntu18-vm as shown following from the VM,
+```
+~/txt_training_factory$ git remote -v
+origin	git@github.com:mdrahmed/txt-factory.git (fetch)
+origin	git@github.com:mdrahmed/txt-factory.git (push)
+```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
