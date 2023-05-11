@@ -908,6 +908,7 @@ void TxtMqttFactoryClient::publishMPO_Ack(TxtMpoAckCode_t code, long timeout)
 
 void TxtMqttFactoryClient::publishVGR_Do(TxtVgrDoCode_t code, TxtWorkpiece* wp, long timeout)
 {
+	std::cout<<"TxtMqttFactoryClient::publishVGR_Do called.\n";
 	SPDLOG_LOGGER_TRACE(spdlog::get("console"), "publishVGR_Do code:{} timeout:{}", (int)code, timeout);
 	pthread_mutex_lock(&m_mutex);
 	SPDLOG_LOGGER_DEBUG(spdlog::get("console"), "pthread_mutex_lock publishVGR_Do",0);
@@ -934,6 +935,8 @@ void TxtMqttFactoryClient::publishVGR_Do(TxtVgrDoCode_t code, TxtWorkpiece* wp, 
 		try {
 			SPDLOG_LOGGER_DEBUG(spdlog::get("console"), "topic: {}", TOPIC_LOCAL_VGR_DO);
 			auto msg_ack = mqtt::make_message(TOPIC_LOCAL_VGR_DO, sout_ack.str());
+			//std::cout<<"msg_ack: "<<msg_ack<<"\n";
+			printf("msg_ack: %s\n", msg_ack->get_topic().c_str());
 			msg_ack->set_qos(iqos);
 			msg_ack->set_retained(bretained);
 			SPDLOG_LOGGER_DEBUG(spdlog::get("console"), "publish: {}", (int)code);

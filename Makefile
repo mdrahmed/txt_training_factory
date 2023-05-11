@@ -2,7 +2,8 @@
 #set env var, e.g. "export TOOLCHAIN_BIN_PATH=/opt/FT/TXT/opt/ext-toolchain/bin"
 
 #check if TOOLCHAIN_BIN_PATH environment variable is set:
-TOOLCHAIN_BIN_PATH=/home/u18new/Downloads/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/bin
+#TOOLCHAIN_BIN_PATH=/home/u18new/Downloads/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/bin
+TOOLCHAIN_BIN_PATH=/home/raihan/Downloads/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/bin
 
 ifndef TOOLCHAIN_BIN_PATH
 $(error TOOLCHAIN_BIN_PATH is undefined! Set with 'export TOOLCHAIN_BIN_PATH=/path/to/toolchain/bin')
@@ -28,9 +29,19 @@ HEAPPROFILE=my_heap_profile_output
 # Following executable is using pass from recordCallInst which will extract all the call instruction and load instructions with values
 #EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so
 # Trying to extract topic using following executable from message_arrived function
-EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
-# /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
-# /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so ## is for checking conditions and callInsts
+
+## Inside the ubuntu-18 dual boot
+#EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so
+
+## Inside the ubuntu-18 dual boot
+EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
+
+### Inside u18new - VM
+#EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
+## /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
+## /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so ## is for checking conditions and callInsts
+
+
 #Using LD_PRELOAD & HEAPPROFILE
 #EXECUTEABLE_g++ = env LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libtcmalloc.so HEAPPROFILE=./profiles/my_heap_profile_output  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/instrument.so
 
@@ -146,7 +157,7 @@ TxtSmartFactoryLib/Posix_Debug/src/%.o: TxtSmartFactoryLib/src/%.cpp
 	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_DEBUG) -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" $<
 
 # creating IR of TxtSmartFactoryLib cpp files
-TxtSmartFactoryLib/Posix_Debug/src/%.ll: TxtSmartFactoryLib/src/%.cpp
+TxtSmartFactoryLib/ll_files/%.ll: TxtSmartFactoryLib/src/%.cpp
 	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_DEBUG) -emit-llvm -S -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" $<
 
 TxtFactoryClient/src/%.ll: TxtFactoryClient/src/%.cpp
