@@ -8,9 +8,10 @@
 
 ## Code's performing checks in a state
 ### VGR 
-For delivery,
-The grip function is called from,
+For delivery, the grip function is called from,
+
 [`moveDeliveryInAndGrip();`](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp#L355)
+
 [`vgripper.grip();`](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp#L274)
 [grip()](https://github.com/mdrahmed/txt_training_factory/blob/master/TxtSmartFactoryLib/src/TxtVacuumGripper.cpp#L28) - This function is checking the speed of the vgr
 [uid.empty()](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp#L358) - This check is made to detect if it's wrong color in the `vgr`.
