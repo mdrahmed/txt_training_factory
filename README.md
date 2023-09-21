@@ -46,4 +46,4 @@ The store and fetch functions are checking the storage and the storage is update
 
 [getDetectedColor()](https://github.com/mdrahmed/txt_training_factory/blob/master/TxtSmartFactoryLib/src/TxtSortingLine.cpp#L129) - This function is used to detect the colors based on predefined checks.
 
-[getLastColor()](https://github.com/mdrahmed/txt_training_factory/blob/master/TxtSmartFactoryLib/src/TxtSortingLine.cpp#L111) - This function is also getting the last color based on the checks which is later used here [if (dps.getLastColor() == WP_TYPE_NONE)]()
+[getLastColor()](https://github.com/mdrahmed/txt_training_factory/blob/master/TxtSmartFactoryLib/src/TxtSortingLine.cpp#L111) - This function is also getting the last color based on the checks which is later used here in this condition - [if (dps.getLastColor() == WP_TYPE_NONE)](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp#L535)
