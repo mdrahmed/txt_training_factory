@@ -1,0 +1,1507 @@
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/publishTpExtD/instrument.so -std=gnu++0x -std=c++0x -D"DEBUG" -D"SPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_TRACE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-psabi -emit-llvm -S -fPIC -MMD -MP -MF"TxtSmartFactoryLib/ll_files/TxtMqttFactoryClient.ll" -MT"TxtSmartFactoryLib/ll_files/TxtMqttFactoryClient.ll" -o "TxtSmartFactoryLib/ll_files/TxtMqttFactoryClient.ll" TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+publishVGR_do found
+CallInst:   call void @llvm.dbg.declare(metadata %"class.ft::TxtMqttFactoryClient"** %5, metadata !31114, metadata !DIExpression()), !dbg !31115
+calledValue: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CalledFunction: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CallInst:   call void @llvm.dbg.declare(metadata i32* %6, metadata !31116, metadata !DIExpression()), !dbg !31117
+calledValue: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CalledFunction: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CallInst:   call void @llvm.dbg.declare(metadata %"class.ft::TxtWorkpiece"** %7, metadata !31118, metadata !DIExpression()), !dbg !31119
+calledValue: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CalledFunction: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CallInst:   call void @llvm.dbg.declare(metadata i32* %8, metadata !31120, metadata !DIExpression()), !dbg !31121
+calledValue: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CalledFunction: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CallInst:   %73 = call noundef nonnull align 4 dereferenceable(4) %"class.std::basic_ostream"* @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(%"class.std::basic_ostream"* noundef nonnull align 4 dereferenceable(4) @_ZSt4cout, i8* noundef getelementptr inbounds ([45 x i8], [45 x i8]* @.str.204, i32 0, i32 0)), !dbg !26247
+calledValue: declare noundef nonnull align 4 dereferenceable(4) %"class.std::basic_ostream"* @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(%"class.std::basic_ostream"* noundef nonnull align 4 dereferenceable(4), i8* noundef) #1
+
+CalledFunction: declare noundef nonnull align 4 dereferenceable(4) %"class.std::basic_ostream"* @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(%"class.std::basic_ostream"* noundef nonnull align 4 dereferenceable(4), i8* noundef) #1
+
+CallInst:   %75 = call noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %11) #3, !dbg !26249
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %80 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %79) #3, !dbg !26249
+calledValue: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CalledFunction: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CallInst:   %83 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %9) #3, !dbg !26249
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %84 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %10) #3, !dbg !26249
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %85 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %11) #3, !dbg !26249
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %87 = call noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %16) #3, !dbg !26249
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %92 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %91) #3, !dbg !26249
+calledValue: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CalledFunction: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CallInst:   %93 = call i8* @strrchr(i8* noundef getelementptr inbounds ([49 x i8], [49 x i8]* @.str.13, i32 0, i32 0), i32 noundef 47) #20, !dbg !26249
+calledValue: ; Function Attrs: nounwind readonly willreturn
+declare i8* @strrchr(i8* noundef, i32 noundef) #8
+
+CalledFunction: ; Function Attrs: nounwind readonly willreturn
+declare i8* @strrchr(i8* noundef, i32 noundef) #8
+
+CallInst:   %101 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %14) #3, !dbg !26249
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %102 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %15) #3, !dbg !26249
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %103 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %16) #3, !dbg !26249
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %116 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %9) #3, !dbg !26249
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %118 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %10) #3, !dbg !26249
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %120 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %11) #3, !dbg !26249
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %133 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %14) #3, !dbg !26249
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %135 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %15) #3, !dbg !26249
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %137 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %16) #3, !dbg !26249
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %141 = call i32 @pthread_mutex_lock(%union.pthread_mutex_t* noundef %140) #3, !dbg !26255
+calledValue: ; Function Attrs: nounwind
+declare i32 @pthread_mutex_lock(%union.pthread_mutex_t* noundef) #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare i32 @pthread_mutex_lock(%union.pthread_mutex_t* noundef) #2
+
+CallInst:   %143 = call noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %21) #3, !dbg !26257
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %148 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %147) #3, !dbg !26257
+calledValue: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CalledFunction: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CallInst:   %151 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %19) #3, !dbg !26257
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %152 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %20) #3, !dbg !26257
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %153 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %21) #3, !dbg !26257
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %155 = call noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %24) #3, !dbg !26257
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %160 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %159) #3, !dbg !26257
+calledValue: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CalledFunction: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CallInst:   %161 = call i8* @strrchr(i8* noundef getelementptr inbounds ([49 x i8], [49 x i8]* @.str.13, i32 0, i32 0), i32 noundef 47) #20, !dbg !26257
+calledValue: ; Function Attrs: nounwind readonly willreturn
+declare i8* @strrchr(i8* noundef, i32 noundef) #8
+
+CalledFunction: ; Function Attrs: nounwind readonly willreturn
+declare i8* @strrchr(i8* noundef, i32 noundef) #8
+
+CallInst:   %168 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %22) #3, !dbg !26257
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %169 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %23) #3, !dbg !26257
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %170 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %24) #3, !dbg !26257
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %183 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %19) #3, !dbg !26257
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %185 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %20) #3, !dbg !26257
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %187 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %21) #3, !dbg !26257
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %200 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %22) #3, !dbg !26257
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %202 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %23) #3, !dbg !26257
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %204 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %24) #3, !dbg !26257
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   call void @llvm.dbg.declare(metadata %"class.Json::Value"* %27, metadata !31137, metadata !DIExpression()), !dbg !31138
+calledValue: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CalledFunction: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CallInst:   %207 = call noundef %"class.Json::Value"* @_ZN4Json5ValueC1ENS_9ValueTypeE(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %27, i32 noundef 0), !dbg !26266
+calledValue: declare noundef %"class.Json::Value"* @_ZN4Json5ValueC1ENS_9ValueTypeE(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24), i32 noundef) unnamed_addr #1
+
+CalledFunction: declare noundef %"class.Json::Value"* @_ZN4Json5ValueC1ENS_9ValueTypeE(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24), i32 noundef) unnamed_addr #1
+
+CallInst:   call void @llvm.dbg.declare(metadata %"class.std::__cxx11::basic_ostringstream"* %28, metadata !31139, metadata !DIExpression()), !dbg !31140
+calledValue: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CalledFunction: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CallInst:   call void @llvm.dbg.declare(metadata [25 x i8]* %29, metadata !31141, metadata !DIExpression()), !dbg !31142
+calledValue: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CalledFunction: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CallInst:   %219 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %30) #3, !dbg !26279
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %227 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %31) #3, !dbg !26283
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   call void @llvm.dbg.declare(metadata %"class.Json::Value"* %32, metadata !31156, metadata !DIExpression()), !dbg !31158
+calledValue: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CalledFunction: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CallInst:   %241 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %33) #3, !dbg !26293
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %253 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %34) #3, !dbg !26298
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %265 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %35) #3, !dbg !26303
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %272 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %36) #3, !dbg !26306
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %273 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %32) #3, !dbg !26308
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %290 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %30) #3, !dbg !26279
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %295 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %31) #3, !dbg !26283
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %304 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %33) #3, !dbg !26293
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %309 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %34) #3, !dbg !26298
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %314 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %35) #3, !dbg !26303
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %319 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %36) #3, !dbg !26306
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %321 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %32) #3, !dbg !26308
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %330 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %37) #3, !dbg !26315
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %335 = call noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull align 8 dereferenceable(24) %37) #3, !dbg !26315
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.Json::Value"* @_ZN4Json5ValueD1Ev(%"class.Json::Value"* noundef nonnull returned align 8 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %341 = call noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %40) #3, !dbg !26322
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %346 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %345) #3, !dbg !26322
+calledValue: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CalledFunction: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CallInst:   %349 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %38) #3, !dbg !26322
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %350 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %39) #3, !dbg !26322
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %351 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %40) #3, !dbg !26322
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %353 = call noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %43) #3, !dbg !26322
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %358 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %357) #3, !dbg !26322
+calledValue: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CalledFunction: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CallInst:   %359 = call i8* @strrchr(i8* noundef getelementptr inbounds ([49 x i8], [49 x i8]* @.str.13, i32 0, i32 0), i32 noundef 47) #20, !dbg !26322
+calledValue: ; Function Attrs: nounwind readonly willreturn
+declare i8* @strrchr(i8* noundef, i32 noundef) #8
+
+CalledFunction: ; Function Attrs: nounwind readonly willreturn
+declare i8* @strrchr(i8* noundef, i32 noundef) #8
+
+CallInst:   %366 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %41) #3, !dbg !26322
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %367 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %42) #3, !dbg !26322
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %368 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %43) #3, !dbg !26322
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %381 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %38) #3, !dbg !26322
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %383 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %39) #3, !dbg !26322
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %385 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %40) #3, !dbg !26322
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %398 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %41) #3, !dbg !26322
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %400 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %42) #3, !dbg !26322
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %402 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %43) #3, !dbg !26322
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.76"* %45, metadata !31195, metadata !DIExpression()), !dbg !31196
+calledValue: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CalledFunction: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CallInst:   %412 = call noundef %"class.mqtt::buffer_ref"* @_ZN4mqtt10buffer_refIcED2Ev(%"class.mqtt::buffer_ref"* noundef nonnull align 4 dereferenceable(8) %47) #3, !dbg !26334
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::buffer_ref"* @_ZN4mqtt10buffer_refIcED2Ev(%"class.mqtt::buffer_ref"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26852 {
+  %2 = alloca %"class.mqtt::buffer_ref"*, align 4
+  store %"class.mqtt::buffer_ref"* %0, %"class.mqtt::buffer_ref"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.mqtt::buffer_ref"** %2, metadata !26854, metadata !DIExpression()), !dbg !26855
+  %3 = load %"class.mqtt::buffer_ref"*, %"class.mqtt::buffer_ref"** %2, align 4
+  %4 = getelementptr inbounds %"class.mqtt::buffer_ref", %"class.mqtt::buffer_ref"* %3, i32 0, i32 0, !dbg !26856
+  %5 = call noundef %"class.std::shared_ptr.12"* @_ZNSt10shared_ptrIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev(%"class.std::shared_ptr.12"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26856
+  ret %"class.mqtt::buffer_ref"* %3, !dbg !26858
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::buffer_ref"* @_ZN4mqtt10buffer_refIcED2Ev(%"class.mqtt::buffer_ref"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26852 {
+  %2 = alloca %"class.mqtt::buffer_ref"*, align 4
+  store %"class.mqtt::buffer_ref"* %0, %"class.mqtt::buffer_ref"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.mqtt::buffer_ref"** %2, metadata !26854, metadata !DIExpression()), !dbg !26855
+  %3 = load %"class.mqtt::buffer_ref"*, %"class.mqtt::buffer_ref"** %2, align 4
+  %4 = getelementptr inbounds %"class.mqtt::buffer_ref", %"class.mqtt::buffer_ref"* %3, i32 0, i32 0, !dbg !26856
+  %5 = call noundef %"class.std::shared_ptr.12"* @_ZNSt10shared_ptrIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev(%"class.std::shared_ptr.12"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26856
+  ret %"class.mqtt::buffer_ref"* %3, !dbg !26858
+}
+
+CallInst:   %413 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %48) #3, !dbg !26334
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %414 = call noundef %"class.mqtt::buffer_ref"* @_ZN4mqtt10buffer_refIcED2Ev(%"class.mqtt::buffer_ref"* noundef nonnull align 4 dereferenceable(8) %46) #3, !dbg !26334
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::buffer_ref"* @_ZN4mqtt10buffer_refIcED2Ev(%"class.mqtt::buffer_ref"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26852 {
+  %2 = alloca %"class.mqtt::buffer_ref"*, align 4
+  store %"class.mqtt::buffer_ref"* %0, %"class.mqtt::buffer_ref"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.mqtt::buffer_ref"** %2, metadata !26854, metadata !DIExpression()), !dbg !26855
+  %3 = load %"class.mqtt::buffer_ref"*, %"class.mqtt::buffer_ref"** %2, align 4
+  %4 = getelementptr inbounds %"class.mqtt::buffer_ref", %"class.mqtt::buffer_ref"* %3, i32 0, i32 0, !dbg !26856
+  %5 = call noundef %"class.std::shared_ptr.12"* @_ZNSt10shared_ptrIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev(%"class.std::shared_ptr.12"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26856
+  ret %"class.mqtt::buffer_ref"* %3, !dbg !26858
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::buffer_ref"* @_ZN4mqtt10buffer_refIcED2Ev(%"class.mqtt::buffer_ref"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26852 {
+  %2 = alloca %"class.mqtt::buffer_ref"*, align 4
+  store %"class.mqtt::buffer_ref"* %0, %"class.mqtt::buffer_ref"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.mqtt::buffer_ref"** %2, metadata !26854, metadata !DIExpression()), !dbg !26855
+  %3 = load %"class.mqtt::buffer_ref"*, %"class.mqtt::buffer_ref"** %2, align 4
+  %4 = getelementptr inbounds %"class.mqtt::buffer_ref", %"class.mqtt::buffer_ref"* %3, i32 0, i32 0, !dbg !26856
+  %5 = call noundef %"class.std::shared_ptr.12"* @_ZNSt10shared_ptrIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev(%"class.std::shared_ptr.12"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26856
+  ret %"class.mqtt::buffer_ref"* %3, !dbg !26858
+}
+
+CallInst:   %416 = call noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %415) #3, !dbg !26335
+calledValue: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !27873 {
+  %2 = alloca %"class.std::__shared_ptr_access.78"*, align 4
+  store %"class.std::__shared_ptr_access.78"* %0, %"class.std::__shared_ptr_access.78"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.78"** %2, metadata !27874, metadata !DIExpression()), !dbg !27876
+  %3 = load %"class.std::__shared_ptr_access.78"*, %"class.std::__shared_ptr_access.78"** %2, align 4
+  %4 = call noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !27877
+  ret %"class.mqtt::message"* %4, !dbg !27878
+}
+
+CalledFunction: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !27873 {
+  %2 = alloca %"class.std::__shared_ptr_access.78"*, align 4
+  store %"class.std::__shared_ptr_access.78"* %0, %"class.std::__shared_ptr_access.78"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.78"** %2, metadata !27874, metadata !DIExpression()), !dbg !27876
+  %3 = load %"class.std::__shared_ptr_access.78"*, %"class.std::__shared_ptr_access.78"** %2, align 4
+  %4 = call noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !27877
+  ret %"class.mqtt::message"* %4, !dbg !27878
+}
+
+CallInst:   %419 = call noundef i8* @_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5c_strEv(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %417) #3, !dbg !26337
+calledValue: ; Function Attrs: nounwind
+declare noundef i8* @_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5c_strEv(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24)) #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef i8* @_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5c_strEv(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24)) #2
+
+CallInst:   %423 = call noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %422) #3, !dbg !26339
+calledValue: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !27873 {
+  %2 = alloca %"class.std::__shared_ptr_access.78"*, align 4
+  store %"class.std::__shared_ptr_access.78"* %0, %"class.std::__shared_ptr_access.78"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.78"** %2, metadata !27874, metadata !DIExpression()), !dbg !27876
+  %3 = load %"class.std::__shared_ptr_access.78"*, %"class.std::__shared_ptr_access.78"** %2, align 4
+  %4 = call noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !27877
+  ret %"class.mqtt::message"* %4, !dbg !27878
+}
+
+CalledFunction: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !27873 {
+  %2 = alloca %"class.std::__shared_ptr_access.78"*, align 4
+  store %"class.std::__shared_ptr_access.78"* %0, %"class.std::__shared_ptr_access.78"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.78"** %2, metadata !27874, metadata !DIExpression()), !dbg !27876
+  %3 = load %"class.std::__shared_ptr_access.78"*, %"class.std::__shared_ptr_access.78"** %2, align 4
+  %4 = call noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !27877
+  ret %"class.mqtt::message"* %4, !dbg !27878
+}
+
+CallInst:   %428 = call noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %427) #3, !dbg !26342
+calledValue: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !27873 {
+  %2 = alloca %"class.std::__shared_ptr_access.78"*, align 4
+  store %"class.std::__shared_ptr_access.78"* %0, %"class.std::__shared_ptr_access.78"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.78"** %2, metadata !27874, metadata !DIExpression()), !dbg !27876
+  %3 = load %"class.std::__shared_ptr_access.78"*, %"class.std::__shared_ptr_access.78"** %2, align 4
+  %4 = call noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !27877
+  ret %"class.mqtt::message"* %4, !dbg !27878
+}
+
+CalledFunction: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !27873 {
+  %2 = alloca %"class.std::__shared_ptr_access.78"*, align 4
+  store %"class.std::__shared_ptr_access.78"* %0, %"class.std::__shared_ptr_access.78"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.78"** %2, metadata !27874, metadata !DIExpression()), !dbg !27876
+  %3 = load %"class.std::__shared_ptr_access.78"*, %"class.std::__shared_ptr_access.78"** %2, align 4
+  %4 = call noundef %"class.mqtt::message"* @_ZNKSt19__shared_ptr_accessIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.78"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !27877
+  ret %"class.mqtt::message"* %4, !dbg !27878
+}
+
+CallInst:   %434 = call noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %51) #3, !dbg !26346
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %439 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %438) #3, !dbg !26346
+calledValue: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CalledFunction: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CallInst:   %442 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %49) #3, !dbg !26346
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %443 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %50) #3, !dbg !26346
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %444 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %51) #3, !dbg !26346
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %446 = call noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %54) #3, !dbg !26346
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcEC1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %451 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %450) #3, !dbg !26346
+calledValue: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CalledFunction: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !26334 {
+  %2 = alloca %"class.std::__shared_ptr_access.11"*, align 4
+  store %"class.std::__shared_ptr_access.11"* %0, %"class.std::__shared_ptr_access.11"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.11"** %2, metadata !26335, metadata !DIExpression()), !dbg !26337
+  %3 = load %"class.std::__shared_ptr_access.11"*, %"class.std::__shared_ptr_access.11"** %2, align 4
+  %4 = call noundef %"class.spdlog::logger"* @_ZNKSt19__shared_ptr_accessIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.11"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !26338
+  ret %"class.spdlog::logger"* %4, !dbg !26339
+}
+
+CallInst:   %452 = call i8* @strrchr(i8* noundef getelementptr inbounds ([49 x i8], [49 x i8]* @.str.13, i32 0, i32 0), i32 noundef 47) #20, !dbg !26346
+calledValue: ; Function Attrs: nounwind readonly willreturn
+declare i8* @strrchr(i8* noundef, i32 noundef) #8
+
+CalledFunction: ; Function Attrs: nounwind readonly willreturn
+declare i8* @strrchr(i8* noundef, i32 noundef) #8
+
+CallInst:   %460 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %52) #3, !dbg !26346
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %461 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %53) #3, !dbg !26346
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %462 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %54) #3, !dbg !26346
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %479 = call noundef %"class.mqtt::buffer_ref"* @_ZN4mqtt10buffer_refIcED2Ev(%"class.mqtt::buffer_ref"* noundef nonnull align 4 dereferenceable(8) %47) #3, !dbg !26334
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::buffer_ref"* @_ZN4mqtt10buffer_refIcED2Ev(%"class.mqtt::buffer_ref"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26852 {
+  %2 = alloca %"class.mqtt::buffer_ref"*, align 4
+  store %"class.mqtt::buffer_ref"* %0, %"class.mqtt::buffer_ref"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.mqtt::buffer_ref"** %2, metadata !26854, metadata !DIExpression()), !dbg !26855
+  %3 = load %"class.mqtt::buffer_ref"*, %"class.mqtt::buffer_ref"** %2, align 4
+  %4 = getelementptr inbounds %"class.mqtt::buffer_ref", %"class.mqtt::buffer_ref"* %3, i32 0, i32 0, !dbg !26856
+  %5 = call noundef %"class.std::shared_ptr.12"* @_ZNSt10shared_ptrIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev(%"class.std::shared_ptr.12"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26856
+  ret %"class.mqtt::buffer_ref"* %3, !dbg !26858
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::buffer_ref"* @_ZN4mqtt10buffer_refIcED2Ev(%"class.mqtt::buffer_ref"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26852 {
+  %2 = alloca %"class.mqtt::buffer_ref"*, align 4
+  store %"class.mqtt::buffer_ref"* %0, %"class.mqtt::buffer_ref"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.mqtt::buffer_ref"** %2, metadata !26854, metadata !DIExpression()), !dbg !26855
+  %3 = load %"class.mqtt::buffer_ref"*, %"class.mqtt::buffer_ref"** %2, align 4
+  %4 = getelementptr inbounds %"class.mqtt::buffer_ref", %"class.mqtt::buffer_ref"* %3, i32 0, i32 0, !dbg !26856
+  %5 = call noundef %"class.std::shared_ptr.12"* @_ZNSt10shared_ptrIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev(%"class.std::shared_ptr.12"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26856
+  ret %"class.mqtt::buffer_ref"* %3, !dbg !26858
+}
+
+CallInst:   %481 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %48) #3, !dbg !26334
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %483 = call noundef %"class.mqtt::buffer_ref"* @_ZN4mqtt10buffer_refIcED2Ev(%"class.mqtt::buffer_ref"* noundef nonnull align 4 dereferenceable(8) %46) #3, !dbg !26334
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::buffer_ref"* @_ZN4mqtt10buffer_refIcED2Ev(%"class.mqtt::buffer_ref"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26852 {
+  %2 = alloca %"class.mqtt::buffer_ref"*, align 4
+  store %"class.mqtt::buffer_ref"* %0, %"class.mqtt::buffer_ref"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.mqtt::buffer_ref"** %2, metadata !26854, metadata !DIExpression()), !dbg !26855
+  %3 = load %"class.mqtt::buffer_ref"*, %"class.mqtt::buffer_ref"** %2, align 4
+  %4 = getelementptr inbounds %"class.mqtt::buffer_ref", %"class.mqtt::buffer_ref"* %3, i32 0, i32 0, !dbg !26856
+  %5 = call noundef %"class.std::shared_ptr.12"* @_ZNSt10shared_ptrIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev(%"class.std::shared_ptr.12"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26856
+  ret %"class.mqtt::buffer_ref"* %3, !dbg !26858
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::buffer_ref"* @_ZN4mqtt10buffer_refIcED2Ev(%"class.mqtt::buffer_ref"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26852 {
+  %2 = alloca %"class.mqtt::buffer_ref"*, align 4
+  store %"class.mqtt::buffer_ref"* %0, %"class.mqtt::buffer_ref"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.mqtt::buffer_ref"** %2, metadata !26854, metadata !DIExpression()), !dbg !26855
+  %3 = load %"class.mqtt::buffer_ref"*, %"class.mqtt::buffer_ref"** %2, align 4
+  %4 = getelementptr inbounds %"class.mqtt::buffer_ref", %"class.mqtt::buffer_ref"* %3, i32 0, i32 0, !dbg !26856
+  %5 = call noundef %"class.std::shared_ptr.12"* @_ZNSt10shared_ptrIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev(%"class.std::shared_ptr.12"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26856
+  ret %"class.mqtt::buffer_ref"* %3, !dbg !26858
+}
+
+CallInst:   %500 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %49) #3, !dbg !26346
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %502 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %50) #3, !dbg !26346
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %504 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %51) #3, !dbg !26346
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   %517 = call noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull align 4 dereferenceable(8) %52) #3, !dbg !26346
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.9"* @_ZNSt10shared_ptrIN6spdlog6loggerEED2Ev(%"class.std::shared_ptr.9"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !26364 {
+  %2 = alloca %"class.std::shared_ptr.9"*, align 4
+  store %"class.std::shared_ptr.9"* %0, %"class.std::shared_ptr.9"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.9"** %2, metadata !26366, metadata !DIExpression()), !dbg !26368
+  %3 = load %"class.std::shared_ptr.9"*, %"class.std::shared_ptr.9"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.9"* %3 to %"class.std::__shared_ptr.10"*, !dbg !26369
+  %5 = call noundef %"class.std::__shared_ptr.10"* @_ZNSt12__shared_ptrIN6spdlog6loggerELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.10"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !26369
+  ret %"class.std::shared_ptr.9"* %3, !dbg !26371
+}
+
+CallInst:   %519 = call noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull align 4 dereferenceable(24) %53) #3, !dbg !26346
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::__cxx11::basic_string"* @_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev(%"class.std::__cxx11::basic_string"* noundef nonnull returned align 4 dereferenceable(24)) unnamed_addr #2
+
+CallInst:   %521 = call noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull align 1 dereferenceable(1) %54) #3, !dbg !26346
+calledValue: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CalledFunction: ; Function Attrs: nounwind
+declare noundef %"class.std::allocator"* @_ZNSaIcED1Ev(%"class.std::allocator"* noundef nonnull returned align 1 dereferenceable(1)) unnamed_addr #2
+
+CallInst:   call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.25"* %57, metadata !31218, metadata !DIExpression()), !dbg !31219
+calledValue: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CalledFunction: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CallInst:   %526 = call noundef %"class.std::shared_ptr.64"* @_ZNSt10shared_ptrIKN4mqtt7messageEEC2IS1_vEERKS_IT_E(%"class.std::shared_ptr.64"* noundef nonnull align 4 dereferenceable(8) %59, %"class.std::shared_ptr.76"* noundef nonnull align 4 dereferenceable(8) %45) #3, !dbg !26357
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.64"* @_ZNSt10shared_ptrIKN4mqtt7messageEEC2IS1_vEERKS_IT_E(%"class.std::shared_ptr.64"* noundef nonnull returned align 4 dereferenceable(8) %0, %"class.std::shared_ptr.76"* noundef nonnull align 4 dereferenceable(8) %1) unnamed_addr #4 comdat align 2 !dbg !27955 {
+  %3 = alloca %"class.std::shared_ptr.64"*, align 4
+  %4 = alloca %"class.std::shared_ptr.76"*, align 4
+  store %"class.std::shared_ptr.64"* %0, %"class.std::shared_ptr.64"** %3, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.64"** %3, metadata !27962, metadata !DIExpression()), !dbg !27964
+  store %"class.std::shared_ptr.76"* %1, %"class.std::shared_ptr.76"** %4, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.76"** %4, metadata !27965, metadata !DIExpression()), !dbg !27966
+  %5 = load %"class.std::shared_ptr.64"*, %"class.std::shared_ptr.64"** %3, align 4
+  %6 = bitcast %"class.std::shared_ptr.64"* %5 to %"class.std::__shared_ptr.65"*, !dbg !27967
+  %7 = load %"class.std::shared_ptr.76"*, %"class.std::shared_ptr.76"** %4, align 4, !dbg !27968
+  %8 = bitcast %"class.std::shared_ptr.76"* %7 to %"class.std::__shared_ptr.77"*, !dbg !27968
+  %9 = call noundef %"class.std::__shared_ptr.65"* @_ZNSt12__shared_ptrIKN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2EEC2IS1_vEERKS_IT_LS4_2EE(%"class.std::__shared_ptr.65"* noundef nonnull align 4 dereferenceable(8) %6, %"class.std::__shared_ptr.77"* noundef nonnull align 4 dereferenceable(8) %8) #3, !dbg !27969
+  ret %"class.std::shared_ptr.64"* %5, !dbg !27970
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.64"* @_ZNSt10shared_ptrIKN4mqtt7messageEEC2IS1_vEERKS_IT_E(%"class.std::shared_ptr.64"* noundef nonnull returned align 4 dereferenceable(8) %0, %"class.std::shared_ptr.76"* noundef nonnull align 4 dereferenceable(8) %1) unnamed_addr #4 comdat align 2 !dbg !27955 {
+  %3 = alloca %"class.std::shared_ptr.64"*, align 4
+  %4 = alloca %"class.std::shared_ptr.76"*, align 4
+  store %"class.std::shared_ptr.64"* %0, %"class.std::shared_ptr.64"** %3, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.64"** %3, metadata !27962, metadata !DIExpression()), !dbg !27964
+  store %"class.std::shared_ptr.76"* %1, %"class.std::shared_ptr.76"** %4, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.76"** %4, metadata !27965, metadata !DIExpression()), !dbg !27966
+  %5 = load %"class.std::shared_ptr.64"*, %"class.std::shared_ptr.64"** %3, align 4
+  %6 = bitcast %"class.std::shared_ptr.64"* %5 to %"class.std::__shared_ptr.65"*, !dbg !27967
+  %7 = load %"class.std::shared_ptr.76"*, %"class.std::shared_ptr.76"** %4, align 4, !dbg !27968
+  %8 = bitcast %"class.std::shared_ptr.76"* %7 to %"class.std::__shared_ptr.77"*, !dbg !27968
+  %9 = call noundef %"class.std::__shared_ptr.65"* @_ZNSt12__shared_ptrIKN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2EEC2IS1_vEERKS_IT_LS4_2EE(%"class.std::__shared_ptr.65"* noundef nonnull align 4 dereferenceable(8) %6, %"class.std::__shared_ptr.77"* noundef nonnull align 4 dereferenceable(8) %8) #3, !dbg !27969
+  ret %"class.std::shared_ptr.64"* %5, !dbg !27970
+}
+
+CallInst:   %537 = call noundef %"class.std::shared_ptr.25"* @_ZNSt10shared_ptrIN4mqtt5tokenEEC2INS0_14delivery_tokenEvEEOS_IT_E(%"class.std::shared_ptr.25"* noundef nonnull align 4 dereferenceable(8) %57, %"class.std::shared_ptr.79"* noundef nonnull align 4 dereferenceable(8) %58) #3, !dbg !26356
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.25"* @_ZNSt10shared_ptrIN4mqtt5tokenEEC2INS0_14delivery_tokenEvEEOS_IT_E(%"class.std::shared_ptr.25"* noundef nonnull returned align 4 dereferenceable(8) %0, %"class.std::shared_ptr.79"* noundef nonnull align 4 dereferenceable(8) %1) unnamed_addr #4 comdat align 2 !dbg !27971 {
+  %3 = alloca %"class.std::shared_ptr.25"*, align 4
+  %4 = alloca %"class.std::shared_ptr.79"*, align 4
+  store %"class.std::shared_ptr.25"* %0, %"class.std::shared_ptr.25"** %3, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.25"** %3, metadata !27977, metadata !DIExpression()), !dbg !27978
+  store %"class.std::shared_ptr.79"* %1, %"class.std::shared_ptr.79"** %4, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.79"** %4, metadata !27979, metadata !DIExpression()), !dbg !27980
+  %5 = load %"class.std::shared_ptr.25"*, %"class.std::shared_ptr.25"** %3, align 4
+  %6 = bitcast %"class.std::shared_ptr.25"* %5 to %"class.std::__shared_ptr.26"*, !dbg !27981
+  %7 = load %"class.std::shared_ptr.79"*, %"class.std::shared_ptr.79"** %4, align 4, !dbg !27982
+  %8 = call noundef nonnull align 4 dereferenceable(8) %"class.std::shared_ptr.79"* @_ZSt4moveIRSt10shared_ptrIN4mqtt14delivery_tokenEEEONSt16remove_referenceIT_E4typeEOS6_(%"class.std::shared_ptr.79"* noundef nonnull align 4 dereferenceable(8) %7) #3, !dbg !27983
+  %9 = bitcast %"class.std::shared_ptr.79"* %8 to %"class.std::__shared_ptr.80"*, !dbg !27983
+  %10 = call noundef %"class.std::__shared_ptr.26"* @_ZNSt12__shared_ptrIN4mqtt5tokenELN9__gnu_cxx12_Lock_policyE2EEC2INS0_14delivery_tokenEvEEOS_IT_LS3_2EE(%"class.std::__shared_ptr.26"* noundef nonnull align 4 dereferenceable(8) %6, %"class.std::__shared_ptr.80"* noundef nonnull align 4 dereferenceable(8) %9) #3, !dbg !27984
+  ret %"class.std::shared_ptr.25"* %5, !dbg !27985
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.25"* @_ZNSt10shared_ptrIN4mqtt5tokenEEC2INS0_14delivery_tokenEvEEOS_IT_E(%"class.std::shared_ptr.25"* noundef nonnull returned align 4 dereferenceable(8) %0, %"class.std::shared_ptr.79"* noundef nonnull align 4 dereferenceable(8) %1) unnamed_addr #4 comdat align 2 !dbg !27971 {
+  %3 = alloca %"class.std::shared_ptr.25"*, align 4
+  %4 = alloca %"class.std::shared_ptr.79"*, align 4
+  store %"class.std::shared_ptr.25"* %0, %"class.std::shared_ptr.25"** %3, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.25"** %3, metadata !27977, metadata !DIExpression()), !dbg !27978
+  store %"class.std::shared_ptr.79"* %1, %"class.std::shared_ptr.79"** %4, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.79"** %4, metadata !27979, metadata !DIExpression()), !dbg !27980
+  %5 = load %"class.std::shared_ptr.25"*, %"class.std::shared_ptr.25"** %3, align 4
+  %6 = bitcast %"class.std::shared_ptr.25"* %5 to %"class.std::__shared_ptr.26"*, !dbg !27981
+  %7 = load %"class.std::shared_ptr.79"*, %"class.std::shared_ptr.79"** %4, align 4, !dbg !27982
+  %8 = call noundef nonnull align 4 dereferenceable(8) %"class.std::shared_ptr.79"* @_ZSt4moveIRSt10shared_ptrIN4mqtt14delivery_tokenEEEONSt16remove_referenceIT_E4typeEOS6_(%"class.std::shared_ptr.79"* noundef nonnull align 4 dereferenceable(8) %7) #3, !dbg !27983
+  %9 = bitcast %"class.std::shared_ptr.79"* %8 to %"class.std::__shared_ptr.80"*, !dbg !27983
+  %10 = call noundef %"class.std::__shared_ptr.26"* @_ZNSt12__shared_ptrIN4mqtt5tokenELN9__gnu_cxx12_Lock_policyE2EEC2INS0_14delivery_tokenEvEEOS_IT_LS3_2EE(%"class.std::__shared_ptr.26"* noundef nonnull align 4 dereferenceable(8) %6, %"class.std::__shared_ptr.80"* noundef nonnull align 4 dereferenceable(8) %9) #3, !dbg !27984
+  ret %"class.std::shared_ptr.25"* %5, !dbg !27985
+}
+
+CallInst:   %538 = call noundef %"class.std::shared_ptr.79"* @_ZNSt10shared_ptrIN4mqtt14delivery_tokenEED2Ev(%"class.std::shared_ptr.79"* noundef nonnull align 4 dereferenceable(8) %58) #3, !dbg !26355
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.79"* @_ZNSt10shared_ptrIN4mqtt14delivery_tokenEED2Ev(%"class.std::shared_ptr.79"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !27986 {
+  %2 = alloca %"class.std::shared_ptr.79"*, align 4
+  store %"class.std::shared_ptr.79"* %0, %"class.std::shared_ptr.79"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.79"** %2, metadata !27988, metadata !DIExpression()), !dbg !27990
+  %3 = load %"class.std::shared_ptr.79"*, %"class.std::shared_ptr.79"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.79"* %3 to %"class.std::__shared_ptr.80"*, !dbg !27991
+  %5 = call noundef %"class.std::__shared_ptr.80"* @_ZNSt12__shared_ptrIN4mqtt14delivery_tokenELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.80"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !27991
+  ret %"class.std::shared_ptr.79"* %3, !dbg !27993
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.79"* @_ZNSt10shared_ptrIN4mqtt14delivery_tokenEED2Ev(%"class.std::shared_ptr.79"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !27986 {
+  %2 = alloca %"class.std::shared_ptr.79"*, align 4
+  store %"class.std::shared_ptr.79"* %0, %"class.std::shared_ptr.79"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.79"** %2, metadata !27988, metadata !DIExpression()), !dbg !27990
+  %3 = load %"class.std::shared_ptr.79"*, %"class.std::shared_ptr.79"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.79"* %3 to %"class.std::__shared_ptr.80"*, !dbg !27991
+  %5 = call noundef %"class.std::__shared_ptr.80"* @_ZNSt12__shared_ptrIN4mqtt14delivery_tokenELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.80"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !27991
+  ret %"class.std::shared_ptr.79"* %3, !dbg !27993
+}
+
+CallInst:   %539 = call noundef %"class.std::shared_ptr.64"* @_ZNSt10shared_ptrIKN4mqtt7messageEED2Ev(%"class.std::shared_ptr.64"* noundef nonnull align 4 dereferenceable(8) %59) #3, !dbg !26355
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.64"* @_ZNSt10shared_ptrIKN4mqtt7messageEED2Ev(%"class.std::shared_ptr.64"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !27994 {
+  %2 = alloca %"class.std::shared_ptr.64"*, align 4
+  store %"class.std::shared_ptr.64"* %0, %"class.std::shared_ptr.64"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.64"** %2, metadata !27996, metadata !DIExpression()), !dbg !27997
+  %3 = load %"class.std::shared_ptr.64"*, %"class.std::shared_ptr.64"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.64"* %3 to %"class.std::__shared_ptr.65"*, !dbg !27998
+  %5 = call noundef %"class.std::__shared_ptr.65"* @_ZNSt12__shared_ptrIKN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.65"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !27998
+  ret %"class.std::shared_ptr.64"* %3, !dbg !28000
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.64"* @_ZNSt10shared_ptrIKN4mqtt7messageEED2Ev(%"class.std::shared_ptr.64"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !27994 {
+  %2 = alloca %"class.std::shared_ptr.64"*, align 4
+  store %"class.std::shared_ptr.64"* %0, %"class.std::shared_ptr.64"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.64"** %2, metadata !27996, metadata !DIExpression()), !dbg !27997
+  %3 = load %"class.std::shared_ptr.64"*, %"class.std::shared_ptr.64"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.64"* %3 to %"class.std::__shared_ptr.65"*, !dbg !27998
+  %5 = call noundef %"class.std::__shared_ptr.65"* @_ZNSt12__shared_ptrIKN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.65"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !27998
+  ret %"class.std::shared_ptr.64"* %3, !dbg !28000
+}
+
+CallInst:   call void @llvm.dbg.declare(metadata i8* %60, metadata !31224, metadata !DIExpression()), !dbg !31225
+calledValue: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CalledFunction: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CallInst:   %541 = call noundef %"class.mqtt::token"* @_ZNKSt19__shared_ptr_accessIN4mqtt5tokenELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.27"* noundef nonnull align 1 dereferenceable(1) %540) #3, !dbg !26362
+calledValue: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::token"* @_ZNKSt19__shared_ptr_accessIN4mqtt5tokenELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.27"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !27320 {
+  %2 = alloca %"class.std::__shared_ptr_access.27"*, align 4
+  store %"class.std::__shared_ptr_access.27"* %0, %"class.std::__shared_ptr_access.27"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.27"** %2, metadata !27321, metadata !DIExpression()), !dbg !27323
+  %3 = load %"class.std::__shared_ptr_access.27"*, %"class.std::__shared_ptr_access.27"** %2, align 4
+  %4 = call noundef %"class.mqtt::token"* @_ZNKSt19__shared_ptr_accessIN4mqtt5tokenELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.27"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !27324
+  ret %"class.mqtt::token"* %4, !dbg !27325
+}
+
+CalledFunction: ; Function Attrs: mustprogress noinline nounwind optnone
+define linkonce_odr noundef %"class.mqtt::token"* @_ZNKSt19__shared_ptr_accessIN4mqtt5tokenELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EEptEv(%"class.std::__shared_ptr_access.27"* noundef nonnull align 1 dereferenceable(1) %0) #7 comdat align 2 !dbg !27320 {
+  %2 = alloca %"class.std::__shared_ptr_access.27"*, align 4
+  store %"class.std::__shared_ptr_access.27"* %0, %"class.std::__shared_ptr_access.27"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::__shared_ptr_access.27"** %2, metadata !27321, metadata !DIExpression()), !dbg !27323
+  %3 = load %"class.std::__shared_ptr_access.27"*, %"class.std::__shared_ptr_access.27"** %2, align 4
+  %4 = call noundef %"class.mqtt::token"* @_ZNKSt19__shared_ptr_accessIN4mqtt5tokenELN9__gnu_cxx12_Lock_policyE2ELb0ELb0EE6_M_getEv(%"class.std::__shared_ptr_access.27"* noundef nonnull align 1 dereferenceable(1) %3) #3, !dbg !27324
+  ret %"class.mqtt::token"* %4, !dbg !27325
+}
+
+CallInst:   call void @exit(i32 noundef 1) #21, !dbg !26368
+calledValue: ; Function Attrs: noreturn nounwind
+declare void @exit(i32 noundef) #13
+
+CalledFunction: ; Function Attrs: noreturn nounwind
+declare void @exit(i32 noundef) #13
+
+CallInst:   %557 = call noundef %"class.std::shared_ptr.64"* @_ZNSt10shared_ptrIKN4mqtt7messageEED2Ev(%"class.std::shared_ptr.64"* noundef nonnull align 4 dereferenceable(8) %59) #3, !dbg !26355
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.64"* @_ZNSt10shared_ptrIKN4mqtt7messageEED2Ev(%"class.std::shared_ptr.64"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !27994 {
+  %2 = alloca %"class.std::shared_ptr.64"*, align 4
+  store %"class.std::shared_ptr.64"* %0, %"class.std::shared_ptr.64"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.64"** %2, metadata !27996, metadata !DIExpression()), !dbg !27997
+  %3 = load %"class.std::shared_ptr.64"*, %"class.std::shared_ptr.64"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.64"* %3 to %"class.std::__shared_ptr.65"*, !dbg !27998
+  %5 = call noundef %"class.std::__shared_ptr.65"* @_ZNSt12__shared_ptrIKN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.65"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !27998
+  ret %"class.std::shared_ptr.64"* %3, !dbg !28000
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.64"* @_ZNSt10shared_ptrIKN4mqtt7messageEED2Ev(%"class.std::shared_ptr.64"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !27994 {
+  %2 = alloca %"class.std::shared_ptr.64"*, align 4
+  store %"class.std::shared_ptr.64"* %0, %"class.std::shared_ptr.64"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.64"** %2, metadata !27996, metadata !DIExpression()), !dbg !27997
+  %3 = load %"class.std::shared_ptr.64"*, %"class.std::shared_ptr.64"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.64"* %3 to %"class.std::__shared_ptr.65"*, !dbg !27998
+  %5 = call noundef %"class.std::__shared_ptr.65"* @_ZNSt12__shared_ptrIKN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.65"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !27998
+  ret %"class.std::shared_ptr.64"* %3, !dbg !28000
+}
+
+CallInst:   %562 = call noundef %"class.std::shared_ptr.25"* @_ZNSt10shared_ptrIN4mqtt5tokenEED2Ev(%"class.std::shared_ptr.25"* noundef nonnull align 4 dereferenceable(8) %57) #3, !dbg !26369
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.25"* @_ZNSt10shared_ptrIN4mqtt5tokenEED2Ev(%"class.std::shared_ptr.25"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !27326 {
+  %2 = alloca %"class.std::shared_ptr.25"*, align 4
+  store %"class.std::shared_ptr.25"* %0, %"class.std::shared_ptr.25"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.25"** %2, metadata !27328, metadata !DIExpression()), !dbg !27330
+  %3 = load %"class.std::shared_ptr.25"*, %"class.std::shared_ptr.25"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.25"* %3 to %"class.std::__shared_ptr.26"*, !dbg !27331
+  %5 = call noundef %"class.std::__shared_ptr.26"* @_ZNSt12__shared_ptrIN4mqtt5tokenELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.26"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !27331
+  ret %"class.std::shared_ptr.25"* %3, !dbg !27333
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.25"* @_ZNSt10shared_ptrIN4mqtt5tokenEED2Ev(%"class.std::shared_ptr.25"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !27326 {
+  %2 = alloca %"class.std::shared_ptr.25"*, align 4
+  store %"class.std::shared_ptr.25"* %0, %"class.std::shared_ptr.25"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.25"** %2, metadata !27328, metadata !DIExpression()), !dbg !27330
+  %3 = load %"class.std::shared_ptr.25"*, %"class.std::shared_ptr.25"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.25"* %3 to %"class.std::__shared_ptr.26"*, !dbg !27331
+  %5 = call noundef %"class.std::__shared_ptr.26"* @_ZNSt12__shared_ptrIN4mqtt5tokenELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.26"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !27331
+  ret %"class.std::shared_ptr.25"* %3, !dbg !27333
+}
+
+CallInst:   %564 = call noundef %"class.std::shared_ptr.25"* @_ZNSt10shared_ptrIN4mqtt5tokenEED2Ev(%"class.std::shared_ptr.25"* noundef nonnull align 4 dereferenceable(8) %57) #3, !dbg !26369
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.25"* @_ZNSt10shared_ptrIN4mqtt5tokenEED2Ev(%"class.std::shared_ptr.25"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !27326 {
+  %2 = alloca %"class.std::shared_ptr.25"*, align 4
+  store %"class.std::shared_ptr.25"* %0, %"class.std::shared_ptr.25"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.25"** %2, metadata !27328, metadata !DIExpression()), !dbg !27330
+  %3 = load %"class.std::shared_ptr.25"*, %"class.std::shared_ptr.25"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.25"* %3 to %"class.std::__shared_ptr.26"*, !dbg !27331
+  %5 = call noundef %"class.std::__shared_ptr.26"* @_ZNSt12__shared_ptrIN4mqtt5tokenELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.26"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !27331
+  ret %"class.std::shared_ptr.25"* %3, !dbg !27333
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.25"* @_ZNSt10shared_ptrIN4mqtt5tokenEED2Ev(%"class.std::shared_ptr.25"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !27326 {
+  %2 = alloca %"class.std::shared_ptr.25"*, align 4
+  store %"class.std::shared_ptr.25"* %0, %"class.std::shared_ptr.25"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.25"** %2, metadata !27328, metadata !DIExpression()), !dbg !27330
+  %3 = load %"class.std::shared_ptr.25"*, %"class.std::shared_ptr.25"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.25"* %3 to %"class.std::__shared_ptr.26"*, !dbg !27331
+  %5 = call noundef %"class.std::__shared_ptr.26"* @_ZNSt12__shared_ptrIN4mqtt5tokenELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.26"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !27331
+  ret %"class.std::shared_ptr.25"* %3, !dbg !27333
+}
+
+CallInst:   %565 = call noundef %"class.std::shared_ptr.76"* @_ZNSt10shared_ptrIN4mqtt7messageEED2Ev(%"class.std::shared_ptr.76"* noundef nonnull align 4 dereferenceable(8) %45) #3, !dbg !26369
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.76"* @_ZNSt10shared_ptrIN4mqtt7messageEED2Ev(%"class.std::shared_ptr.76"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !28001 {
+  %2 = alloca %"class.std::shared_ptr.76"*, align 4
+  store %"class.std::shared_ptr.76"* %0, %"class.std::shared_ptr.76"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.76"** %2, metadata !28003, metadata !DIExpression()), !dbg !28005
+  %3 = load %"class.std::shared_ptr.76"*, %"class.std::shared_ptr.76"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.76"* %3 to %"class.std::__shared_ptr.77"*, !dbg !28006
+  %5 = call noundef %"class.std::__shared_ptr.77"* @_ZNSt12__shared_ptrIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.77"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !28006
+  ret %"class.std::shared_ptr.76"* %3, !dbg !28008
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.76"* @_ZNSt10shared_ptrIN4mqtt7messageEED2Ev(%"class.std::shared_ptr.76"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !28001 {
+  %2 = alloca %"class.std::shared_ptr.76"*, align 4
+  store %"class.std::shared_ptr.76"* %0, %"class.std::shared_ptr.76"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.76"** %2, metadata !28003, metadata !DIExpression()), !dbg !28005
+  %3 = load %"class.std::shared_ptr.76"*, %"class.std::shared_ptr.76"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.76"* %3 to %"class.std::__shared_ptr.77"*, !dbg !28006
+  %5 = call noundef %"class.std::__shared_ptr.77"* @_ZNSt12__shared_ptrIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.77"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !28006
+  ret %"class.std::shared_ptr.76"* %3, !dbg !28008
+}
+
+CallInst:   %567 = call noundef %"class.std::shared_ptr.76"* @_ZNSt10shared_ptrIN4mqtt7messageEED2Ev(%"class.std::shared_ptr.76"* noundef nonnull align 4 dereferenceable(8) %45) #3, !dbg !26369
+calledValue: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.76"* @_ZNSt10shared_ptrIN4mqtt7messageEED2Ev(%"class.std::shared_ptr.76"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !28001 {
+  %2 = alloca %"class.std::shared_ptr.76"*, align 4
+  store %"class.std::shared_ptr.76"* %0, %"class.std::shared_ptr.76"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.76"** %2, metadata !28003, metadata !DIExpression()), !dbg !28005
+  %3 = load %"class.std::shared_ptr.76"*, %"class.std::shared_ptr.76"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.76"* %3 to %"class.std::__shared_ptr.77"*, !dbg !28006
+  %5 = call noundef %"class.std::__shared_ptr.77"* @_ZNSt12__shared_ptrIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.77"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !28006
+  ret %"class.std::shared_ptr.76"* %3, !dbg !28008
+}
+
+CalledFunction: ; Function Attrs: noinline nounwind optnone
+define linkonce_odr noundef %"class.std::shared_ptr.76"* @_ZNSt10shared_ptrIN4mqtt7messageEED2Ev(%"class.std::shared_ptr.76"* noundef nonnull returned align 4 dereferenceable(8) %0) unnamed_addr #4 comdat align 2 !dbg !28001 {
+  %2 = alloca %"class.std::shared_ptr.76"*, align 4
+  store %"class.std::shared_ptr.76"* %0, %"class.std::shared_ptr.76"** %2, align 4
+  call void @llvm.dbg.declare(metadata %"class.std::shared_ptr.76"** %2, metadata !28003, metadata !DIExpression()), !dbg !28005
+  %3 = load %"class.std::shared_ptr.76"*, %"class.std::shared_ptr.76"** %2, align 4
+  %4 = bitcast %"class.std::shared_ptr.76"* %3 to %"class.std::__shared_ptr.77"*, !dbg !28006
+  %5 = call noundef %"class.std::__shared_ptr.77"* @_ZNSt12__shared_ptrIN4mqtt7messageELN9__gnu_cxx12_Lock_policyE2EED2Ev(%"class.std::__shared_ptr.77"* noundef nonnull align 4 dereferenceable(8) %4) #3, !dbg !28006
+  ret %"class.std::shared_ptr.76"* %3, !dbg !28008
+}
+
+CallInst:   %570 = call i32 @llvm.eh.typeid.for(i8* bitcast ({ i8*, i8*, i8* }* @_ZTIN4mqtt9exceptionE to i8*)) #3, !dbg !26370
+calledValue: ; Function Attrs: nounwind readnone
+declare i32 @llvm.eh.typeid.for(i8*) #10
+
+CalledFunction: ; Function Attrs: nounwind readnone
+declare i32 @llvm.eh.typeid.for(i8*) #10
+
+CallInst:   call void @llvm.dbg.declare(metadata %"class.mqtt::exception"** %61, metadata !31235, metadata !DIExpression()), !dbg !31236
+calledValue: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CalledFunction: ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
+declare void @llvm.dbg.declare(metadata, metadata, metadata) #6
+
+CallInst:   %574 = call i8* @__cxa_begin_catch(i8* %573) #3, !dbg !26370
+calledValue: declare i8* @__cxa_begin_catch(i8*)
+
+CalledFunction: declare i8* @__cxa_begin_catch(i8*)
+
+CallInst:   %584 = call noundef i8* %583(%"class.std::runtime_error"* noundef nonnull align 4 dereferenceable(8) %579) #3, !dbg !26377
+calledValue:   %583 = load i8* (%"class.std::runtime_error"*)*, i8* (%"class.std::runtime_error"*)** %582, align 4, !dbg !26377
+CalledFunction: Makefile:170: recipe for target 'TxtSmartFactoryLib/ll_files/TxtMqttFactoryClient.ll' failed

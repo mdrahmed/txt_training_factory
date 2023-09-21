@@ -15,6 +15,9 @@ AR = ar
 
 LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libtcmalloc.so
 HEAPPROFILE=my_heap_profile_output
+# EXECUTEABLE_g++ used by the testbed original code
+#EXECUTEABLE_g++ = $(TOOLCHAIN_BIN_PATH)/$(TOOLCHAIN_PREFIX)$(COMPILER)
+
 
 # Main txt folder and files
 # Worked
@@ -31,10 +34,23 @@ HEAPPROFILE=my_heap_profile_output
 # Trying to extract topic using following executable from message_arrived function
 
 ## Inside the ubuntu-18 dual boot
+## This pass is inserting the callInst and the global variables
 #EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so
 
+## This is the combination of `CallerFromCallInstPass-v6.2.cpp` and `longPass.cpp`(logs functions, arguments & values)
+#EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/FArVlCIGv-combined/instrument.so
+
+#EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/instrument.so
+
 ## Inside the ubuntu-18 dual boot
-EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
+## Using the mqtt pass to get the TOPIC FROM PUBLISH - WORKED 
+#EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/publishTpExtD/instrument.so
+## Using the mqtt pass to get the TOPIC FROM MESSAGE_ARRIVED - WORKED
+#EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
+## Using pass to get all the topic 
+#EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/msgAndPubTopic/instrument.so
+## Using pass to get all the topic, function names, arguments, values, callInsts, global variables => THINGS TO REMEMBER THE `-fno-discard-value-names` WILL KEEP NAMES
+EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -fno-discard-value-names -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/FAVCIGVT\*/instrument.so
 
 ### Inside u18new - VM
 #EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
@@ -48,7 +64,6 @@ EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager
 #EXECUTEABLE_g++ = clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/ubuntu-18/LLVM_passes/FunctionsWithValues/getFunctions/function.so
 
 # Didn't work
-#EXECUTEABLE_g++ = $(TOOLCHAIN_BIN_PATH)/$(TOOLCHAIN_PREFIX)$(COMPILER)
 #EXECUTEABLE_g++ = /home/ubuntu-18/llvm-project-14.0.6.src/build/bin/clang++ --target=arm-linux-gnueabihf  
 
 #EXECUTEABLE_g++ = /home/ubuntu-18/llvm-project-14.0.6.src/build/bin/clang++ --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/ubuntu-18/llvm-project-14.0.6.src/build/lib/LLVMHello.so
@@ -174,9 +189,9 @@ TxtFactoryClient/src/%.ll: TxtFactoryClient/src/%.cpp
 binFromIR/TxtFactoryHBW_from-ll: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a
 	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_RELEASE) -D"CLIENT_HBW" -emit-llvm -S -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"TxtFactoryClient/HBW_Release/src/main.d" -o "TxtFactoryClient/HBW_Release/src/hbw.ll" TxtFactoryClient/src/main.cpp
 
-binFromIR/TxtFactoryHBW: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a
+#binFromIR/TxtFactoryHBW: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a
 #	$(EXECUTEABLE_g++) $(COMPILER_FLAGS_RELEASE) -D"CLIENT_HBW" -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"TxtFactoryClient/HBW_Release/src/main.d" -o "TxtFactoryClient/HBW_Release/src/main.o" TxtFactoryClient/src/main.cpp
-	$(EXECUTEABLE_g++) -Wl,-rpath=/opt/knobloch/libs/ TxtFactoryClient/src/e.o $(LINKER_FLAGS_RELEASE_PATHS) $(LINKER_FLAGS_LIBS) -o "$@"
+#	$(EXECUTEABLE_g++) -Wl,-rpath=/opt/knobloch/libs/ TxtFactoryClient/src/e.o $(LINKER_FLAGS_RELEASE_PATHS) $(LINKER_FLAGS_LIBS) -o "$@"
 
 ## This vgr is not compiled properly
 # binFromIR/TxtFactoryVGR: TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a

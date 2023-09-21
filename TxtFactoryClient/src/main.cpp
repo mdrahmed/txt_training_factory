@@ -83,7 +83,7 @@ class callback : public virtual mqtt::callback
 	void message_arrived(mqtt::const_message_ptr msg) override {
 		assert(msg);
 		//printf("Topic from ClientMain: %s\n", msg->get_topic().c_str());
-		std::cout<<"msg: "<<msg->to_string();
+		//make cstd::cout<<"msg: "<<msg->to_string();
 		//std::cout << "message_arrived mqtt::const_message_ptr msg: "<<msg<<std::endl;
 		SPDLOG_LOGGER_DEBUG(spdlog::get("console"), "message_arrived  message:{} payload:{}", msg->get_topic(), msg->to_string());
 		//BUGFIX: msg->get_topic() is empty
@@ -685,6 +685,8 @@ public:
 
 int main(int argc, char* argv[])
 {
+
+	std::cout<<"TxtFactoryClientMain is called\n";
 	std::string clientName;
 #ifdef CLIENT_MPO
 	clientName = "TxtFactoryMPO";

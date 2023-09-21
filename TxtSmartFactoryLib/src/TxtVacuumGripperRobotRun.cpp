@@ -136,6 +136,8 @@ void TxtVacuumGripperRobot::fsmStep()
 	{
 		//printState(IDLE);
 
+		creating_server_c();
+
 		//NFC requests
 		if (reqNfcDelete)
 		{
@@ -995,6 +997,101 @@ void TxtVacuumGripperRobot::run()
 	assert(mqttclient);
 	mqttclient->publishVGR_Do(VGR_EXIT, 0, TIMEOUT_MS_PUBLISH);
 	initDashboard();
+}
+
+
+
+// server.c
+#include <netinet/in.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <unistd.h>
+#define PORT 8080
+
+void TxtVacuumGripperRobot::creating_server_c()
+{
+	int server_fd, new_socket, valread;
+	struct sockaddr_in address;
+	int opt = 1;
+	int addrlen = sizeof(address);
+	char buffer[1024] = { 0 };
+	//char* hello = "Hello from server";
+	char hello[1024] = "Hello from server";
+	
+	// Creating socket file descriptor
+	if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+		perror("socket failed");
+		exit(EXIT_FAILURE);
+	}
+
+	// Forcefully attaching socket to the port 8080
+	if (setsockopt(server_fd, SOL_SOCKET,
+				SO_REUSEADDR | SO_REUSEPORT, &opt,
+				sizeof(opt))) {
+		perror("setsockopt");
+		exit(EXIT_FAILURE);
+	}
+	address.sin_family = AF_INET;
+	address.sin_addr.s_addr = INADDR_ANY;
+	address.sin_port = htons(PORT);
+
+	// Forcefully attaching socket to the port 8080
+	if (bind(server_fd, (struct sockaddr*)&address,
+			sizeof(address))
+		< 0) {
+		perror("bind failed");
+		exit(EXIT_FAILURE);
+	}
+	printf("listening:\n");
+	if (listen(server_fd, 3) < 0) {
+		perror("listen");
+		exit(EXIT_FAILURE);
+	}
+	if ((new_socket
+		= accept(server_fd, (struct sockaddr*)&address,
+				(socklen_t*)&addrlen))
+		< 0) {
+		perror("accept");
+		exit(EXIT_FAILURE);
+	}
+	valread = read(new_socket, buffer, 1024);
+	printf("Received buffer: %s\n", buffer);
+	// axisX.moveRef();
+	// axisX.moveAbs(17);
+	// axisY.moveRef();
+	// axisY.moveAbs(600);
+	// axisZ.moveRef();
+	// axisZ.moveAbs(16);
+
+	if(strstr(buffer, "vgr") != NULL){
+        printf("Correct string: %s\n", buffer);
+		// is_din_value = 0;
+    }
+	else if(strstr(buffer, "order") != NULL){
+        printf("Order requested: %s\n", buffer);
+		if(strstr(buffer, "blue")){
+			requestOrder(WP_TYPE_BLUE);
+		}
+		else if(strstr(buffer, "white")){
+			requestOrder(WP_TYPE_WHITE);
+		}
+		else if(strstr(buffer, "red")){
+			requestOrder(WP_TYPE_RED);
+		}
+    }
+    else{
+        printf("random string");
+    }
+
+	send(new_socket, hello, strlen(hello), 0);
+	printf("Hello message sent\n");
+
+	// closing the connected socket
+	close(new_socket);
+	// closing the listening socket
+	shutdown(server_fd, SHUT_RDWR);
 }
 
 

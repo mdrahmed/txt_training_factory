@@ -60,6 +60,12 @@
         "random": "cpp",
         "set": "cpp",
         "shared_mutex": "cpp",
-        "cinttypes": "cpp"
+        "cinttypes": "cpp",
+        "*.inc": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "forward_list": "cpp",
+        "any": "cpp",
+        "variant": "cpp"
     }
 }

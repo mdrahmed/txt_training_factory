@@ -1,0 +1,3010 @@
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtSortingLineCalibData.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtSortingLineCalibData.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtSortingLineCalibData.o" TxtSmartFactoryLib/src/TxtSortingLineCalibData.cpp
+Header: TxtSmartFactoryLib/src/TxtSortingLineCalibData.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtSortingLineCalibData.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtSortingLineCalibData.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtSortingLineCalibData.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtSortingLineCalibData.cpp
+Functions: _ZN2ft23TxtSortingLineCalibData4loadEv
+Passed Function: _ZN2ft23TxtSortingLineCalibData4loadEv
+Header: deps/include/json/reader.h
+Functions: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/src/TxtSortingLineCalibData.cpp
+Functions: _ZN2ft23TxtSortingLineCalibData11saveDefaultEv
+Passed Function: _ZN2ft23TxtSortingLineCalibData11saveDefaultEv
+Header: TxtSmartFactoryLib/src/TxtSortingLineCalibData.cpp
+Functions: _ZN2ft23TxtSortingLineCalibData4saveEv
+Passed Function: _ZN2ft23TxtSortingLineCalibData4saveEv
+Header: TxtSmartFactoryLib/include/TxtSortingLine.h
+Functions: _ZN2ft23TxtSortingLineCalibDataD0Ev
+Passed Function: _ZN2ft23TxtSortingLineCalibDataD0Ev
+Header: TxtSmartFactoryLib/src/TxtSortingLineCalibData.cpp
+Functions: __cxx_global_var_init.29
+Header: TxtSmartFactoryLib/src/TxtSortingLineCalibData.cpp
+Functions: __cxx_global_var_init.30
+Header: TxtSmartFactoryLib/src/TxtSortingLineCalibData.cpp
+Functions: __cxx_global_var_init.31
+Header: TxtSmartFactoryLib/src/TxtSortingLineCalibData.cpp
+Functions: _GLOBAL__sub_I_TxtSortingLineCalibData.cpp
+Passed Function: _GLOBAL__sub_I_TxtSortingLineCalibData.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtMultiProcessingStationRun.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtMultiProcessingStationRun.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtMultiProcessingStationRun.o" TxtSmartFactoryLib/src/TxtMultiProcessingStationRun.cpp
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationRun.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationRun.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationRun.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationRun.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationRun.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation7fsmStepEv
+Passed Function: _ZN2ft25TxtMultiProcessingStation7fsmStepEv
+Header: TxtSmartFactoryLib/include/TxtMultiProcessingStation.h
+Functions: _ZN2ft25TxtMultiProcessingStation15printEntryStateENS0_7State_tE
+Passed Function: _ZN2ft25TxtMultiProcessingStation15printEntryStateENS0_7State_tE
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel9setStatusENS_27TxtSimulationModel_status_tE
+Passed Function: _ZN2ft18TxtSimulationModel9setStatusENS_27TxtSimulationModel_status_tE
+Header: TxtSmartFactoryLib/include/TxtSound.h
+Functions: _ZN2ft8TxtSound5errorEv
+Passed Function: _ZN2ft8TxtSound5errorEv
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel12setActStatusEbNS_27TxtSimulationModel_status_tE
+Passed Function: _ZN2ft18TxtSimulationModel12setActStatusEbNS_27TxtSimulationModel_status_tE
+Header: TxtSmartFactoryLib/include/TxtMultiProcessingStation.h
+Functions: _ZN2ft25TxtMultiProcessingStation10printStateENS0_7State_tE
+Passed Function: _ZN2ft25TxtMultiProcessingStation10printStateENS0_7State_tE
+Header: TxtSmartFactoryLib/include/TxtAxisNSwitch.h
+Functions: _ZN2ft14TxtAxisNSwitch12moveS1ThreadEv
+Passed Function: _ZN2ft14TxtAxisNSwitch12moveS1ThreadEv
+Header: TxtSmartFactoryLib/include/TxtAxisNSwitch.h
+Functions: _ZN2ft14TxtAxisNSwitch6moveS2Ev
+Passed Function: _ZN2ft14TxtAxisNSwitch6moveS2Ev
+Header: TxtSmartFactoryLib/include/TxtAxisNSwitch.h
+Functions: _ZN2ft14TxtAxisNSwitch12moveS2ThreadEv
+Passed Function: _ZN2ft14TxtAxisNSwitch12moveS2ThreadEv
+Header: TxtSmartFactoryLib/include/TxtAxisNSwitch.h
+Functions: _ZN2ft14TxtAxisNSwitch6moveS1Ev
+Passed Function: _ZN2ft14TxtAxisNSwitch6moveS1Ev
+Header: TxtSmartFactoryLib/include/TxtAxisNSwitch.h
+Functions: _ZN2ft14TxtAxisNSwitch6moveS3Ev
+Passed Function: _ZN2ft14TxtAxisNSwitch6moveS3Ev
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationRun.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation3runEv
+Passed Function: _ZN2ft25TxtMultiProcessingStation3runEv
+Header: TxtSmartFactoryLib/include/TxtMultiProcessingStation.h
+Functions: _ZN2ft33TxtMultiProcessingStationObserverC2EPNS_25TxtMultiProcessingStationEPNS_20TxtMqttFactoryClientE
+Passed Function: _ZN2ft33TxtMultiProcessingStationObserverC2EPNS_25TxtMultiProcessingStationEPNS_20TxtMqttFactoryClientE
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationRun.cpp
+Functions: __cxx_global_var_init.15
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationRun.cpp
+Functions: __cxx_global_var_init.16
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationRun.cpp
+Functions: __cxx_global_var_init.17
+Header: TxtSmartFactoryLib/include/TxtMultiProcessingStation.h
+Functions: _ZN2ft25TxtMultiProcessingStation8toStringENS0_7State_tE
+Passed Function: _ZN2ft25TxtMultiProcessingStation8toStringENS0_7State_tE
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft8ObserverC2Ev
+Passed Function: _ZN2ft8ObserverC2Ev
+Header: TxtSmartFactoryLib/include/TxtMultiProcessingStation.h
+Functions: _ZN2ft33TxtMultiProcessingStationObserverD2Ev
+Passed Function: _ZN2ft33TxtMultiProcessingStationObserverD2Ev
+Header: TxtSmartFactoryLib/include/TxtMultiProcessingStation.h
+Functions: _ZN2ft33TxtMultiProcessingStationObserverD0Ev
+Passed Function: _ZN2ft33TxtMultiProcessingStationObserverD0Ev
+Header: TxtSmartFactoryLib/include/TxtMultiProcessingStation.h
+Functions: _ZN2ft33TxtMultiProcessingStationObserver6UpdateEPNS_15SubjectObserverE
+Passed Function: _ZN2ft33TxtMultiProcessingStationObserver6UpdateEPNS_15SubjectObserverE
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft8ObserverD2Ev
+Passed Function: _ZN2ft8ObserverD2Ev
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft8ObserverD0Ev
+Passed Function: _ZN2ft8ObserverD0Ev
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel9getStatusEv
+Passed Function: _ZN2ft18TxtSimulationModel9getStatusEv
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft20TxtMqttFactoryClient15publishStateMPOENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Passed Function: _ZN2ft20TxtMqttFactoryClient15publishStateMPOENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel8isActiveEv
+Passed Function: _ZN2ft18TxtSimulationModel8isActiveEv
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationRun.cpp
+Functions: _GLOBAL__sub_I_TxtMultiProcessingStationRun.cpp
+Passed Function: _GLOBAL__sub_I_TxtMultiProcessingStationRun.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtAxisNSwitch.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtAxisNSwitch.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtAxisNSwitch.o" TxtSmartFactoryLib/src/TxtAxisNSwitch.cpp
+Header: TxtSmartFactoryLib/src/TxtAxisNSwitch.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtAxisNSwitch.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtAxisNSwitch.cpp
+Functions: _ZN2ft14TxtAxisNSwitchC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS_11TxtTransferEhhh
+Passed Function: _ZN2ft14TxtAxisNSwitchC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS_11TxtTransferEhhh
+Header: TxtSmartFactoryLib/src/TxtAxisNSwitch.cpp
+Functions: _ZN2ft14TxtAxisNSwitchC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS_11TxtTransferEhhhh
+Passed Function: _ZN2ft14TxtAxisNSwitchC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS_11TxtTransferEhhhh
+Header: TxtSmartFactoryLib/src/TxtAxisNSwitch.cpp
+Functions: _ZN2ft14TxtAxisNSwitchD2Ev
+Passed Function: _ZN2ft14TxtAxisNSwitchD2Ev
+Header: TxtSmartFactoryLib/src/TxtAxisNSwitch.cpp
+Functions: _ZN2ft14TxtAxisNSwitchD0Ev
+Passed Function: _ZN2ft14TxtAxisNSwitchD0Ev
+Header: TxtSmartFactoryLib/src/TxtAxisNSwitch.cpp
+Functions: _ZN2ft14TxtAxisNSwitch7moveS2XEi
+Passed Function: _ZN2ft14TxtAxisNSwitch7moveS2XEi
+Header: TxtSmartFactoryLib/include/TxtAxisNSwitch.h
+Functions: _ZN2ft14TxtAxisNSwitch10isS2XValidEi
+Passed Function: _ZN2ft14TxtAxisNSwitch10isS2XValidEi
+Header: TxtSmartFactoryLib/include/TxtAxis.h
+Functions: _ZN2ft8toStringENS_16TxtAxis_status_tE
+Passed Function: _ZN2ft8toStringENS_16TxtAxis_status_tE
+Header: TxtSmartFactoryLib/src/TxtAxisNSwitch.cpp
+Functions: __cxx_global_var_init.14
+Header: TxtSmartFactoryLib/src/TxtAxisNSwitch.cpp
+Functions: __cxx_global_var_init.15
+Header: TxtSmartFactoryLib/src/TxtAxisNSwitch.cpp
+Functions: __cxx_global_var_init.16
+Header: TxtSmartFactoryLib/src/TxtAxisNSwitch.cpp
+Functions: __cxx_global_var_init.17
+Header: TxtSmartFactoryLib/src/TxtAxisNSwitch.cpp
+Functions: _GLOBAL__sub_I_TxtAxisNSwitch.cpp
+Passed Function: _GLOBAL__sub_I_TxtAxisNSwitch.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouseCalibData.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouseCalibData.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouseCalibData.o" TxtSmartFactoryLib/src/TxtHighBayWarehouseCalibData.cpp
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseCalibData.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseCalibData.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseCalibData.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseCalibData.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseCalibData.cpp
+Functions: _ZN2ft28TxtHighBayWarehouseCalibData4loadEv
+Passed Function: _ZN2ft28TxtHighBayWarehouseCalibData4loadEv
+Header: deps/include/json/reader.h
+Functions: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft7EncPos2C2Ett
+Passed Function: _ZN2ft7EncPos2C2Ett
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseCalibData.cpp
+Functions: _ZN2ft28TxtHighBayWarehouseCalibData11saveDefaultEv
+Passed Function: _ZN2ft28TxtHighBayWarehouseCalibData11saveDefaultEv
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseCalibData.cpp
+Functions: _ZN2ft28TxtHighBayWarehouseCalibData4saveEv
+Passed Function: _ZN2ft28TxtHighBayWarehouseCalibData4saveEv
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft28TxtHighBayWarehouseCalibDataD0Ev
+Passed Function: _ZN2ft28TxtHighBayWarehouseCalibDataD0Ev
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseCalibData.cpp
+Functions: __cxx_global_var_init.31
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseCalibData.cpp
+Functions: __cxx_global_var_init.32
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseCalibData.cpp
+Functions: __cxx_global_var_init.33
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseCalibData.cpp
+Functions: _GLOBAL__sub_I_TxtHighBayWarehouseCalibData.cpp
+Passed Function: _GLOBAL__sub_I_TxtHighBayWarehouseCalibData.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtCamera.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtCamera.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtCamera.o" TxtSmartFactoryLib/src/TxtCamera.cpp
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: _ZN2ft9TxtCameraC2Edd
+Passed Function: _ZN2ft9TxtCameraC2Edd
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverC2Ev
+Passed Function: _ZN2ft15SubjectObserverC2Ev
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverD2Ev
+Passed Function: _ZN2ft15SubjectObserverD2Ev
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: _ZN2ft9TxtCameraD2Ev
+Passed Function: _ZN2ft9TxtCameraD2Ev
+Header: TxtSmartFactoryLib/include/TxtCamera.h
+Functions: _ZN2ft9TxtCamera4stopEv
+Passed Function: _ZN2ft9TxtCamera4stopEv
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: _ZN2ft9TxtCameraD0Ev
+Passed Function: _ZN2ft9TxtCameraD0Ev
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: _ZN2ft9TxtCamera4initEv
+Passed Function: _ZN2ft9TxtCamera4initEv
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: _ZN2ft9TxtCamera11startThreadEv
+Passed Function: _ZN2ft9TxtCamera11startThreadEv
+Header: TxtSmartFactoryLib/include/TxtCamera.h
+Functions: _ZN2ft9TxtCamera12start_threadEPv
+Passed Function: _ZN2ft9TxtCamera12start_threadEPv
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: _ZN2ft9TxtCamera10stopThreadEv
+Passed Function: _ZN2ft9TxtCamera10stopThreadEv
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: _ZN2ft9TxtCamera8getFrameEv
+Passed Function: _ZN2ft9TxtCamera8getFrameEv
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: _ZN2ft9TxtCamera3runEv
+Passed Function: _ZN2ft9TxtCamera3runEv
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: _ZN2ft9TxtCamera13getDataStringB5cxx11Ev
+Passed Function: _ZN2ft9TxtCamera13getDataStringB5cxx11Ev
+Header: TxtSmartFactoryLib/libs/base64.h
+Functions: _Z13base64_encodeB5cxx11PKhj
+Passed Function: _Z13base64_encodeB5cxx11PKhj
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: _ZN2ft9TxtCamera9writeFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN2ft9TxtCamera9writeFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: __cxx_global_var_init.25
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: __cxx_global_var_init.26
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: __cxx_global_var_init.27
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: __cxx_global_var_init.28
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: __cxx_global_var_init.29
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: __cxx_global_var_init.30
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: __cxx_global_var_init.31
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: __cxx_global_var_init.32
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: __cxx_global_var_init.33
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: __cxx_global_var_init.34
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: __cxx_global_var_init.35
+Header: TxtSmartFactoryLib/src/TxtCamera.cpp
+Functions: _GLOBAL__sub_I_TxtCamera.cpp
+Passed Function: _GLOBAL__sub_I_TxtCamera.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtPanTiltUnit.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtPanTiltUnit.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtPanTiltUnit.o" TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnitC2EPNS_11TxtTransferEhh
+Passed Function: _ZN2ft14TxtPanTiltUnitC2EPNS_11TxtTransferEhh
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverC2Ev
+Passed Function: _ZN2ft15SubjectObserverC2Ev
+Header: TxtSmartFactoryLib/include/TxtPanTiltUnit.h
+Functions: _ZN2ft23TxtPanTiltUnitCalibDataC2Ev
+Passed Function: _ZN2ft23TxtPanTiltUnitCalibDataC2Ev
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit12configInputsEh
+Passed Function: _ZN2ft14TxtPanTiltUnit12configInputsEh
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverD2Ev
+Passed Function: _ZN2ft15SubjectObserverD2Ev
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnitD2Ev
+Passed Function: _ZN2ft14TxtPanTiltUnitD2Ev
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit12setMotorsOffEv
+Passed Function: _ZN2ft14TxtPanTiltUnit12setMotorsOffEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnitD0Ev
+Passed Function: _ZN2ft14TxtPanTiltUnitD0Ev
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit4initEv
+Passed Function: _ZN2ft14TxtPanTiltUnit4initEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit4stopEv
+Passed Function: _ZN2ft14TxtPanTiltUnit4stopEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit14setMotorPanOffEv
+Passed Function: _ZN2ft14TxtPanTiltUnit14setMotorPanOffEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit15setMotorTiltOffEv
+Passed Function: _ZN2ft14TxtPanTiltUnit15setMotorTiltOffEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit8moveLeftEhtsPtt
+Passed Function: _ZN2ft14TxtPanTiltUnit8moveLeftEhtsPtt
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit9moveRightEhtsPtt
+Passed Function: _ZN2ft14TxtPanTiltUnit9moveRightEhtsPtt
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit11movePanLeftEt
+Passed Function: _ZN2ft14TxtPanTiltUnit11movePanLeftEt
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit12movePanRightEt
+Passed Function: _ZN2ft14TxtPanTiltUnit12movePanRightEt
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit10moveTiltUpEt
+Passed Function: _ZN2ft14TxtPanTiltUnit10moveTiltUpEt
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit12moveTiltDownEt
+Passed Function: _ZN2ft14TxtPanTiltUnit12moveTiltDownEt
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit10movePanPosEt
+Passed Function: _ZN2ft14TxtPanTiltUnit10movePanPosEt
+Header: TxtSmartFactoryLib/include/TxtPanTiltUnit.h
+Functions: _ZN2ft14TxtPanTiltUnit10setStepPanEt
+Passed Function: _ZN2ft14TxtPanTiltUnit10setStepPanEt
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit16moveStepPanRightEv
+Passed Function: _ZN2ft14TxtPanTiltUnit16moveStepPanRightEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit15moveStepPanLeftEv
+Passed Function: _ZN2ft14TxtPanTiltUnit15moveStepPanLeftEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit11moveTiltPosEt
+Passed Function: _ZN2ft14TxtPanTiltUnit11moveTiltPosEt
+Header: TxtSmartFactoryLib/include/TxtPanTiltUnit.h
+Functions: _ZN2ft14TxtPanTiltUnit11setStepTiltEt
+Passed Function: _ZN2ft14TxtPanTiltUnit11setStepTiltEt
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit14moveStepTiltUpEv
+Passed Function: _ZN2ft14TxtPanTiltUnit14moveStepTiltUpEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit16moveStepTiltDownEv
+Passed Function: _ZN2ft14TxtPanTiltUnit16moveStepTiltDownEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit7movePosEtt
+Passed Function: _ZN2ft14TxtPanTiltUnit7movePosEtt
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit8moveHomeEv
+Passed Function: _ZN2ft14TxtPanTiltUnit8moveHomeEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit10moveCenterEv
+Passed Function: _ZN2ft14TxtPanTiltUnit10moveCenterEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit7moveHBWEv
+Passed Function: _ZN2ft14TxtPanTiltUnit7moveHBWEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit8movePan0Ev
+Passed Function: _ZN2ft14TxtPanTiltUnit8movePan0Ev
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit13movePanCenterEv
+Passed Function: _ZN2ft14TxtPanTiltUnit13movePanCenterEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit10movePanEndEv
+Passed Function: _ZN2ft14TxtPanTiltUnit10movePanEndEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit9moveTilt0Ev
+Passed Function: _ZN2ft14TxtPanTiltUnit9moveTilt0Ev
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit14moveTiltCenterEv
+Passed Function: _ZN2ft14TxtPanTiltUnit14moveTiltCenterEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft14TxtPanTiltUnit11moveTiltEndEv
+Passed Function: _ZN2ft14TxtPanTiltUnit11moveTiltEndEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft24TxtPanTiltUnitControllerC2EPNS_14TxtPanTiltUnitEi
+Passed Function: _ZN2ft24TxtPanTiltUnitControllerC2EPNS_14TxtPanTiltUnitEi
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft24TxtPanTiltUnitControllerD2Ev
+Passed Function: _ZN2ft24TxtPanTiltUnitControllerD2Ev
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft24TxtPanTiltUnitController10stopThreadEv
+Passed Function: _ZN2ft24TxtPanTiltUnitController10stopThreadEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft24TxtPanTiltUnitControllerD0Ev
+Passed Function: _ZN2ft24TxtPanTiltUnitControllerD0Ev
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft24TxtPanTiltUnitController11startThreadEv
+Passed Function: _ZN2ft24TxtPanTiltUnitController11startThreadEv
+Header: TxtSmartFactoryLib/include/TxtPanTiltUnit.h
+Functions: _ZN2ft24TxtPanTiltUnitController12start_threadEPv
+Passed Function: _ZN2ft24TxtPanTiltUnitController12start_threadEPv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft24TxtPanTiltUnitController10executeCmdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi
+Passed Function: _ZN2ft24TxtPanTiltUnitController10executeCmdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _ZN2ft24TxtPanTiltUnitController3runEv
+Passed Function: _ZN2ft24TxtPanTiltUnitController3runEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: __cxx_global_var_init.33
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: __cxx_global_var_init.34
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: __cxx_global_var_init.35
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnit.cpp
+Functions: _GLOBAL__sub_I_TxtPanTiltUnit.cpp
+Passed Function: _GLOBAL__sub_I_TxtPanTiltUnit.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/Utils.d" -MT"TxtSmartFactoryLib/Posix_Release/src/Utils.o" -o "TxtSmartFactoryLib/Posix_Release/src/Utils.o" TxtSmartFactoryLib/src/Utils.cpp
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: _ZN2ft11time_offsetEv
+Passed Function: _ZN2ft11time_offsetEv
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: _ZN2ft20trycheckTimestampTTLERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEd
+Passed Function: _ZN2ft20trycheckTimestampTTLERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEd
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: _ZN2ft15trygettimepointERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN2ft15trygettimepointERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: _ZN2ft15gettimestampstrExPc
+Passed Function: _ZN2ft15gettimestampstrExPc
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: _ZN2ft10gettimestrEliPc
+Passed Function: _ZN2ft10gettimestrEliPc
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: _ZN2ft9getnowstrEPc
+Passed Function: _ZN2ft9getnowstrEPc
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: _ZN2ft17getnowtimestamp_sEv
+Passed Function: _ZN2ft17getnowtimestamp_sEv
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: _ZN2ft4ftosB5cxx11Efi
+Passed Function: _ZN2ft4ftosB5cxx11Efi
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.19
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.20
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.21
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.22
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.23
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.24
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.25
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.26
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.27
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.28
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.29
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.30
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: __cxx_global_var_init.31
+Header: TxtSmartFactoryLib/src/Utils.cpp
+Functions: _GLOBAL__sub_I_Utils.cpp
+Passed Function: _GLOBAL__sub_I_Utils.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouse.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouse.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouse.o" TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouseC2EPNS_11TxtTransferEPNS_20TxtMqttFactoryClientE
+Passed Function: _ZN2ft19TxtHighBayWarehouseC2EPNS_11TxtTransferEPNS_20TxtMqttFactoryClientE
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft7EncPos2C2Ett
+Passed Function: _ZN2ft7EncPos2C2Ett
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft28TxtHighBayWarehouseCalibDataC2Ev
+Passed Function: _ZN2ft28TxtHighBayWarehouseCalibDataC2Ev
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft16TxtJoysticksDataC2Ev
+Passed Function: _ZN2ft16TxtJoysticksDataC2Ev
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouseD2Ev
+Passed Function: _ZN2ft19TxtHighBayWarehouseD2Ev
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouseD0Ev
+Passed Function: _ZN2ft19TxtHighBayWarehouseD0Ev
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse4stopEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse4stopEv
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse7moveRefEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse7moveRefEv
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel12setActStatusEbNS_27TxtSimulationModel_status_tE
+Passed Function: _ZN2ft18TxtSimulationModel12setActStatusEbNS_27TxtSimulationModel_status_tE
+Header: TxtSmartFactoryLib/include/TxtAxisNSwitch.h
+Functions: _ZN2ft14TxtAxisNSwitch6moveS1Ev
+Passed Function: _ZN2ft14TxtAxisNSwitch6moveS1Ev
+Header: TxtSmartFactoryLib/include/TxtAxis1RefSwitch.h
+Functions: _ZN2ft17TxtAxis1RefSwitch13moveRefThreadEv
+Passed Function: _ZN2ft17TxtAxis1RefSwitch13moveRefThreadEv
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse12moveJoystickEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse12moveJoystickEv
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft16TxtJoysticksDataC2ERKS0_
+Passed Function: _ZN2ft16TxtJoysticksDataC2ERKS0_
+Header: TxtSmartFactoryLib/include/TxtAxis1RefSwitch.h
+Functions: _ZN2ft17TxtAxis1RefSwitch7moveRelEi
+Passed Function: _ZN2ft17TxtAxis1RefSwitch7moveRelEi
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse7getPos2Ev
+Passed Function: _ZN2ft19TxtHighBayWarehouse7getPos2Ev
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse8moveConvEb
+Passed Function: _ZN2ft19TxtHighBayWarehouse8moveConvEb
+Header: TxtSmartFactoryLib/include/TxtAxis1RefSwitch.h
+Functions: _ZN2ft17TxtAxis1RefSwitch13moveAbsThreadEt
+Passed Function: _ZN2ft17TxtAxis1RefSwitch13moveAbsThreadEt
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse6moveCREii
+Passed Function: _ZN2ft19TxtHighBayWarehouse6moveCREii
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse5getCREii
+Passed Function: _ZN2ft19TxtHighBayWarehouse5getCREii
+Header: TxtSmartFactoryLib/include/TxtAxisNSwitch.h
+Functions: _ZN2ft14TxtAxisNSwitch6moveS2Ev
+Passed Function: _ZN2ft14TxtAxisNSwitch6moveS2Ev
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse5putCREii
+Passed Function: _ZN2ft19TxtHighBayWarehouse5putCREii
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse7getConvEb
+Passed Function: _ZN2ft19TxtHighBayWarehouse7getConvEb
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse7putConvEb
+Passed Function: _ZN2ft19TxtHighBayWarehouse7putConvEb
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse5storeENS_12TxtWorkpieceE
+Passed Function: _ZN2ft19TxtHighBayWarehouse5storeENS_12TxtWorkpieceE
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceC2ERKS0_
+Passed Function: _ZN2ft12TxtWorkpieceC2ERKS0_
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD2Ev
+Passed Function: _ZN2ft12TxtWorkpieceD2Ev
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouseStorage.h
+Functions: _ZN2ft26TxtHighBayWarehouseStorage15getNextStorePosEv
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage15getNextStorePosEv
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse14storeContainerEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse14storeContainerEv
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse5fetchENS_11TxtWPType_tE
+Passed Function: _ZN2ft19TxtHighBayWarehouse5fetchENS_11TxtWPType_tE
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouseStorage.h
+Functions: _ZN2ft26TxtHighBayWarehouseStorage15getNextFetchPosEv
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage15getNextFetchPosEv
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse14fetchContainerEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse14fetchContainerEv
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse16canColorBeStoredENS_11TxtWPType_tE
+Passed Function: _ZN2ft19TxtHighBayWarehouse16canColorBeStoredENS_11TxtWPType_tE
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse8setSpeedEs
+Passed Function: _ZN2ft19TxtHighBayWarehouse8setSpeedEs
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: __cxx_global_var_init.17
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: __cxx_global_var_init.18
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: __cxx_global_var_init.19
+Header: TxtSmartFactoryLib/include/TxtAxis1RefSwitch.h
+Functions: _ZN2ft17TxtAxis1RefSwitch9getPosAbsEv
+Passed Function: _ZN2ft17TxtAxis1RefSwitch9getPosAbsEv
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD0Ev
+Passed Function: _ZN2ft12TxtWorkpieceD0Ev
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouse.cpp
+Functions: _GLOBAL__sub_I_TxtHighBayWarehouse.cpp
+Passed Function: _GLOBAL__sub_I_TxtHighBayWarehouse.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtJoystickXYBController.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtJoystickXYBController.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtJoystickXYBController.o" TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: _ZN2ft24TxtJoystickXYBControllerC2EPNS_11TxtTransferEhhhhhh
+Passed Function: _ZN2ft24TxtJoystickXYBControllerC2EPNS_11TxtTransferEhhhhhh
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverC2Ev
+Passed Function: _ZN2ft15SubjectObserverC2Ev
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft16TxtJoysticksDataC2Ev
+Passed Function: _ZN2ft16TxtJoysticksDataC2Ev
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverD2Ev
+Passed Function: _ZN2ft15SubjectObserverD2Ev
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: _ZN2ft24TxtJoystickXYBControllerD2Ev
+Passed Function: _ZN2ft24TxtJoystickXYBControllerD2Ev
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: _ZN2ft24TxtJoystickXYBController10stopThreadEv
+Passed Function: _ZN2ft24TxtJoystickXYBController10stopThreadEv
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: _ZN2ft24TxtJoystickXYBControllerD0Ev
+Passed Function: _ZN2ft24TxtJoystickXYBControllerD0Ev
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: _ZN2ft24TxtJoystickXYBController11startThreadEv
+Passed Function: _ZN2ft24TxtJoystickXYBController11startThreadEv
+Header: TxtSmartFactoryLib/include/TxtJoystickXYBController.h
+Functions: _ZN2ft24TxtJoystickXYBController12start_threadEPv
+Passed Function: _ZN2ft24TxtJoystickXYBController12start_threadEPv
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: _ZN2ft24TxtJoystickXYBController12configInputsEv
+Passed Function: _ZN2ft24TxtJoystickXYBController12configInputsEv
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: _ZN2ft24TxtJoystickXYBController3runEv
+Passed Function: _ZN2ft24TxtJoystickXYBController3runEv
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: __cxx_global_var_init.19
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: __cxx_global_var_init.20
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: __cxx_global_var_init.21
+Header: TxtSmartFactoryLib/src/TxtJoystickXYBController.cpp
+Functions: _GLOBAL__sub_I_TxtJoystickXYBController.cpp
+Passed Function: _GLOBAL__sub_I_TxtJoystickXYBController.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtSortingLineRun.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtSortingLineRun.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtSortingLineRun.o" TxtSmartFactoryLib/src/TxtSortingLineRun.cpp
+Header: TxtSmartFactoryLib/src/TxtSortingLineRun.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtSortingLineRun.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtSortingLineRun.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtSortingLineRun.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtSortingLineRun.cpp
+Functions: _ZN2ft14TxtSortingLine7fsmStepEv
+Passed Function: _ZN2ft14TxtSortingLine7fsmStepEv
+Header: TxtSmartFactoryLib/include/TxtSortingLine.h
+Functions: _ZN2ft14TxtSortingLine15printEntryStateENS0_7State_tE
+Passed Function: _ZN2ft14TxtSortingLine15printEntryStateENS0_7State_tE
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel9setStatusENS_27TxtSimulationModel_status_tE
+Passed Function: _ZN2ft18TxtSimulationModel9setStatusENS_27TxtSimulationModel_status_tE
+Header: TxtSmartFactoryLib/include/TxtSound.h
+Functions: _ZN2ft8TxtSound5errorEv
+Passed Function: _ZN2ft8TxtSound5errorEv
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel12setActStatusEbNS_27TxtSimulationModel_status_tE
+Passed Function: _ZN2ft18TxtSimulationModel12setActStatusEbNS_27TxtSimulationModel_status_tE
+Header: TxtSmartFactoryLib/include/TxtSortingLine.h
+Functions: _ZN2ft14TxtSortingLine10printStateENS0_7State_tE
+Passed Function: _ZN2ft14TxtSortingLine10printStateENS0_7State_tE
+Header: TxtSmartFactoryLib/include/TxtSound.h
+Functions: _ZN2ft8TxtSound5info1Ei
+Passed Function: _ZN2ft8TxtSound5info1Ei
+Header: TxtSmartFactoryLib/src/TxtSortingLineRun.cpp
+Functions: _ZN2ft14TxtSortingLine3runEv
+Passed Function: _ZN2ft14TxtSortingLine3runEv
+Header: TxtSmartFactoryLib/include/TxtSortingLine.h
+Functions: _ZN2ft22TxtSortingLineObserverC2EPNS_14TxtSortingLineEPNS_20TxtMqttFactoryClientE
+Passed Function: _ZN2ft22TxtSortingLineObserverC2EPNS_14TxtSortingLineEPNS_20TxtMqttFactoryClientE
+Header: TxtSmartFactoryLib/src/TxtSortingLineRun.cpp
+Functions: __cxx_global_var_init.16
+Header: TxtSmartFactoryLib/src/TxtSortingLineRun.cpp
+Functions: __cxx_global_var_init.17
+Header: TxtSmartFactoryLib/src/TxtSortingLineRun.cpp
+Functions: __cxx_global_var_init.18
+Header: TxtSmartFactoryLib/include/TxtSortingLine.h
+Functions: _ZN2ft14TxtSortingLine8toStringENS0_7State_tE
+Passed Function: _ZN2ft14TxtSortingLine8toStringENS0_7State_tE
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft8ObserverC2Ev
+Passed Function: _ZN2ft8ObserverC2Ev
+Header: TxtSmartFactoryLib/include/TxtSortingLine.h
+Functions: _ZN2ft22TxtSortingLineObserverD2Ev
+Passed Function: _ZN2ft22TxtSortingLineObserverD2Ev
+Header: TxtSmartFactoryLib/include/TxtSortingLine.h
+Functions: _ZN2ft22TxtSortingLineObserverD0Ev
+Passed Function: _ZN2ft22TxtSortingLineObserverD0Ev
+Header: TxtSmartFactoryLib/include/TxtSortingLine.h
+Functions: _ZN2ft22TxtSortingLineObserver6UpdateEPNS_15SubjectObserverE
+Passed Function: _ZN2ft22TxtSortingLineObserver6UpdateEPNS_15SubjectObserverE
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft8ObserverD2Ev
+Passed Function: _ZN2ft8ObserverD2Ev
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft8ObserverD0Ev
+Passed Function: _ZN2ft8ObserverD0Ev
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel9getStatusEv
+Passed Function: _ZN2ft18TxtSimulationModel9getStatusEv
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft20TxtMqttFactoryClient15publishStateSLDENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Passed Function: _ZN2ft20TxtMqttFactoryClient15publishStateSLDENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel8isActiveEv
+Passed Function: _ZN2ft18TxtSimulationModel8isActiveEv
+Header: TxtSmartFactoryLib/src/TxtSortingLineRun.cpp
+Functions: _GLOBAL__sub_I_TxtSortingLineRun.cpp
+Passed Function: _GLOBAL__sub_I_TxtSortingLineRun.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtAxis1RefSwitch.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtAxis1RefSwitch.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtAxis1RefSwitch.o" TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: _ZN2ft17TxtAxis1RefSwitchC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS_11TxtTransferEhht
+Passed Function: _ZN2ft17TxtAxis1RefSwitchC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS_11TxtTransferEhht
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverC2Ev
+Passed Function: _ZN2ft15SubjectObserverC2Ev
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverD2Ev
+Passed Function: _ZN2ft15SubjectObserverD2Ev
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: _ZN2ft17TxtAxis1RefSwitchD2Ev
+Passed Function: _ZN2ft17TxtAxis1RefSwitchD2Ev
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: _ZThn44_N2ft17TxtAxis1RefSwitchD1Ev
+Passed Function: _ZThn44_N2ft17TxtAxis1RefSwitchD1Ev
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: _ZN2ft17TxtAxis1RefSwitchD0Ev
+Passed Function: _ZN2ft17TxtAxis1RefSwitchD0Ev
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: _ZThn44_N2ft17TxtAxis1RefSwitchD0Ev
+Passed Function: _ZThn44_N2ft17TxtAxis1RefSwitchD0Ev
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: _ZN2ft17TxtAxis1RefSwitch7moveRefEv
+Passed Function: _ZN2ft17TxtAxis1RefSwitch7moveRefEv
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: _ZN2ft17TxtAxis1RefSwitch12resetCounterEv
+Passed Function: _ZN2ft17TxtAxis1RefSwitch12resetCounterEv
+Header: TxtSmartFactoryLib/include/TxtAxis.h
+Functions: _ZN2ft8toStringENS_16TxtAxis_status_tE
+Passed Function: _ZN2ft8toStringENS_16TxtAxis_status_tE
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: _ZN2ft17TxtAxis1RefSwitch7moveAbsEt
+Passed Function: _ZN2ft17TxtAxis1RefSwitch7moveAbsEt
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: _ZN2ft17TxtAxis1RefSwitch9moveRightEtPt
+Passed Function: _ZN2ft17TxtAxis1RefSwitch9moveRightEtPt
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt
+Passed Function: _ZN2ft17TxtAxis1RefSwitch8moveLeftEtPt
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: _ZN2ft17TxtAxis1RefSwitch13setMotorRightEv
+Passed Function: _ZN2ft17TxtAxis1RefSwitch13setMotorRightEv
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: _ZN2ft17TxtAxis1RefSwitch5resetEv
+Passed Function: _ZN2ft17TxtAxis1RefSwitch5resetEv
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: __cxx_global_var_init.27
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: __cxx_global_var_init.28
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: __cxx_global_var_init.29
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: __cxx_global_var_init.30
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: __cxx_global_var_init.31
+Header: TxtSmartFactoryLib/src/TxtAxis1RefSwitch.cpp
+Functions: _GLOBAL__sub_I_TxtAxis1RefSwitch.cpp
+Passed Function: _GLOBAL__sub_I_TxtAxis1RefSwitch.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtFactoryProcessStorage.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtFactoryProcessStorage.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtFactoryProcessStorage.o" TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: _ZN2ft24TxtFactoryProcessStorageC2Ev
+Passed Function: _ZN2ft24TxtFactoryProcessStorageC2Ev
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: _ZN2ft24TxtFactoryProcessStorageD2Ev
+Passed Function: _ZN2ft24TxtFactoryProcessStorageD2Ev
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: _ZN2ft24TxtFactoryProcessStorageD0Ev
+Passed Function: _ZN2ft24TxtFactoryProcessStorageD0Ev
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: _ZN2ft24TxtFactoryProcessStorage15setTimestampNowENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_17TxtHistoryIndex_tE
+Passed Function: _ZN2ft24TxtFactoryProcessStorage15setTimestampNowENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_17TxtHistoryIndex_tE
+Header: TxtSmartFactoryLib/include/Utils.h
+Functions: _ZN2ft17getnowtimestamp_sEv
+Passed Function: _ZN2ft17getnowtimestamp_sEv
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: _ZN2ft24TxtFactoryProcessStorage12getTagUidVtsENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN2ft24TxtFactoryProcessStorage12getTagUidVtsENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: _ZN2ft24TxtFactoryProcessStorage15getTagUidMaskTsENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN2ft24TxtFactoryProcessStorage15getTagUidMaskTsENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: _ZN2ft24TxtFactoryProcessStorage17resetTagUidMaskTsENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN2ft24TxtFactoryProcessStorage17resetTagUidMaskTsENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: _ZN2ft24TxtFactoryProcessStorage8printMapEv
+Passed Function: _ZN2ft24TxtFactoryProcessStorage8printMapEv
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: __cxx_global_var_init.15
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: __cxx_global_var_init.16
+Header: TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp
+Functions: _GLOBAL__sub_I_TxtFactoryProcessStorage.cpp
+Passed Function: _GLOBAL__sub_I_TxtFactoryProcessStorage.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtMultiProcessingStationCalibData.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtMultiProcessingStationCalibData.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtMultiProcessingStationCalibData.o" TxtSmartFactoryLib/src/TxtMultiProcessingStationCalibData.cpp
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationCalibData.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationCalibData.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationCalibData.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationCalibData.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationCalibData.cpp
+Functions: _ZN2ft34TxtMultiProcessingStationCalibData4loadEv
+Passed Function: _ZN2ft34TxtMultiProcessingStationCalibData4loadEv
+Header: deps/include/json/reader.h
+Functions: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationCalibData.cpp
+Functions: _ZN2ft34TxtMultiProcessingStationCalibData11saveDefaultEv
+Passed Function: _ZN2ft34TxtMultiProcessingStationCalibData11saveDefaultEv
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationCalibData.cpp
+Functions: _ZN2ft34TxtMultiProcessingStationCalibData4saveEv
+Passed Function: _ZN2ft34TxtMultiProcessingStationCalibData4saveEv
+Header: TxtSmartFactoryLib/include/TxtMultiProcessingStation.h
+Functions: _ZN2ft34TxtMultiProcessingStationCalibDataD0Ev
+Passed Function: _ZN2ft34TxtMultiProcessingStationCalibDataD0Ev
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationCalibData.cpp
+Functions: __cxx_global_var_init.20
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationCalibData.cpp
+Functions: __cxx_global_var_init.21
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationCalibData.cpp
+Functions: __cxx_global_var_init.22
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStationCalibData.cpp
+Functions: _GLOBAL__sub_I_TxtMultiProcessingStationCalibData.cpp
+Passed Function: _GLOBAL__sub_I_TxtMultiProcessingStationCalibData.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtSimulationModel.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtSimulationModel.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtSimulationModel.o" TxtSmartFactoryLib/src/TxtSimulationModel.cpp
+Header: TxtSmartFactoryLib/src/TxtSimulationModel.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtSimulationModel.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtSimulationModel.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtSimulationModel.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtSimulationModel.cpp
+Functions: _ZN2ft18TxtSimulationModelC2EPNS_11TxtTransferEPNS_20TxtMqttFactoryClientE
+Passed Function: _ZN2ft18TxtSimulationModelC2EPNS_11TxtTransferEPNS_20TxtMqttFactoryClientE
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverC2Ev
+Passed Function: _ZN2ft15SubjectObserverC2Ev
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverD2Ev
+Passed Function: _ZN2ft15SubjectObserverD2Ev
+Header: TxtSmartFactoryLib/src/TxtSimulationModel.cpp
+Functions: _ZN2ft18TxtSimulationModelD2Ev
+Passed Function: _ZN2ft18TxtSimulationModelD2Ev
+Header: TxtSmartFactoryLib/src/TxtSimulationModel.cpp
+Functions: _ZN2ft18TxtSimulationModel10stopThreadEv
+Passed Function: _ZN2ft18TxtSimulationModel10stopThreadEv
+Header: TxtSmartFactoryLib/src/TxtSimulationModel.cpp
+Functions: _ZN2ft18TxtSimulationModelD0Ev
+Passed Function: _ZN2ft18TxtSimulationModelD0Ev
+Header: TxtSmartFactoryLib/src/TxtSimulationModel.cpp
+Functions: _ZN2ft18TxtSimulationModel11startThreadEv
+Passed Function: _ZN2ft18TxtSimulationModel11startThreadEv
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel12start_threadEPv
+Passed Function: _ZN2ft18TxtSimulationModel12start_threadEPv
+Header: TxtSmartFactoryLib/src/TxtSimulationModel.cpp
+Functions: __cxx_global_var_init.15
+Header: TxtSmartFactoryLib/src/TxtSimulationModel.cpp
+Functions: __cxx_global_var_init.16
+Header: TxtSmartFactoryLib/src/TxtSimulationModel.cpp
+Functions: _GLOBAL__sub_I_TxtSimulationModel.cpp
+Passed Function: _GLOBAL__sub_I_TxtSimulationModel.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtMultiProcessingStation.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtMultiProcessingStation.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtMultiProcessingStation.o" TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStationC2EPNS_11TxtTransferEPNS_20TxtMqttFactoryClientE
+Passed Function: _ZN2ft25TxtMultiProcessingStationC2EPNS_11TxtTransferEPNS_20TxtMqttFactoryClientE
+Header: TxtSmartFactoryLib/include/TxtMultiProcessingStation.h
+Functions: _ZN2ft34TxtMultiProcessingStationCalibDataC2Ev
+Passed Function: _ZN2ft34TxtMultiProcessingStationCalibDataC2Ev
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation12configInputsEv
+Passed Function: _ZN2ft25TxtMultiProcessingStation12configInputsEv
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStationD2Ev
+Passed Function: _ZN2ft25TxtMultiProcessingStationD2Ev
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStationD0Ev
+Passed Function: _ZN2ft25TxtMultiProcessingStationD0Ev
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation26isEndConveyorBeltTriggeredEv
+Passed Function: _ZN2ft25TxtMultiProcessingStation26isEndConveyorBeltTriggeredEv
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation9setSawOffEv
+Passed Function: _ZN2ft25TxtMultiProcessingStation9setSawOffEv
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation10setSawLeftEv
+Passed Function: _ZN2ft25TxtMultiProcessingStation10setSawLeftEv
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation11setSawRightEv
+Passed Function: _ZN2ft25TxtMultiProcessingStation11setSawRightEv
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation16setValveEjectionEb
+Passed Function: _ZN2ft25TxtMultiProcessingStation16setValveEjectionEb
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation13setCompressorEb
+Passed Function: _ZN2ft25TxtMultiProcessingStation13setCompressorEb
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation15isOvenTriggeredEv
+Passed Function: _ZN2ft25TxtMultiProcessingStation15isOvenTriggeredEv
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation14setValveVacuumEb
+Passed Function: _ZN2ft25TxtMultiProcessingStation14setValveVacuumEb
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation16setValveLoweringEb
+Passed Function: _ZN2ft25TxtMultiProcessingStation16setValveLoweringEb
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation16setValveOvenDoorEb
+Passed Function: _ZN2ft25TxtMultiProcessingStation16setValveOvenDoorEb
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _ZN2ft25TxtMultiProcessingStation12setLightOvenEb
+Passed Function: _ZN2ft25TxtMultiProcessingStation12setLightOvenEb
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: __cxx_global_var_init.18
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: __cxx_global_var_init.19
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: __cxx_global_var_init.20
+Header: TxtSmartFactoryLib/src/TxtMultiProcessingStation.cpp
+Functions: _GLOBAL__sub_I_TxtMultiProcessingStation.cpp
+Passed Function: _GLOBAL__sub_I_TxtMultiProcessingStation.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripperRobotRun.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripperRobotRun.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripperRobotRun.o" TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot7fsmStepEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot7fsmStepEv
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft21TxtVacuumGripperRobot15printEntryStateENS0_7State_tE
+Passed Function: _ZN2ft21TxtVacuumGripperRobot15printEntryStateENS0_7State_tE
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel9setStatusENS_27TxtSimulationModel_status_tE
+Passed Function: _ZN2ft18TxtSimulationModel9setStatusENS_27TxtSimulationModel_status_tE
+Header: TxtSmartFactoryLib/include/TxtSound.h
+Functions: _ZN2ft8TxtSound5errorEv
+Passed Function: _ZN2ft8TxtSound5errorEv
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft21TxtVacuumGripperRobot7releaseEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot7releaseEv
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel12setActStatusEbNS_27TxtSimulationModel_status_tE
+Passed Function: _ZN2ft18TxtSimulationModel12setActStatusEbNS_27TxtSimulationModel_status_tE
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation12setActiveDSIEb
+Passed Function: _ZN2ft24TxtDeliveryPickupStation12setActiveDSIEb
+Header: TxtSmartFactoryLib/include/TxtSound.h
+Functions: _ZN2ft8TxtSound5info2Ev
+Passed Function: _ZN2ft8TxtSound5info2Ev
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation11setErrorDSIEb
+Passed Function: _ZN2ft24TxtDeliveryPickupStation11setErrorDSIEb
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft21TxtVacuumGripperRobot10printStateENS0_7State_tE
+Passed Function: _ZN2ft21TxtVacuumGripperRobot10printStateENS0_7State_tE
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot17creating_server_cEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot17creating_server_cEv
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation10publishNfcEv
+Passed Function: _ZN2ft24TxtDeliveryPickupStation10publishNfcEv
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft21TxtVacuumGripperRobot9setTargetENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN2ft21TxtVacuumGripperRobot9setTargetENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpiece10printDebugEv
+Passed Function: _ZN2ft12TxtWorkpiece10printDebugEv
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation14getUIDResetHBWB5cxx11Ev
+Passed Function: _ZN2ft24TxtDeliveryPickupStation14getUIDResetHBWB5cxx11Ev
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation15saveUIDResetHBWENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN2ft24TxtDeliveryPickupStation15saveUIDResetHBWENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation15getUIDCalibModeB5cxx11Ev
+Passed Function: _ZN2ft24TxtDeliveryPickupStation15getUIDCalibModeB5cxx11Ev
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation16saveUIDCalibModeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN2ft24TxtDeliveryPickupStation16saveUIDCalibModeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft20TxtMqttFactoryClient15publishStateVGRENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Passed Function: _ZN2ft20TxtMqttFactoryClient15publishStateVGRENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_11TxtWPType_tENS_12TxtWPState_tE
+Passed Function: _ZN2ft12TxtWorkpieceC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_11TxtWPType_tENS_12TxtWPState_tE
+Header: TxtSmartFactoryLib/include/TxtSound.h
+Functions: _ZN2ft8TxtSound4warnEv
+Passed Function: _ZN2ft8TxtSound4warnEv
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft21TxtVacuumGripperRobot4gripEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot4gripEv
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation12setActiveDSOEb
+Passed Function: _ZN2ft24TxtDeliveryPickupStation12setActiveDSOEb
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation11setErrorDSOEb
+Passed Function: _ZN2ft24TxtDeliveryPickupStation11setErrorDSOEb
+Header: TxtSmartFactoryLib/include/TxtSound.h
+Functions: _ZN2ft8TxtSound5info1Ei
+Passed Function: _ZN2ft8TxtSound5info1Ei
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft8toStringENS_16TxtVgrCalibPos_tE
+Passed Function: _ZN2ft8toStringENS_16TxtVgrCalibPos_tE
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot12moveCalibPosEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot12moveCalibPosEv
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft21TxtVacuumGripperRobot7getPos3Ev
+Passed Function: _ZN2ft21TxtVacuumGripperRobot7getPos3Ev
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft30TxtVacuumGripperRobotCalibData7setPos3ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_7EncPos3E
+Passed Function: _ZN2ft30TxtVacuumGripperRobotCalibData7setPos3ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_7EncPos3E
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft30TxtVacuumGripperRobotCalibData9copyPos3XENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_
+Passed Function: _ZN2ft30TxtVacuumGripperRobotCalibData9copyPos3XENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft30TxtVacuumGripperRobotCalibData9copyPos3ZENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_
+Passed Function: _ZN2ft30TxtVacuumGripperRobotCalibData9copyPos3ZENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot13initDashboardEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot13initDashboardEv
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft20TxtMqttFactoryClient15publishStateHBWENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Passed Function: _ZN2ft20TxtMqttFactoryClient15publishStateHBWENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft20TxtMqttFactoryClient15publishStateMPOENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Passed Function: _ZN2ft20TxtMqttFactoryClient15publishStateMPOENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft20TxtMqttFactoryClient15publishStateSLDENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Passed Function: _ZN2ft20TxtMqttFactoryClient15publishStateSLDENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft20TxtMqttFactoryClient15publishStateDSIENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Passed Function: _ZN2ft20TxtMqttFactoryClient15publishStateDSIENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft20TxtMqttFactoryClient15publishStateDSOENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Passed Function: _ZN2ft20TxtMqttFactoryClient15publishStateDSOENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceC2ERKS0_
+Passed Function: _ZN2ft12TxtWorkpieceC2ERKS0_
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD2Ev
+Passed Function: _ZN2ft12TxtWorkpieceD2Ev
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot3runEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot3runEv
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation6getNfcEv
+Passed Function: _ZN2ft24TxtDeliveryPickupStation6getNfcEv
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft29TxtVacuumGripperRobotObserverC2EPNS_21TxtVacuumGripperRobotEPNS_20TxtMqttFactoryClientE
+Passed Function: _ZN2ft29TxtVacuumGripperRobotObserverC2EPNS_21TxtVacuumGripperRobotEPNS_20TxtMqttFactoryClientE
+Header: TxtSmartFactoryLib/include/TxtNfcDevice.h
+Functions: _ZN2ft20TxtNfcDeviceObserverC2EPNS_12TxtNfcDeviceEPNS_20TxtMqttFactoryClientE
+Passed Function: _ZN2ft20TxtNfcDeviceObserverC2EPNS_12TxtNfcDeviceEPNS_20TxtMqttFactoryClientE
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft32TxtDeliveryPickupStationObserverC2EPNS_24TxtDeliveryPickupStationEPNS_20TxtMqttFactoryClientE
+Passed Function: _ZN2ft32TxtDeliveryPickupStationObserverC2EPNS_24TxtDeliveryPickupStationEPNS_20TxtMqttFactoryClientE
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft21TxtVacuumGripperRobot12requestOrderENS_11TxtWPType_tE
+Passed Function: _ZN2ft21TxtVacuumGripperRobot12requestOrderENS_11TxtWPType_tE
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Functions: __cxx_global_var_init.64
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Functions: __cxx_global_var_init.65
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Functions: __cxx_global_var_init.66
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft21TxtVacuumGripperRobot8toStringENS0_7State_tE
+Passed Function: _ZN2ft21TxtVacuumGripperRobot8toStringENS0_7State_tE
+Header: TxtSmartFactoryLib/include/TxtNfcDevice.h
+Functions: _ZN2ft12TxtNfcDevice7publishEv
+Passed Function: _ZN2ft12TxtNfcDevice7publishEv
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD0Ev
+Passed Function: _ZN2ft12TxtWorkpieceD0Ev
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft7EncPos3C2Ettt
+Passed Function: _ZN2ft7EncPos3C2Ettt
+Header: TxtSmartFactoryLib/include/TxtAxis1RefSwitch.h
+Functions: _ZN2ft17TxtAxis1RefSwitch9getPosAbsEv
+Passed Function: _ZN2ft17TxtAxis1RefSwitch9getPosAbsEv
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft30TxtVacuumGripperRobotCalibData12checkKeyExitENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN2ft30TxtVacuumGripperRobotCalibData12checkKeyExitENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft8ObserverC2Ev
+Passed Function: _ZN2ft8ObserverC2Ev
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft29TxtVacuumGripperRobotObserverD2Ev
+Passed Function: _ZN2ft29TxtVacuumGripperRobotObserverD2Ev
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft29TxtVacuumGripperRobotObserverD0Ev
+Passed Function: _ZN2ft29TxtVacuumGripperRobotObserverD0Ev
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft29TxtVacuumGripperRobotObserver6UpdateEPNS_15SubjectObserverE
+Passed Function: _ZN2ft29TxtVacuumGripperRobotObserver6UpdateEPNS_15SubjectObserverE
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft8ObserverD2Ev
+Passed Function: _ZN2ft8ObserverD2Ev
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft8ObserverD0Ev
+Passed Function: _ZN2ft8ObserverD0Ev
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel9getStatusEv
+Passed Function: _ZN2ft18TxtSimulationModel9getStatusEv
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel8isActiveEv
+Passed Function: _ZN2ft18TxtSimulationModel8isActiveEv
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft21TxtVacuumGripperRobot9getTargetB5cxx11Ev
+Passed Function: _ZN2ft21TxtVacuumGripperRobot9getTargetB5cxx11Ev
+Header: TxtSmartFactoryLib/include/TxtNfcDevice.h
+Functions: _ZN2ft20TxtNfcDeviceObserverD2Ev
+Passed Function: _ZN2ft20TxtNfcDeviceObserverD2Ev
+Header: TxtSmartFactoryLib/include/TxtNfcDevice.h
+Functions: _ZN2ft20TxtNfcDeviceObserverD0Ev
+Passed Function: _ZN2ft20TxtNfcDeviceObserverD0Ev
+Header: TxtSmartFactoryLib/include/TxtNfcDevice.h
+Functions: _ZN2ft20TxtNfcDeviceObserver6UpdateEPNS_15SubjectObserverE
+Passed Function: _ZN2ft20TxtNfcDeviceObserver6UpdateEPNS_15SubjectObserverE
+Header: TxtSmartFactoryLib/include/TxtNfcDevice.h
+Functions: _ZN2ft12TxtNfcDevice10getNfcDataEv
+Passed Function: _ZN2ft12TxtNfcDevice10getNfcDataEv
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft6toCodeENS_17TxtHistoryIndex_tE
+Passed Function: _ZN2ft6toCodeENS_17TxtHistoryIndex_tE
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft32TxtDeliveryPickupStationObserverD2Ev
+Passed Function: _ZN2ft32TxtDeliveryPickupStationObserverD2Ev
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft32TxtDeliveryPickupStationObserverD0Ev
+Passed Function: _ZN2ft32TxtDeliveryPickupStationObserverD0Ev
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft32TxtDeliveryPickupStationObserver6UpdateEPNS_15SubjectObserverE
+Passed Function: _ZN2ft32TxtDeliveryPickupStationObserver6UpdateEPNS_15SubjectObserverE
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation11getErrorDSIEv
+Passed Function: _ZN2ft24TxtDeliveryPickupStation11getErrorDSIEv
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation12getActiveDSIEv
+Passed Function: _ZN2ft24TxtDeliveryPickupStation12getActiveDSIEv
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation11getErrorDSOEv
+Passed Function: _ZN2ft24TxtDeliveryPickupStation11getErrorDSOEv
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft24TxtDeliveryPickupStation12getActiveDSOEv
+Passed Function: _ZN2ft24TxtDeliveryPickupStation12getActiveDSOEv
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceaSERKS0_
+Passed Function: _ZN2ft12TxtWorkpieceaSERKS0_
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp
+Functions: _GLOBAL__sub_I_TxtVacuumGripperRobotRun.cpp
+Passed Function: _GLOBAL__sub_I_TxtVacuumGripperRobotRun.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtMotionDetection.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtMotionDetection.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtMotionDetection.o" TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: _ZN2ft18TxtMotionDetectionC2EPNS_9TxtCameraEd
+Passed Function: _ZN2ft18TxtMotionDetectionC2EPNS_9TxtCameraEd
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverC2Ev
+Passed Function: _ZN2ft15SubjectObserverC2Ev
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverD2Ev
+Passed Function: _ZN2ft15SubjectObserverD2Ev
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: _ZN2ft18TxtMotionDetectionD2Ev
+Passed Function: _ZN2ft18TxtMotionDetectionD2Ev
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: _ZN2ft18TxtMotionDetection10stopThreadEv
+Passed Function: _ZN2ft18TxtMotionDetection10stopThreadEv
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: _ZN2ft18TxtMotionDetectionD0Ev
+Passed Function: _ZN2ft18TxtMotionDetectionD0Ev
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: _ZN2ft18TxtMotionDetection4initEv
+Passed Function: _ZN2ft18TxtMotionDetection4initEv
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: _ZN2ft18TxtMotionDetection11startThreadEv
+Passed Function: _ZN2ft18TxtMotionDetection11startThreadEv
+Header: TxtSmartFactoryLib/include/TxtMotionDetection.h
+Functions: _ZN2ft18TxtMotionDetection12start_threadEPv
+Passed Function: _ZN2ft18TxtMotionDetection12start_threadEPv
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: _ZN2ft18TxtMotionDetection13getDataStringB5cxx11Ev
+Passed Function: _ZN2ft18TxtMotionDetection13getDataStringB5cxx11Ev
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: _ZN2ft18TxtMotionDetection3runEv
+Passed Function: _ZN2ft18TxtMotionDetection3runEv
+Header: TxtSmartFactoryLib/include/TxtCamera.h
+Functions: _ZN2ft9TxtCamera9getPeriodEv
+Passed Function: _ZN2ft9TxtCamera9getPeriodEv
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: __cxx_global_var_init.12
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: __cxx_global_var_init.13
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: __cxx_global_var_init.14
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: __cxx_global_var_init.15
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: __cxx_global_var_init.16
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: __cxx_global_var_init.17
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: __cxx_global_var_init.18
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: __cxx_global_var_init.19
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: __cxx_global_var_init.20
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: __cxx_global_var_init.21
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: __cxx_global_var_init.22
+Header: TxtSmartFactoryLib/src/TxtMotionDetection.cpp
+Functions: _GLOBAL__sub_I_TxtMotionDetection.cpp
+Passed Function: _GLOBAL__sub_I_TxtMotionDetection.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouseRun.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouseRun.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouseRun.o" TxtSmartFactoryLib/src/TxtHighBayWarehouseRun.cpp
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseRun.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseRun.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseRun.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseRun.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseRun.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse7fsmStepEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse7fsmStepEv
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse15printEntryStateENS0_7State_tE
+Passed Function: _ZN2ft19TxtHighBayWarehouse15printEntryStateENS0_7State_tE
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel9setStatusENS_27TxtSimulationModel_status_tE
+Passed Function: _ZN2ft18TxtSimulationModel9setStatusENS_27TxtSimulationModel_status_tE
+Header: TxtSmartFactoryLib/include/TxtSound.h
+Functions: _ZN2ft8TxtSound5errorEv
+Passed Function: _ZN2ft8TxtSound5errorEv
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel12setActStatusEbNS_27TxtSimulationModel_status_tE
+Passed Function: _ZN2ft18TxtSimulationModel12setActStatusEbNS_27TxtSimulationModel_status_tE
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse14publishStorageEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse14publishStorageEv
+Header: TxtSmartFactoryLib/include/TxtSound.h
+Functions: _ZN2ft8TxtSound5info2Ev
+Passed Function: _ZN2ft8TxtSound5info2Ev
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse10printStateENS0_7State_tE
+Passed Function: _ZN2ft19TxtHighBayWarehouse10printStateENS0_7State_tE
+Header: TxtSmartFactoryLib/include/TxtSound.h
+Functions: _ZN2ft8TxtSound5info1Ei
+Passed Function: _ZN2ft8TxtSound5info1Ei
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceC2ERKS0_
+Passed Function: _ZN2ft12TxtWorkpieceC2ERKS0_
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD2Ev
+Passed Function: _ZN2ft12TxtWorkpieceD2Ev
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft8toStringENS_16TxtHbwCalibPos_tE
+Passed Function: _ZN2ft8toStringENS_16TxtHbwCalibPos_tE
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseRun.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse12moveCalibPosEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse12moveCalibPosEv
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse7getPos2Ev
+Passed Function: _ZN2ft19TxtHighBayWarehouse7getPos2Ev
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseRun.cpp
+Functions: _ZN2ft19TxtHighBayWarehouse3runEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse3runEv
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft27TxtHighBayWarehouseObserverC2EPNS_19TxtHighBayWarehouseEPNS_20TxtMqttFactoryClientE
+Passed Function: _ZN2ft27TxtHighBayWarehouseObserverC2EPNS_19TxtHighBayWarehouseEPNS_20TxtMqttFactoryClientE
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse10getStorageEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse10getStorageEv
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouseStorage.h
+Functions: _ZN2ft34TxtHighBayWarehouseStorageObserverC2EPNS_26TxtHighBayWarehouseStorageEPNS_20TxtMqttFactoryClientE
+Passed Function: _ZN2ft34TxtHighBayWarehouseStorageObserverC2EPNS_26TxtHighBayWarehouseStorageEPNS_20TxtMqttFactoryClientE
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseRun.cpp
+Functions: __cxx_global_var_init.15
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseRun.cpp
+Functions: __cxx_global_var_init.16
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseRun.cpp
+Functions: __cxx_global_var_init.17
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse8toStringENS0_7State_tE
+Passed Function: _ZN2ft19TxtHighBayWarehouse8toStringENS0_7State_tE
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD0Ev
+Passed Function: _ZN2ft12TxtWorkpieceD0Ev
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft7EncPos2C2Ett
+Passed Function: _ZN2ft7EncPos2C2Ett
+Header: TxtSmartFactoryLib/include/TxtAxis1RefSwitch.h
+Functions: _ZN2ft17TxtAxis1RefSwitch9getPosAbsEv
+Passed Function: _ZN2ft17TxtAxis1RefSwitch9getPosAbsEv
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft8ObserverC2Ev
+Passed Function: _ZN2ft8ObserverC2Ev
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft27TxtHighBayWarehouseObserverD2Ev
+Passed Function: _ZN2ft27TxtHighBayWarehouseObserverD2Ev
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft27TxtHighBayWarehouseObserverD0Ev
+Passed Function: _ZN2ft27TxtHighBayWarehouseObserverD0Ev
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft27TxtHighBayWarehouseObserver6UpdateEPNS_15SubjectObserverE
+Passed Function: _ZN2ft27TxtHighBayWarehouseObserver6UpdateEPNS_15SubjectObserverE
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft8ObserverD2Ev
+Passed Function: _ZN2ft8ObserverD2Ev
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft8ObserverD0Ev
+Passed Function: _ZN2ft8ObserverD0Ev
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel9getStatusEv
+Passed Function: _ZN2ft18TxtSimulationModel9getStatusEv
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft20TxtMqttFactoryClient15publishStateHBWENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Passed Function: _ZN2ft20TxtMqttFactoryClient15publishStateHBWENS_13TxtLEDSCode_tENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEliS7_
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel8isActiveEv
+Passed Function: _ZN2ft18TxtSimulationModel8isActiveEv
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouseStorage.h
+Functions: _ZN2ft34TxtHighBayWarehouseStorageObserverD2Ev
+Passed Function: _ZN2ft34TxtHighBayWarehouseStorageObserverD2Ev
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouseStorage.h
+Functions: _ZN2ft34TxtHighBayWarehouseStorageObserverD0Ev
+Passed Function: _ZN2ft34TxtHighBayWarehouseStorageObserverD0Ev
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouseStorage.h
+Functions: _ZN2ft34TxtHighBayWarehouseStorageObserver6UpdateEPNS_15SubjectObserverE
+Passed Function: _ZN2ft34TxtHighBayWarehouseStorageObserver6UpdateEPNS_15SubjectObserverE
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseRun.cpp
+Functions: _GLOBAL__sub_I_TxtHighBayWarehouseRun.cpp
+Passed Function: _GLOBAL__sub_I_TxtHighBayWarehouseRun.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtDeliveryPickupStation.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtDeliveryPickupStation.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtDeliveryPickupStation.o" TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si
+Passed Function: _ZN2ft31DPSTransferAreaCallbackFunctionEP8shm_if_si
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStationC2EPNS_11TxtTransferEPNS_20TxtMqttFactoryClientE
+Passed Function: _ZN2ft24TxtDeliveryPickupStationC2EPNS_11TxtTransferEPNS_20TxtMqttFactoryClientE
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft33TxtDeliveryPickupStationCalibDataC2Ev
+Passed Function: _ZN2ft33TxtDeliveryPickupStationCalibDataC2Ev
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStation12configInputsEv
+Passed Function: _ZN2ft24TxtDeliveryPickupStation12configInputsEv
+Header: deps/include/KeLibTxtDl.h
+Functions: _Z31SetTransferAreaCompleteCallbackPFbP8shm_if_siE
+Passed Function: _Z31SetTransferAreaCompleteCallbackPFbP8shm_if_siE
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft33TxtDeliveryPickupStationCalibDataD2Ev
+Passed Function: _ZN2ft33TxtDeliveryPickupStationCalibDataD2Ev
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStationD2Ev
+Passed Function: _ZN2ft24TxtDeliveryPickupStationD2Ev
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStationD0Ev
+Passed Function: _ZN2ft24TxtDeliveryPickupStationD0Ev
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStation27nfcDeviceDeleteWriteRawReadB5cxx11ENS_11TxtWPType_tESt6vectorIxSaIxEEh
+Passed Function: _ZN2ft24TxtDeliveryPickupStation27nfcDeviceDeleteWriteRawReadB5cxx11ENS_11TxtWPType_tESt6vectorIxSaIxEEh
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStation9nfcDeleteEv
+Passed Function: _ZN2ft24TxtDeliveryPickupStation9nfcDeleteEv
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_11TxtWPType_tENS_12TxtWPState_tE
+Passed Function: _ZN2ft12TxtWorkpieceC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_11TxtWPType_tENS_12TxtWPState_tE
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStation8nfcWriteENS_12TxtWorkpieceESt6vectorIxSaIxEEh
+Passed Function: _ZN2ft24TxtDeliveryPickupStation8nfcWriteENS_12TxtWorkpieceESt6vectorIxSaIxEEh
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceC2ERKS0_
+Passed Function: _ZN2ft12TxtWorkpieceC2ERKS0_
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD2Ev
+Passed Function: _ZN2ft12TxtWorkpieceD2Ev
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStation7nfcReadB5cxx11Ev
+Passed Function: _ZN2ft24TxtDeliveryPickupStation7nfcReadB5cxx11Ev
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStation26nfcDeviceWriteProducedReadB5cxx11ENS_11TxtWPType_tESt6vectorIxSaIxEEh
+Passed Function: _ZN2ft24TxtDeliveryPickupStation26nfcDeviceWriteProducedReadB5cxx11ENS_11TxtWPType_tESt6vectorIxSaIxEEh
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStation26nfcDeviceWriteRejectedReadB5cxx11ENS_11TxtWPType_tESt6vectorIxSaIxEEh
+Passed Function: _ZN2ft24TxtDeliveryPickupStation26nfcDeviceWriteRejectedReadB5cxx11ENS_11TxtWPType_tESt6vectorIxSaIxEEh
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStation6is_DINEv
+Passed Function: _ZN2ft24TxtDeliveryPickupStation6is_DINEv
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStation7is_DOUTEv
+Passed Function: _ZN2ft24TxtDeliveryPickupStation7is_DOUTEv
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStation14readColorValueEv
+Passed Function: _ZN2ft24TxtDeliveryPickupStation14readColorValueEv
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStation12getLastColorEv
+Passed Function: _ZN2ft24TxtDeliveryPickupStation12getLastColorEv
+Header: TxtSmartFactoryLib/include/TxtSound.h
+Functions: _ZN2ft8TxtSound5info1Ei
+Passed Function: _ZN2ft8TxtSound5info1Ei
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStation10nfcReadUIDB5cxx11Ev
+Passed Function: _ZN2ft24TxtDeliveryPickupStation10nfcReadUIDB5cxx11Ev
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _ZN2ft24TxtDeliveryPickupStation3runEv
+Passed Function: _ZN2ft24TxtDeliveryPickupStation3runEv
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: __cxx_global_var_init.16
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: __cxx_global_var_init.17
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD0Ev
+Passed Function: _ZN2ft12TxtWorkpieceD0Ev
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStation.cpp
+Functions: _GLOBAL__sub_I_TxtDeliveryPickupStation.cpp
+Passed Function: _GLOBAL__sub_I_TxtDeliveryPickupStation.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtPanTiltUnitCalibData.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtPanTiltUnitCalibData.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtPanTiltUnitCalibData.o" TxtSmartFactoryLib/src/TxtPanTiltUnitCalibData.cpp
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnitCalibData.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnitCalibData.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnitCalibData.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnitCalibData.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnitCalibData.cpp
+Functions: _ZN2ft23TxtPanTiltUnitCalibData4loadEv
+Passed Function: _ZN2ft23TxtPanTiltUnitCalibData4loadEv
+Header: deps/include/json/reader.h
+Functions: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnitCalibData.cpp
+Functions: _ZN2ft23TxtPanTiltUnitCalibData11saveDefaultEv
+Passed Function: _ZN2ft23TxtPanTiltUnitCalibData11saveDefaultEv
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnitCalibData.cpp
+Functions: _ZN2ft23TxtPanTiltUnitCalibData4saveEv
+Passed Function: _ZN2ft23TxtPanTiltUnitCalibData4saveEv
+Header: TxtSmartFactoryLib/include/TxtPanTiltUnit.h
+Functions: _ZN2ft23TxtPanTiltUnitCalibDataD0Ev
+Passed Function: _ZN2ft23TxtPanTiltUnitCalibDataD0Ev
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnitCalibData.cpp
+Functions: __cxx_global_var_init.29
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnitCalibData.cpp
+Functions: __cxx_global_var_init.30
+Header: TxtSmartFactoryLib/src/TxtPanTiltUnitCalibData.cpp
+Functions: _GLOBAL__sub_I_TxtPanTiltUnitCalibData.cpp
+Passed Function: _GLOBAL__sub_I_TxtPanTiltUnitCalibData.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouseStorage.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouseStorage.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouseStorage.o" TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: __cxx_global_var_init.2
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: __cxx_global_var_init.4
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorageC2Ev
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorageC2Ev
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverC2Ev
+Passed Function: _ZN2ft15SubjectObserverC2Ev
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorage16loadStorageStateEv
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage16loadStorageStateEv
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorage17resetStorageStateEv
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage17resetStorageStateEv
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorage5printEv
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage5printEv
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverD2Ev
+Passed Function: _ZN2ft15SubjectObserverD2Ev
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorageD2Ev
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorageD2Ev
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorageD0Ev
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorageD0Ev
+Header: deps/include/json/reader.h
+Functions: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_11TxtWPType_tENS_12TxtWPState_tE
+Passed Function: _ZN2ft12TxtWorkpieceC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_11TxtWPType_tENS_12TxtWPState_tE
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorage16saveStorageStateEv
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage16saveStorageStateEv
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorage14storeContainerEv
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage14storeContainerEv
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorage10isValidPosENS_11StoragePos2E
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage10isValidPosENS_11StoragePos2E
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorage5storeENS_12TxtWorkpieceE
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage5storeENS_12TxtWorkpieceE
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceC2ERKS0_
+Passed Function: _ZN2ft12TxtWorkpieceC2ERKS0_
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorage5fetchENS_11TxtWPType_tE
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage5fetchENS_11TxtWPType_tE
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorage14fetchContainerEv
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage14fetchContainerEv
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorage16canColorBeStoredENS_11TxtWPType_tE
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage16canColorBeStoredENS_11TxtWPType_tE
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorage11getStockMapB5cxx11Ev
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage11getStockMapB5cxx11Ev
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _ZN2ft26TxtHighBayWarehouseStorage8charTypeEii
+Passed Function: _ZN2ft26TxtHighBayWarehouseStorage8charTypeEii
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: __cxx_global_var_init.38
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: __cxx_global_var_init.39
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD2Ev
+Passed Function: _ZN2ft12TxtWorkpieceD2Ev
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD0Ev
+Passed Function: _ZN2ft12TxtWorkpieceD0Ev
+Header: TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp
+Functions: _GLOBAL__sub_I_TxtHighBayWarehouseStorage.cpp
+Passed Function: _GLOBAL__sub_I_TxtHighBayWarehouseStorage.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtMqttFactoryClient.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtMqttFactoryClient.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtMqttFactoryClient.o" TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft23getMQTTReasonCodeStringB5cxx11Ei
+Passed Function: _ZN2ft23getMQTTReasonCodeStringB5cxx11Ei
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClientC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_S6_S6_N4mqtt10buffer_refIcEEbi
+Passed Function: _ZN2ft20TxtMqttFactoryClientC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_S6_S6_N4mqtt10buffer_refIcEEbi
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZN4mqtt10buffer_refIcEC2ERKS1_
+Passed Function: _ZN4mqtt10buffer_refIcEC2ERKS1_
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft25action_listener_subscribeC1Ev
+Passed Function: _ZN2ft25action_listener_subscribeC1Ev
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft23action_listener_publishC1Ev
+Passed Function: _ZN2ft23action_listener_publishC1Ev
+Header: deps/include/mqtt/connect_options.h
+Functions: _ZN4mqtt15connect_options19set_connect_timeoutEi
+Passed Function: _ZN4mqtt15connect_options19set_connect_timeoutEi
+Header: deps/include/mqtt/connect_options.h
+Functions: _ZN4mqtt15connect_options23set_keep_alive_intervalEi
+Passed Function: _ZN4mqtt15connect_options23set_keep_alive_intervalEi
+Header: deps/include/mqtt/connect_options.h
+Functions: _ZN4mqtt15connect_options17set_clean_sessionEb
+Passed Function: _ZN4mqtt15connect_options17set_clean_sessionEb
+Header: deps/include/mqtt/connect_options.h
+Functions: _ZN4mqtt15connect_options23set_automatic_reconnectEb
+Passed Function: _ZN4mqtt15connect_options23set_automatic_reconnectEb
+Header: deps/include/mqtt/connect_options.h
+Functions: _ZN4mqtt15connect_options16set_mqtt_versionEi
+Passed Function: _ZN4mqtt15connect_options16set_mqtt_versionEi
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZN4mqtt10buffer_refIcEC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4mqtt10buffer_refIcEC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZN4mqtt10buffer_refIcED2Ev
+Passed Function: _ZN4mqtt10buffer_refIcED2Ev
+Header: TxtSmartFactoryLib/include/Utils.h
+Functions: _ZN2ft9getnowstrEPc
+Passed Function: _ZN2ft9getnowstrEPc
+Header: deps/include/json/writer.h
+Functions: _ZN4JsonlsERSoRKNS_5ValueE
+Passed Function: _ZN4JsonlsERSoRKNS_5ValueE
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZN4mqtt10buffer_refIcEC2EPKc
+Passed Function: _ZN4mqtt10buffer_refIcEC2EPKc
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZN4mqtt10buffer_refIcEC2EONSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4mqtt10buffer_refIcEC2EONSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: deps/include/mqtt/will_options.h
+Functions: _ZN4mqtt12will_optionsD2Ev
+Passed Function: _ZN4mqtt12will_optionsD2Ev
+Header: deps/include/mqtt/message.h
+Functions: _ZN4mqtt7messageD2Ev
+Passed Function: _ZN4mqtt7messageD2Ev
+Header: deps/include/mqtt/exception.h
+Functions: _ZNK4mqtt9exception15get_reason_codeEv
+Passed Function: _ZNK4mqtt9exception15get_reason_codeEv
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft23action_listener_publishD1Ev
+Passed Function: _ZN2ft23action_listener_publishD1Ev
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft25action_listener_subscribeD1Ev
+Passed Function: _ZN2ft25action_listener_subscribeD1Ev
+Header: deps/include/mqtt/connect_options.h
+Functions: _ZN4mqtt15connect_optionsD2Ev
+Passed Function: _ZN4mqtt15connect_optionsD2Ev
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClientD2Ev
+Passed Function: _ZN2ft20TxtMqttFactoryClientD2Ev
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient10disconnectEl
+Passed Function: _ZN2ft20TxtMqttFactoryClient10disconnectEl
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClientD0Ev
+Passed Function: _ZN2ft20TxtMqttFactoryClientD0Ev
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient7connectEl
+Passed Function: _ZN2ft20TxtMqttFactoryClient7connectEl
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient10unsubTopicERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEl
+Passed Function: _ZN2ft20TxtMqttFactoryClient10unsubTopicERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEl
+Header: deps/include/mqtt/async_client.h
+Functions: _ZN4mqtt12async_client10disconnectEv
+Passed Function: _ZN4mqtt12async_client10disconnectEv
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient8subTopicERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEl
+Passed Function: _ZN2ft20TxtMqttFactoryClient8subTopicERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEl
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient13start_consumeEl
+Passed Function: _ZN2ft20TxtMqttFactoryClient13start_consumeEl
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient10publishLDREdsl
+Passed Function: _ZN2ft20TxtMqttFactoryClient10publishLDREdsl
+Header: TxtSmartFactoryLib/include/Utils.h
+Functions: _ZN2ft15gettimestampstrExPc
+Passed Function: _ZN2ft15gettimestampstrExPc
+Header: TxtSmartFactoryLib/include/Utils.h
+Functions: _ZN2ft4ftosB5cxx11Efi
+Passed Function: _ZN2ft4ftosB5cxx11Efi
+Header: deps/include/mqtt/message.h
+Functions: _ZN4mqtt12make_messageENS_10buffer_refIcEES1_
+Passed Function: _ZN4mqtt12make_messageENS_10buffer_refIcEES1_
+Header: deps/include/mqtt/message.h
+Functions: _ZN4mqtt7message7set_qosEi
+Passed Function: _ZN4mqtt7message7set_qosEi
+Header: deps/include/mqtt/message.h
+Functions: _ZN4mqtt7message12set_retainedEb
+Passed Function: _ZN4mqtt7message12set_retainedEb
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient13publishPtuPosEffl
+Passed Function: _ZN2ft20TxtMqttFactoryClient13publishPtuPosEffl
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient10publishCamENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEl
+Passed Function: _ZN2ft20TxtMqttFactoryClient10publishCamENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEl
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient13publishBme680Exfhffffffl
+Passed Function: _ZN2ft20TxtMqttFactoryClient13publishBme680Exfhffffffl
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _Z10fromStringIdET_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _Z10fromStringIdET_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient12publishAlertEbNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_il
+Passed Function: _ZN2ft20TxtMqttFactoryClient12publishAlertEbNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_il
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft6getMACB5cxx11EPKc
+Passed Function: _ZN2ft6getMACB5cxx11EPKc
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient16publishBroadcastEdNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_S6_l
+Passed Function: _ZN2ft20TxtMqttFactoryClient16publishBroadcastEdNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_S6_l
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient19publishStateStationENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_13TxtLEDSCode_tES6_liS6_
+Passed Function: _ZN2ft20TxtMqttFactoryClient19publishStateStationENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_13TxtLEDSCode_tES6_liS6_
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient12publishStockESt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS_12TxtWorkpieceESt4lessIS7_ESaISt4pairIKS7_S9_EEEl
+Passed Function: _ZN2ft20TxtMqttFactoryClient12publishStockESt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS_12TxtWorkpieceESt4lessIS7_ESaISt4pairIKS7_S9_EEEl
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft8toStringENS_11TxtWPType_tE
+Passed Function: _ZN2ft8toStringENS_11TxtWPType_tE
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft8toStringENS_12TxtWPState_tE
+Passed Function: _ZN2ft8toStringENS_12TxtWPState_tE
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient17publishStateOrderENS_13TxtOrderStateEl
+Passed Function: _ZN2ft20TxtMqttFactoryClient17publishStateOrderENS_13TxtOrderStateEl
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft8toStringENS_15TxtOrderState_tE
+Passed Function: _ZN2ft8toStringENS_15TxtOrderState_tE
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient12publishNfcDSENS_12TxtWorkpieceESt3mapINS_16TxtHistoryCode_tExSt4lessIS3_ESaISt4pairIKS3_xEEEl
+Passed Function: _ZN2ft20TxtMqttFactoryClient12publishNfcDSENS_12TxtWorkpieceESt3mapINS_16TxtHistoryCode_tExSt4lessIS3_ESaISt4pairIKS3_xEEEl
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient23publishStationBroadcastENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEdS6_S6_S6_l
+Passed Function: _ZN2ft20TxtMqttFactoryClient23publishStationBroadcastENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEdS6_S6_S6_l
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient14publishSSC_JoyENS_16TxtJoysticksDataEl
+Passed Function: _ZN2ft20TxtMqttFactoryClient14publishSSC_JoyENS_16TxtJoysticksDataEl
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient14publishMPO_AckENS_15TxtMpoAckCode_tEl
+Passed Function: _ZN2ft20TxtMqttFactoryClient14publishMPO_AckENS_15TxtMpoAckCode_tEl
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient13publishVGR_DoENS_14TxtVgrDoCode_tEPNS_12TxtWorkpieceEl
+Passed Function: _ZN2ft20TxtMqttFactoryClient13publishVGR_DoENS_14TxtVgrDoCode_tEPNS_12TxtWorkpieceEl
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient14publishHBW_AckENS_15TxtHbwAckCode_tEPNS_12TxtWorkpieceEl
+Passed Function: _ZN2ft20TxtMqttFactoryClient14publishHBW_AckENS_15TxtHbwAckCode_tEPNS_12TxtWorkpieceEl
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _ZN2ft20TxtMqttFactoryClient14publishSLD_AckENS_15TxtSldAckCode_tENS_11TxtWPType_tEil
+Passed Function: _ZN2ft20TxtMqttFactoryClient14publishSLD_AckENS_15TxtSldAckCode_tENS_11TxtWPType_tEil
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: __cxx_global_var_init.141
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: __cxx_global_var_init.142
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: __cxx_global_var_init.143
+Header: deps/include/mqtt/iaction_listener.h
+Functions: _ZN4mqtt16iaction_listenerC2Ev
+Passed Function: _ZN4mqtt16iaction_listenerC2Ev
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft25action_listener_subscribeD0Ev
+Passed Function: _ZN2ft25action_listener_subscribeD0Ev
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft25action_listener_subscribe10on_failureERKN4mqtt5tokenE
+Passed Function: _ZN2ft25action_listener_subscribe10on_failureERKN4mqtt5tokenE
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft25action_listener_subscribe10on_successERKN4mqtt5tokenE
+Passed Function: _ZN2ft25action_listener_subscribe10on_successERKN4mqtt5tokenE
+Header: deps/include/mqtt/iaction_listener.h
+Functions: _ZN4mqtt16iaction_listenerD2Ev
+Passed Function: _ZN4mqtt16iaction_listenerD2Ev
+Header: deps/include/mqtt/iaction_listener.h
+Functions: _ZN4mqtt16iaction_listenerD0Ev
+Passed Function: _ZN4mqtt16iaction_listenerD0Ev
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZTv0_n12_N2ft25action_listener_subscribeD0Ev
+Passed Function: _ZTv0_n12_N2ft25action_listener_subscribeD0Ev
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZTv0_n16_N2ft25action_listener_subscribe10on_failureERKN4mqtt5tokenE
+Passed Function: _ZTv0_n16_N2ft25action_listener_subscribe10on_failureERKN4mqtt5tokenE
+Header: deps/include/mqtt/string_collection.h
+Functions: _ZNK4mqtt17string_collection5emptyEv
+Passed Function: _ZNK4mqtt17string_collection5emptyEv
+Header: deps/include/mqtt/string_collection.h
+Functions: _ZNK4mqtt17string_collection4sizeEv
+Passed Function: _ZNK4mqtt17string_collection4sizeEv
+Header: deps/include/mqtt/string_collection.h
+Functions: _ZNK4mqtt17string_collectionixB5cxx11Ej
+Passed Function: _ZNK4mqtt17string_collectionixB5cxx11Ej
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZTv0_n20_N2ft25action_listener_subscribe10on_successERKN4mqtt5tokenE
+Passed Function: _ZTv0_n20_N2ft25action_listener_subscribe10on_successERKN4mqtt5tokenE
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft23action_listener_publishD0Ev
+Passed Function: _ZN2ft23action_listener_publishD0Ev
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft23action_listener_publish10on_failureERKN4mqtt5tokenE
+Passed Function: _ZN2ft23action_listener_publish10on_failureERKN4mqtt5tokenE
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft23action_listener_publish10on_successERKN4mqtt5tokenE
+Passed Function: _ZN2ft23action_listener_publish10on_successERKN4mqtt5tokenE
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZTv0_n12_N2ft23action_listener_publishD0Ev
+Passed Function: _ZTv0_n12_N2ft23action_listener_publishD0Ev
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZTv0_n16_N2ft23action_listener_publish10on_failureERKN4mqtt5tokenE
+Passed Function: _ZTv0_n16_N2ft23action_listener_publish10on_failureERKN4mqtt5tokenE
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZTv0_n20_N2ft23action_listener_publish10on_successERKN4mqtt5tokenE
+Passed Function: _ZTv0_n20_N2ft23action_listener_publish10on_successERKN4mqtt5tokenE
+Header: deps/include/mqtt/types.h
+Functions: _ZN4mqtt6to_intEb
+Passed Function: _ZN4mqtt6to_intEb
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft23action_listener_publishD2Ev
+Passed Function: _ZN2ft23action_listener_publishD2Ev
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZTv0_n12_N2ft23action_listener_publishD1Ev
+Passed Function: _ZTv0_n12_N2ft23action_listener_publishD1Ev
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft25action_listener_subscribeD2Ev
+Passed Function: _ZN2ft25action_listener_subscribeD2Ev
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZTv0_n12_N2ft25action_listener_subscribeD1Ev
+Passed Function: _ZTv0_n12_N2ft25action_listener_subscribeD1Ev
+Header: deps/include/mqtt/ssl_options.h
+Functions: _ZN4mqtt11ssl_optionsD2Ev
+Passed Function: _ZN4mqtt11ssl_optionsD2Ev
+Header: deps/include/mqtt/disconnect_options.h
+Functions: _ZN4mqtt18disconnect_optionsD2Ev
+Passed Function: _ZN4mqtt18disconnect_optionsD2Ev
+Header: deps/include/mqtt/async_client.h
+Functions: _ZTv0_n40_N4mqtt12async_client10disconnectEv
+Passed Function: _ZTv0_n40_N4mqtt12async_client10disconnectEv
+Header: deps/include/mqtt/message.h
+Functions: _ZN4mqtt7message6createENS_10buffer_refIcEES2_
+Passed Function: _ZN4mqtt7message6createENS_10buffer_refIcEES2_
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZN4mqtt10buffer_refIcEC2EOS1_
+Passed Function: _ZN4mqtt10buffer_refIcEC2EOS1_
+Header: deps/include/mqtt/message.h
+Functions: _ZN4mqtt7message12validate_qosEi
+Passed Function: _ZN4mqtt7message12validate_qosEi
+Header: deps/include/mqtt/exception.h
+Functions: _ZN4mqtt9exceptionC2EiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4mqtt9exceptionC2EiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: deps/include/mqtt/exception.h
+Functions: _ZN4mqtt9exceptionD2Ev
+Passed Function: _ZN4mqtt9exceptionD2Ev
+Header: deps/include/mqtt/exception.h
+Functions: _ZN4mqtt9exceptionD0Ev
+Passed Function: _ZN4mqtt9exceptionD0Ev
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZN4mqtt10buffer_refIcEC2EPKcj
+Passed Function: _ZN4mqtt10buffer_refIcEC2EPKcj
+Header: TxtSmartFactoryLib/src/TxtMqttFactoryClient.cpp
+Functions: _GLOBAL__sub_I_TxtMqttFactoryClient.cpp
+Passed Function: _GLOBAL__sub_I_TxtMqttFactoryClient.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/Observer.d" -MT"TxtSmartFactoryLib/Posix_Release/src/Observer.o" -o "TxtSmartFactoryLib/Posix_Release/src/Observer.o" TxtSmartFactoryLib/src/Observer.cpp
+Header: TxtSmartFactoryLib/src/Observer.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/Observer.cpp
+Functions: _ZN2ft15SubjectObserver6AttachEPNS_8ObserverE
+Passed Function: _ZN2ft15SubjectObserver6AttachEPNS_8ObserverE
+Header: TxtSmartFactoryLib/src/Observer.cpp
+Functions: _ZN2ft15SubjectObserver6DetachEPNS_8ObserverE
+Passed Function: _ZN2ft15SubjectObserver6DetachEPNS_8ObserverE
+Header: TxtSmartFactoryLib/src/Observer.cpp
+Functions: _ZN2ft15SubjectObserver6NotifyEv
+Passed Function: _ZN2ft15SubjectObserver6NotifyEv
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverD2Ev
+Passed Function: _ZN2ft15SubjectObserverD2Ev
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverD0Ev
+Passed Function: _ZN2ft15SubjectObserverD0Ev
+Header: TxtSmartFactoryLib/src/Observer.cpp
+Functions: __cxx_global_var_init.7
+Header: TxtSmartFactoryLib/src/Observer.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/Observer.cpp
+Functions: _GLOBAL__sub_I_Observer.cpp
+Passed Function: _GLOBAL__sub_I_Observer.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripper.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripper.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripper.o" TxtSmartFactoryLib/src/TxtVacuumGripper.cpp
+Header: TxtSmartFactoryLib/src/TxtVacuumGripper.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtVacuumGripper.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtVacuumGripper.cpp
+Functions: _ZN2ft16TxtVacuumGripperC2EPNS_11TxtTransferEhh
+Passed Function: _ZN2ft16TxtVacuumGripperC2EPNS_11TxtTransferEhh
+Header: TxtSmartFactoryLib/src/TxtVacuumGripper.cpp
+Functions: _ZN2ft16TxtVacuumGripperD2Ev
+Passed Function: _ZN2ft16TxtVacuumGripperD2Ev
+Header: TxtSmartFactoryLib/src/TxtVacuumGripper.cpp
+Functions: _ZN2ft16TxtVacuumGripperD0Ev
+Passed Function: _ZN2ft16TxtVacuumGripperD0Ev
+Header: TxtSmartFactoryLib/src/TxtVacuumGripper.cpp
+Functions: _ZN2ft16TxtVacuumGripper4gripEv
+Passed Function: _ZN2ft16TxtVacuumGripper4gripEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripper.cpp
+Functions: _ZN2ft16TxtVacuumGripper13setCompressorEb
+Passed Function: _ZN2ft16TxtVacuumGripper13setCompressorEb
+Header: TxtSmartFactoryLib/src/TxtVacuumGripper.cpp
+Functions: _ZN2ft16TxtVacuumGripper7releaseEv
+Passed Function: _ZN2ft16TxtVacuumGripper7releaseEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripper.cpp
+Functions: __cxx_global_var_init.11
+Header: TxtSmartFactoryLib/src/TxtVacuumGripper.cpp
+Functions: __cxx_global_var_init.12
+Header: TxtSmartFactoryLib/src/TxtVacuumGripper.cpp
+Functions: _GLOBAL__sub_I_TxtVacuumGripper.cpp
+Passed Function: _GLOBAL__sub_I_TxtVacuumGripper.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtSortingLine.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtSortingLine.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtSortingLine.o" TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft31SLDTransferAreaCallbackFunctionEP8shm_if_si
+Passed Function: _ZN2ft31SLDTransferAreaCallbackFunctionEP8shm_if_si
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLineC2EPNS_11TxtTransferEPNS_20TxtMqttFactoryClientE
+Passed Function: _ZN2ft14TxtSortingLineC2EPNS_11TxtTransferEPNS_20TxtMqttFactoryClientE
+Header: TxtSmartFactoryLib/include/TxtSortingLine.h
+Functions: _ZN2ft23TxtSortingLineCalibDataC2Ev
+Passed Function: _ZN2ft23TxtSortingLineCalibDataC2Ev
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft16TxtJoysticksDataC2Ev
+Passed Function: _ZN2ft16TxtJoysticksDataC2Ev
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLine12configInputsEv
+Passed Function: _ZN2ft14TxtSortingLine12configInputsEv
+Header: deps/include/KeLibTxtDl.h
+Functions: _Z31SetTransferAreaCompleteCallbackPFbP8shm_if_siE
+Passed Function: _Z31SetTransferAreaCompleteCallbackPFbP8shm_if_siE
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLineD2Ev
+Passed Function: _ZN2ft14TxtSortingLineD2Ev
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLineD0Ev
+Passed Function: _ZN2ft14TxtSortingLineD0Ev
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLine22isColorSensorTriggeredEv
+Passed Function: _ZN2ft14TxtSortingLine22isColorSensorTriggeredEv
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLine19isEjectionTriggeredEv
+Passed Function: _ZN2ft14TxtSortingLine19isEjectionTriggeredEv
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLine7isWhiteEv
+Passed Function: _ZN2ft14TxtSortingLine7isWhiteEv
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLine5isRedEv
+Passed Function: _ZN2ft14TxtSortingLine5isRedEv
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLine6isBlueEv
+Passed Function: _ZN2ft14TxtSortingLine6isBlueEv
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLine14readColorValueEv
+Passed Function: _ZN2ft14TxtSortingLine14readColorValueEv
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLine12getLastColorEv
+Passed Function: _ZN2ft14TxtSortingLine12getLastColorEv
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLine16getDetectedColorEv
+Passed Function: _ZN2ft14TxtSortingLine16getDetectedColorEv
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLine10ejectWhiteEv
+Passed Function: _ZN2ft14TxtSortingLine10ejectWhiteEv
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLine13setCompressorEb
+Passed Function: _ZN2ft14TxtSortingLine13setCompressorEb
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLine8ejectRedEv
+Passed Function: _ZN2ft14TxtSortingLine8ejectRedEv
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _ZN2ft14TxtSortingLine9ejectBlueEv
+Passed Function: _ZN2ft14TxtSortingLine9ejectBlueEv
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: __cxx_global_var_init.15
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: __cxx_global_var_init.16
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: __cxx_global_var_init.17
+Header: TxtSmartFactoryLib/src/TxtSortingLine.cpp
+Functions: _GLOBAL__sub_I_TxtSortingLine.cpp
+Passed Function: _GLOBAL__sub_I_TxtSortingLine.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtCalibData.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtCalibData.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtCalibData.o" TxtSmartFactoryLib/src/TxtCalibData.cpp
+Header: TxtSmartFactoryLib/src/TxtCalibData.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtCalibData.cpp
+Functions: _ZN2ft12TxtCalibDataC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN2ft12TxtCalibDataC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/src/TxtCalibData.cpp
+Functions: _ZN2ft12TxtCalibDataD2Ev
+Passed Function: _ZN2ft12TxtCalibDataD2Ev
+Header: TxtSmartFactoryLib/src/TxtCalibData.cpp
+Functions: _ZN2ft12TxtCalibDataD0Ev
+Passed Function: _ZN2ft12TxtCalibDataD0Ev
+Header: TxtSmartFactoryLib/src/TxtCalibData.cpp
+Functions: _ZN2ft12TxtCalibData18existCalibFilenameEv
+Passed Function: _ZN2ft12TxtCalibData18existCalibFilenameEv
+Header: TxtSmartFactoryLib/src/TxtCalibData.cpp
+Functions: __cxx_global_var_init.7
+Header: TxtSmartFactoryLib/src/TxtCalibData.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtCalibData.cpp
+Functions: _GLOBAL__sub_I_TxtCalibData.cpp
+Passed Function: _GLOBAL__sub_I_TxtCalibData.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripperRobotCalibData.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripperRobotCalibData.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripperRobotCalibData.o" TxtSmartFactoryLib/src/TxtVacuumGripperRobotCalibData.cpp
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotCalibData.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotCalibData.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotCalibData.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotCalibData.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotCalibData.cpp
+Functions: _ZN2ft30TxtVacuumGripperRobotCalibData4loadEv
+Passed Function: _ZN2ft30TxtVacuumGripperRobotCalibData4loadEv
+Header: deps/include/json/reader.h
+Functions: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: deps/include/json/value.h
+Functions: _ZNK4Json17ValueIteratorBaseneERKS0_
+Passed Function: _ZNK4Json17ValueIteratorBaseneERKS0_
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft7EncPos3C2Ettt
+Passed Function: _ZN2ft7EncPos3C2Ettt
+Header: deps/include/json/value.h
+Functions: _ZN4Json18ValueConstIteratorppEv
+Passed Function: _ZN4Json18ValueConstIteratorppEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotCalibData.cpp
+Functions: _ZN2ft30TxtVacuumGripperRobotCalibData11saveDefaultEv
+Passed Function: _ZN2ft30TxtVacuumGripperRobotCalibData11saveDefaultEv
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft30TxtVacuumGripperRobotCalibData7setPos3ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_7EncPos3E
+Passed Function: _ZN2ft30TxtVacuumGripperRobotCalibData7setPos3ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_7EncPos3E
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotCalibData.cpp
+Functions: _ZN2ft30TxtVacuumGripperRobotCalibData4saveEv
+Passed Function: _ZN2ft30TxtVacuumGripperRobotCalibData4saveEv
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft30TxtVacuumGripperRobotCalibDataD2Ev
+Passed Function: _ZN2ft30TxtVacuumGripperRobotCalibDataD2Ev
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft30TxtVacuumGripperRobotCalibDataD0Ev
+Passed Function: _ZN2ft30TxtVacuumGripperRobotCalibDataD0Ev
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotCalibData.cpp
+Functions: __cxx_global_var_init.46
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotCalibData.cpp
+Functions: __cxx_global_var_init.47
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotCalibData.cpp
+Functions: __cxx_global_var_init.48
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobotCalibData.cpp
+Functions: _GLOBAL__sub_I_TxtVacuumGripperRobotCalibData.cpp
+Passed Function: _GLOBAL__sub_I_TxtVacuumGripperRobotCalibData.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtBME680BSECLib.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtBME680BSECLib.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtBME680BSECLib.o" TxtSmartFactoryLib/src/TxtBME680BSECLib.cpp
+Header: TxtSmartFactoryLib/src/TxtBME680BSECLib.cpp
+Functions: _Z9bus_writehhPht
+Passed Function: _Z9bus_writehhPht
+Header: deps/include/KeLibTxtDl.h
+Functions: KeLibI2cTransfer
+Passed Function: KeLibI2cTransfer
+Header: TxtSmartFactoryLib/src/TxtBME680BSECLib.cpp
+Functions: _Z8bus_readhhPht
+Passed Function: _Z8bus_readhhPht
+Header: TxtSmartFactoryLib/src/TxtBME680BSECLib.cpp
+Functions: _Z9bsecsleepj
+Passed Function: _Z9bsecsleepj
+Header: TxtSmartFactoryLib/src/TxtBME680BSECLib.cpp
+Functions: _Z16get_timestamp_usv
+Passed Function: _Z16get_timestamp_usv
+Header: TxtSmartFactoryLib/src/TxtBME680BSECLib.cpp
+Functions: _Z10state_loadPhj
+Passed Function: _Z10state_loadPhj
+Header: TxtSmartFactoryLib/src/TxtBME680BSECLib.cpp
+Functions: _Z10state_savePKhj
+Passed Function: _Z10state_savePKhj
+Header: TxtSmartFactoryLib/src/TxtBME680BSECLib.cpp
+Functions: _Z11config_loadPhj
+Passed Function: _Z11config_loadPhj
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtAlert.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtAlert.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtAlert.o" TxtSmartFactoryLib/src/TxtAlert.cpp
+Header: TxtSmartFactoryLib/src/TxtAlert.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtAlert.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtAlert.cpp
+Functions: _ZN2ft11TxtFlappingC2Ev
+Passed Function: _ZN2ft11TxtFlappingC2Ev
+Header: TxtSmartFactoryLib/include/TxtAlert.h
+Functions: _ZN2ft6BitsetImEC2Em
+Passed Function: _ZN2ft6BitsetImEC2Em
+Header: TxtSmartFactoryLib/src/TxtAlert.cpp
+Functions: _ZN2ft11TxtFlappingD2Ev
+Passed Function: _ZN2ft11TxtFlappingD2Ev
+Header: TxtSmartFactoryLib/src/TxtAlert.cpp
+Functions: _ZN2ft11TxtFlappingD0Ev
+Passed Function: _ZN2ft11TxtFlappingD0Ev
+Header: TxtSmartFactoryLib/src/TxtAlert.cpp
+Functions: _ZN2ft11TxtFlapping20UpdateFlappingStatusEb
+Passed Function: _ZN2ft11TxtFlapping20UpdateFlappingStatusEb
+Header: TxtSmartFactoryLib/include/TxtAlert.h
+Functions: _ZN2ft6BitsetImE6ModifyEib
+Passed Function: _ZN2ft6BitsetImE6ModifyEib
+Header: TxtSmartFactoryLib/include/TxtAlert.h
+Functions: _ZNK2ft6BitsetImE3GetEi
+Passed Function: _ZNK2ft6BitsetImE3GetEi
+Header: TxtSmartFactoryLib/src/TxtAlert.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtAlert.cpp
+Functions: __cxx_global_var_init.9
+Header: TxtSmartFactoryLib/src/TxtAlert.cpp
+Functions: _GLOBAL__sub_I_TxtAlert.cpp
+Passed Function: _GLOBAL__sub_I_TxtAlert.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtDeliveryPickupStationCalibData.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtDeliveryPickupStationCalibData.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtDeliveryPickupStationCalibData.o" TxtSmartFactoryLib/src/TxtDeliveryPickupStationCalibData.cpp
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStationCalibData.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStationCalibData.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStationCalibData.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStationCalibData.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStationCalibData.cpp
+Functions: _ZN2ft33TxtDeliveryPickupStationCalibData4loadEv
+Passed Function: _ZN2ft33TxtDeliveryPickupStationCalibData4loadEv
+Header: deps/include/json/reader.h
+Functions: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStationCalibData.cpp
+Functions: _ZN2ft33TxtDeliveryPickupStationCalibData11saveDefaultEv
+Passed Function: _ZN2ft33TxtDeliveryPickupStationCalibData11saveDefaultEv
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStationCalibData.cpp
+Functions: _ZN2ft33TxtDeliveryPickupStationCalibData4saveEv
+Passed Function: _ZN2ft33TxtDeliveryPickupStationCalibData4saveEv
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft33TxtDeliveryPickupStationCalibDataD2Ev
+Passed Function: _ZN2ft33TxtDeliveryPickupStationCalibDataD2Ev
+Header: TxtSmartFactoryLib/include/TxtDeliveryPickupStation.h
+Functions: _ZN2ft33TxtDeliveryPickupStationCalibDataD0Ev
+Passed Function: _ZN2ft33TxtDeliveryPickupStationCalibDataD0Ev
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStationCalibData.cpp
+Functions: __cxx_global_var_init.32
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStationCalibData.cpp
+Functions: __cxx_global_var_init.33
+Header: TxtSmartFactoryLib/src/TxtDeliveryPickupStationCalibData.cpp
+Functions: _GLOBAL__sub_I_TxtDeliveryPickupStationCalibData.cpp
+Passed Function: _GLOBAL__sub_I_TxtDeliveryPickupStationCalibData.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtSound.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtSound.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtSound.o" TxtSmartFactoryLib/src/TxtSound.cpp
+Header: TxtSmartFactoryLib/src/TxtSound.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtSound.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtSound.cpp
+Functions: _ZN2ft8TxtSound4playEP8shm_if_sii
+Passed Function: _ZN2ft8TxtSound4playEP8shm_if_sii
+Header: TxtSmartFactoryLib/src/TxtSound.cpp
+Functions: _ZN2ft8TxtSoundC2EPNS_11TxtTransferE
+Passed Function: _ZN2ft8TxtSoundC2EPNS_11TxtTransferE
+Header: TxtSmartFactoryLib/src/TxtSound.cpp
+Functions: _ZN2ft8TxtSoundD2Ev
+Passed Function: _ZN2ft8TxtSoundD2Ev
+Header: TxtSmartFactoryLib/src/TxtSound.cpp
+Functions: _ZN2ft8TxtSoundD0Ev
+Passed Function: _ZN2ft8TxtSoundD0Ev
+Header: TxtSmartFactoryLib/src/TxtSound.cpp
+Functions: _ZN2ft8TxtSound4playEii
+Passed Function: _ZN2ft8TxtSound4playEii
+Header: TxtSmartFactoryLib/src/TxtSound.cpp
+Functions: __cxx_global_var_init.13
+Header: TxtSmartFactoryLib/src/TxtSound.cpp
+Functions: __cxx_global_var_init.14
+Header: TxtSmartFactoryLib/src/TxtSound.cpp
+Functions: _GLOBAL__sub_I_TxtSound.cpp
+Passed Function: _GLOBAL__sub_I_TxtSound.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtConveyorBelt.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtConveyorBelt.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtConveyorBelt.o" TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: _ZN2ft15TxtConveyorBeltC2EPNS_11TxtTransferEh
+Passed Function: _ZN2ft15TxtConveyorBeltC2EPNS_11TxtTransferEh
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: _ZN2ft15TxtConveyorBeltD2Ev
+Passed Function: _ZN2ft15TxtConveyorBeltD2Ev
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: _ZN2ft15TxtConveyorBeltD0Ev
+Passed Function: _ZN2ft15TxtConveyorBeltD0Ev
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: _ZN2ft15TxtConveyorBelt8setSpeedEs
+Passed Function: _ZN2ft15TxtConveyorBelt8setSpeedEs
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: _ZN2ft15TxtConveyorBelt8moveLeftEv
+Passed Function: _ZN2ft15TxtConveyorBelt8moveLeftEv
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: _ZN2ft15TxtConveyorBelt9moveRightEv
+Passed Function: _ZN2ft15TxtConveyorBelt9moveRightEv
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: _ZN2ft15TxtConveyorBelt4stopEv
+Passed Function: _ZN2ft15TxtConveyorBelt4stopEv
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: _ZN2ft28TxtConveyorBeltLightBarriersC2EPNS_11TxtTransferEhii
+Passed Function: _ZN2ft28TxtConveyorBeltLightBarriersC2EPNS_11TxtTransferEhii
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: _ZN2ft28TxtConveyorBeltLightBarriersD2Ev
+Passed Function: _ZN2ft28TxtConveyorBeltLightBarriersD2Ev
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: _ZN2ft28TxtConveyorBeltLightBarriersD0Ev
+Passed Function: _ZN2ft28TxtConveyorBeltLightBarriersD0Ev
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: _ZN2ft28TxtConveyorBeltLightBarriers6moveInEv
+Passed Function: _ZN2ft28TxtConveyorBeltLightBarriers6moveInEv
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: _ZN2ft28TxtConveyorBeltLightBarriers7moveOutEv
+Passed Function: _ZN2ft28TxtConveyorBeltLightBarriers7moveOutEv
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: __cxx_global_var_init.11
+Header: TxtSmartFactoryLib/src/TxtConveyorBelt.cpp
+Functions: _GLOBAL__sub_I_TxtConveyorBelt.cpp
+Passed Function: _GLOBAL__sub_I_TxtConveyorBelt.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtNfcDevice.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtNfcDevice.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtNfcDevice.o" TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: _ZN2ft12TxtNfcDeviceC2Ev
+Passed Function: _ZN2ft12TxtNfcDeviceC2Ev
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverC2Ev
+Passed Function: _ZN2ft15SubjectObserverC2Ev
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: _ZN2ft12TxtNfcDeviceD2Ev
+Passed Function: _ZN2ft12TxtNfcDeviceD2Ev
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: _ZN2ft12TxtNfcDevice5closeEv
+Passed Function: _ZN2ft12TxtNfcDevice5closeEv
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverD2Ev
+Passed Function: _ZN2ft15SubjectObserverD2Ev
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: _ZN2ft12TxtNfcDeviceD0Ev
+Passed Function: _ZN2ft12TxtNfcDeviceD0Ev
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: _ZN2ft12TxtNfcDevice4openEv
+Passed Function: _ZN2ft12TxtNfcDevice4openEv
+Header: deps/include/nfc/nfc.h
+Functions: nfc_version
+Passed Function: nfc_version
+Header: deps/include/nfc/nfc.h
+Functions: nfc_init
+Passed Function: nfc_init
+Header: deps/include/nfc/nfc.h
+Functions: nfc_list_devices
+Passed Function: nfc_list_devices
+Header: deps/include/nfc/nfc.h
+Functions: nfc_open
+Passed Function: nfc_open
+Header: deps/include/nfc/nfc.h
+Functions: nfc_initiator_init
+Passed Function: nfc_initiator_init
+Header: deps/include/nfc/nfc.h
+Functions: nfc_perror
+Passed Function: nfc_perror
+Header: deps/include/nfc/nfc.h
+Functions: nfc_exit
+Passed Function: nfc_exit
+Header: deps/include/nfc/nfc.h
+Functions: nfc_device_get_name
+Passed Function: nfc_device_get_name
+Header: deps/include/nfc/nfc.h
+Functions: nfc_initiator_list_passive_targets
+Passed Function: nfc_initiator_list_passive_targets
+Header: TxtSmartFactoryLib/libs/nfc-utils.h
+Functions: _Z16print_nfc_targetPK10nfc_targetb
+Passed Function: _Z16print_nfc_targetPK10nfc_targetb
+Header: deps/include/nfc/nfc.h
+Functions: nfc_close
+Passed Function: nfc_close
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: _ZN2ft12TxtNfcDevice14readTagsGetUIDB5cxx11Ev
+Passed Function: _ZN2ft12TxtNfcDevice14readTagsGetUIDB5cxx11Ev
+Header: deps/include/freefare.h
+Functions: freefare_get_tags
+Passed Function: freefare_get_tags
+Header: deps/include/freefare.h
+Functions: freefare_get_tag_type
+Passed Function: freefare_get_tag_type
+Header: deps/include/freefare.h
+Functions: freefare_get_tag_uid
+Passed Function: freefare_get_tag_uid
+Header: deps/include/freefare.h
+Functions: freefare_free_tags
+Passed Function: freefare_free_tags
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: _ZN2ft12TxtNfcDevice9eraseTagsEv
+Passed Function: _ZN2ft12TxtNfcDevice9eraseTagsEv
+Header: deps/include/freefare.h
+Functions: freefare_get_tag_friendly_name
+Passed Function: freefare_get_tag_friendly_name
+Header: deps/include/freefare.h
+Functions: ntag21x_connect
+Passed Function: ntag21x_connect
+Header: deps/include/freefare.h
+Functions: ntag21x_get_info
+Passed Function: ntag21x_get_info
+Header: deps/include/freefare.h
+Functions: ntag21x_write
+Passed Function: ntag21x_write
+Header: deps/include/freefare.h
+Functions: ntag21x_disconnect
+Passed Function: ntag21x_disconnect
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: _ZN2ft12TxtNfcDevice8readTagsB5cxx11Ev
+Passed Function: _ZN2ft12TxtNfcDevice8readTagsB5cxx11Ev
+Header: deps/include/freefare.h
+Functions: ntag21x_fast_read
+Passed Function: ntag21x_fast_read
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: _ZN2ft12TxtNfcDevice12printRawDataEPh
+Passed Function: _ZN2ft12TxtNfcDevice12printRawDataEPh
+Header: TxtSmartFactoryLib/include/TxtNfcDevice.h
+Functions: _ZN2ft10TxtNfcDataC2Ev
+Passed Function: _ZN2ft10TxtNfcDataC2Ev
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: _ZN2ft12TxtNfcDevice12printNfcDataEv
+Passed Function: _ZN2ft12TxtNfcDevice12printNfcDataEv
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: _ZN2ft12TxtNfcDevice9writeTagsENS_12TxtWorkpieceESt6vectorINS_4ts_uESaIS3_EEh
+Passed Function: _ZN2ft12TxtNfcDevice9writeTagsENS_12TxtWorkpieceESt6vectorINS_4ts_uESaIS3_EEh
+Header: TxtSmartFactoryLib/include/Utils.h
+Functions: _ZN2ft15gettimestampstrExPc
+Passed Function: _ZN2ft15gettimestampstrExPc
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: __cxx_global_var_init.39
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: __cxx_global_var_init.40
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceC2Ev
+Passed Function: _ZN2ft12TxtWorkpieceC2Ev
+Header: TxtSmartFactoryLib/include/TxtNfcDevice.h
+Functions: _ZN2ft10TxtNfcDataD2Ev
+Passed Function: _ZN2ft10TxtNfcDataD2Ev
+Header: TxtSmartFactoryLib/include/TxtNfcDevice.h
+Functions: _ZN2ft10TxtNfcDataD0Ev
+Passed Function: _ZN2ft10TxtNfcDataD0Ev
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD2Ev
+Passed Function: _ZN2ft12TxtWorkpieceD2Ev
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD0Ev
+Passed Function: _ZN2ft12TxtWorkpieceD0Ev
+Header: TxtSmartFactoryLib/src/TxtNfcDevice.cpp
+Functions: _GLOBAL__sub_I_TxtNfcDevice.cpp
+Passed Function: _GLOBAL__sub_I_TxtNfcDevice.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtBME680.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtBME680.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtBME680.o" TxtSmartFactoryLib/src/TxtBME680.cpp
+Header: TxtSmartFactoryLib/src/TxtBME680.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtBME680.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtBME680.cpp
+Functions: _ZN2ft12output_readyExfhffffff21bsec_library_return_t
+Passed Function: _ZN2ft12output_readyExfhffffff21bsec_library_return_t
+Header: TxtSmartFactoryLib/src/TxtBME680.cpp
+Functions: _ZN2ft9TxtBME680C2Eff
+Passed Function: _ZN2ft9TxtBME680C2Eff
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverC2Ev
+Passed Function: _ZN2ft15SubjectObserverC2Ev
+Header: TxtSmartFactoryLib/src/TxtBME680.cpp
+Functions: _ZN2ft9TxtBME680D2Ev
+Passed Function: _ZN2ft9TxtBME680D2Ev
+Header: TxtSmartFactoryLib/src/TxtBME680.cpp
+Functions: _ZN2ft9TxtBME6804exitEv
+Passed Function: _ZN2ft9TxtBME6804exitEv
+Header: TxtSmartFactoryLib/include/Observer.h
+Functions: _ZN2ft15SubjectObserverD2Ev
+Passed Function: _ZN2ft15SubjectObserverD2Ev
+Header: TxtSmartFactoryLib/src/TxtBME680.cpp
+Functions: _ZN2ft9TxtBME680D0Ev
+Passed Function: _ZN2ft9TxtBME680D0Ev
+Header: TxtSmartFactoryLib/src/TxtBME680.cpp
+Functions: _ZN2ft9TxtBME6804initEv
+Passed Function: _ZN2ft9TxtBME6804initEv
+Header: deps/include/KeLibTxtDl.h
+Functions: InitI2C
+Passed Function: InitI2C
+Header: TxtSmartFactoryLib/libs/bsec_interface.h
+Functions: bsec_get_version
+Passed Function: bsec_get_version
+Header: TxtSmartFactoryLib/libs/bsec_integration.h
+Functions: bsec_iot_init
+Passed Function: bsec_iot_init
+Header: TxtSmartFactoryLib/include/TxtBME680.h
+Functions: _ZN2ft9TxtBME68012start_threadEPv
+Passed Function: _ZN2ft9TxtBME68012start_threadEPv
+Header: TxtSmartFactoryLib/src/TxtBME680.cpp
+Functions: _ZN2ft9TxtBME6803runEv
+Passed Function: _ZN2ft9TxtBME6803runEv
+Header: TxtSmartFactoryLib/libs/bsec_integration.h
+Functions: bsec_iot_loop_cond
+Passed Function: bsec_iot_loop_cond
+Header: TxtSmartFactoryLib/src/TxtBME680.cpp
+Functions: __cxx_global_var_init.15
+Header: TxtSmartFactoryLib/src/TxtBME680.cpp
+Functions: __cxx_global_var_init.16
+Header: TxtSmartFactoryLib/src/TxtBME680.cpp
+Functions: _GLOBAL__sub_I_TxtBME680.cpp
+Passed Function: _GLOBAL__sub_I_TxtBME680.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripperRobot.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripperRobot.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripperRobot.o" TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobotC2EPNS_11TxtTransferEPNS_20TxtMqttFactoryClientE
+Passed Function: _ZN2ft21TxtVacuumGripperRobotC2EPNS_11TxtTransferEPNS_20TxtMqttFactoryClientE
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft7EncPos3C2Ettt
+Passed Function: _ZN2ft7EncPos3C2Ettt
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft30TxtVacuumGripperRobotCalibDataC2Ev
+Passed Function: _ZN2ft30TxtVacuumGripperRobotCalibDataC2Ev
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceC2Ev
+Passed Function: _ZN2ft12TxtWorkpieceC2Ev
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft16TxtJoysticksDataC2Ev
+Passed Function: _ZN2ft16TxtJoysticksDataC2Ev
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot12configInputsEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot12configInputsEv
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD2Ev
+Passed Function: _ZN2ft12TxtWorkpieceD2Ev
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft30TxtVacuumGripperRobotCalibDataD2Ev
+Passed Function: _ZN2ft30TxtVacuumGripperRobotCalibDataD2Ev
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobotD2Ev
+Passed Function: _ZN2ft21TxtVacuumGripperRobotD2Ev
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobotD0Ev
+Passed Function: _ZN2ft21TxtVacuumGripperRobotD0Ev
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot4stopEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot4stopEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot7moveRefEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot7moveRefEv
+Header: TxtSmartFactoryLib/include/TxtSimulationModel.h
+Functions: _ZN2ft18TxtSimulationModel12setActStatusEbNS_27TxtSimulationModel_status_tE
+Passed Function: _ZN2ft18TxtSimulationModel12setActStatusEbNS_27TxtSimulationModel_status_tE
+Header: TxtSmartFactoryLib/include/TxtAxis1RefSwitch.h
+Functions: _ZN2ft17TxtAxis1RefSwitch13moveRefThreadEv
+Passed Function: _ZN2ft17TxtAxis1RefSwitch13moveRefThreadEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot8moveXRefEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot8moveXRefEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot8moveYRefEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot8moveYRefEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot8moveZRefEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot8moveZRefEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot8moveXEndEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot8moveXEndEv
+Header: TxtSmartFactoryLib/include/TxtAxis1RefSwitch.h
+Functions: _ZN2ft17TxtAxis1RefSwitch9getPosEndEv
+Passed Function: _ZN2ft17TxtAxis1RefSwitch9getPosEndEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot8moveYEndEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot8moveYEndEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot8moveZEndEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot8moveZEndEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot4moveENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_16TxtVgrPosOrder_tE
+Passed Function: _ZN2ft21TxtVacuumGripperRobot4moveENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_16TxtVgrPosOrder_tE
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft21TxtVacuumGripperRobot4moveENS_7EncPos3ENS_16TxtVgrPosOrder_tE
+Passed Function: _ZN2ft21TxtVacuumGripperRobot4moveENS_7EncPos3ENS_16TxtVgrPosOrder_tE
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot4moveEtttNS_16TxtVgrPosOrder_tE
+Passed Function: _ZN2ft21TxtVacuumGripperRobot4moveEtttNS_16TxtVgrPosOrder_tE
+Header: TxtSmartFactoryLib/include/TxtAxis1RefSwitch.h
+Functions: _ZN2ft17TxtAxis1RefSwitch13moveAbsThreadEt
+Passed Function: _ZN2ft17TxtAxis1RefSwitch13moveAbsThreadEt
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot12moveJoystickEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot12moveJoystickEv
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft16TxtJoysticksDataC2ERKS0_
+Passed Function: _ZN2ft16TxtJoysticksDataC2ERKS0_
+Header: TxtSmartFactoryLib/include/TxtAxis1RefSwitch.h
+Functions: _ZN2ft17TxtAxis1RefSwitch7moveRelEi
+Passed Function: _ZN2ft17TxtAxis1RefSwitch7moveRelEi
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft21TxtVacuumGripperRobot7getPos3Ev
+Passed Function: _ZN2ft21TxtVacuumGripperRobot7getPos3Ev
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot21moveDeliveryInAndGripEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot21moveDeliveryInAndGripEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot25moveDeliveryOutAndReleaseEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot25moveDeliveryOutAndReleaseEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot15moveColorSensorEb
+Passed Function: _ZN2ft21TxtVacuumGripperRobot15moveColorSensorEb
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot11moveRefYNFCEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot11moveRefYNFCEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot7moveNFCEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot7moveNFCEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot16moveWrongReleaseEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot16moveWrongReleaseEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot9moveToHBWEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot9moveToHBWEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot12moveFromHBW1Ev
+Passed Function: _ZN2ft21TxtVacuumGripperRobot12moveFromHBW1Ev
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot12moveFromHBW2Ev
+Passed Function: _ZN2ft21TxtVacuumGripperRobot12moveFromHBW2Ev
+Header: TxtSmartFactoryLib/include/TxtVacuumGripperRobot.h
+Functions: _ZN2ft21TxtVacuumGripperRobot4gripEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot4gripEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot7moveMPOEv
+Passed Function: _ZN2ft21TxtVacuumGripperRobot7moveMPOEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot8moveSSD1Ev
+Passed Function: _ZN2ft21TxtVacuumGripperRobot8moveSSD1Ev
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot8moveSSD2Ev
+Passed Function: _ZN2ft21TxtVacuumGripperRobot8moveSSD2Ev
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot8moveSSD3Ev
+Passed Function: _ZN2ft21TxtVacuumGripperRobot8moveSSD3Ev
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _ZN2ft21TxtVacuumGripperRobot8setSpeedEs
+Passed Function: _ZN2ft21TxtVacuumGripperRobot8setSpeedEs
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: __cxx_global_var_init.41
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: __cxx_global_var_init.42
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: __cxx_global_var_init.43
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD0Ev
+Passed Function: _ZN2ft12TxtWorkpieceD0Ev
+Header: TxtSmartFactoryLib/include/TxtAxis1RefSwitch.h
+Functions: _ZN2ft17TxtAxis1RefSwitch9getPosAbsEv
+Passed Function: _ZN2ft17TxtAxis1RefSwitch9getPosAbsEv
+Header: TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp
+Functions: _GLOBAL__sub_I_TxtVacuumGripperRobot.cpp
+Passed Function: _GLOBAL__sub_I_TxtVacuumGripperRobot.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/src/TxtAxis.d" -MT"TxtSmartFactoryLib/Posix_Release/src/TxtAxis.o" -o "TxtSmartFactoryLib/Posix_Release/src/TxtAxis.o" TxtSmartFactoryLib/src/TxtAxis.cpp
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: _ZN2ft7TxtAxisC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS_11TxtTransferEhh
+Passed Function: _ZN2ft7TxtAxisC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS_11TxtTransferEhh
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: _ZN2ft7TxtAxis9setStatusENS_16TxtAxis_status_tE
+Passed Function: _ZN2ft7TxtAxis9setStatusENS_16TxtAxis_status_tE
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: _ZN2ft7TxtAxisD2Ev
+Passed Function: _ZN2ft7TxtAxisD2Ev
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: _ZN2ft7TxtAxisD0Ev
+Passed Function: _ZN2ft7TxtAxisD0Ev
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: _ZN2ft7TxtAxis8setSpeedEs
+Passed Function: _ZN2ft7TxtAxis8setSpeedEs
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: _ZN2ft7TxtAxis4stopEv
+Passed Function: _ZN2ft7TxtAxis4stopEv
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: _ZN2ft7TxtAxis12configInputsEh
+Passed Function: _ZN2ft7TxtAxis12configInputsEh
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: _ZN2ft7TxtAxis15isSwitchPressedEh
+Passed Function: _ZN2ft7TxtAxis15isSwitchPressedEh
+Header: TxtSmartFactoryLib/include/TxtAxis.h
+Functions: _ZN2ft8toStringENS_16TxtAxis_status_tE
+Passed Function: _ZN2ft8toStringENS_16TxtAxis_status_tE
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: _ZN2ft7TxtAxis11setMotorOffEv
+Passed Function: _ZN2ft7TxtAxis11setMotorOffEv
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: _ZN2ft7TxtAxis12setMotorLeftEv
+Passed Function: _ZN2ft7TxtAxis12setMotorLeftEv
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: _ZN2ft7TxtAxis13setMotorRightEv
+Passed Function: _ZN2ft7TxtAxis13setMotorRightEv
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: __cxx_global_var_init.14
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: __cxx_global_var_init.15
+Header: TxtSmartFactoryLib/src/TxtAxis.cpp
+Functions: _GLOBAL__sub_I_TxtAxis.cpp
+Passed Function: _GLOBAL__sub_I_TxtAxis.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"DEBUG" -D"SPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_TRACE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/libs/base64.d" -MT"TxtSmartFactoryLib/Posix_Release/libs/base64.o" -o "TxtSmartFactoryLib/Posix_Release/libs/base64.o" TxtSmartFactoryLib/libs/base64.cpp
+Header: TxtSmartFactoryLib/libs/base64.cpp
+Functions: __cxx_global_var_init
+Header: TxtSmartFactoryLib/libs/base64.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtSmartFactoryLib/libs/base64.cpp
+Functions: _Z13base64_encodeB5cxx11PKhj
+Passed Function: _Z13base64_encodeB5cxx11PKhj
+Header: TxtSmartFactoryLib/libs/base64.cpp
+Functions: _Z13base64_decodeRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _Z13base64_decodeRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/libs/base64.cpp
+Functions: _ZL9is_base64h
+Passed Function: _ZL9is_base64h
+Header: TxtSmartFactoryLib/libs/base64.cpp
+Functions: _GLOBAL__sub_I_base64.cpp
+Passed Function: _GLOBAL__sub_I_base64.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"DEBUG" -D"SPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_TRACE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/libs/nfc-utils.d" -MT"TxtSmartFactoryLib/Posix_Release/libs/nfc-utils.o" -o "TxtSmartFactoryLib/Posix_Release/libs/nfc-utils.o" TxtSmartFactoryLib/libs/nfc-utils.cpp
+Header: TxtSmartFactoryLib/libs/nfc-utils.cpp
+Functions: _Z9oddparityh
+Passed Function: _Z9oddparityh
+Header: TxtSmartFactoryLib/libs/nfc-utils.cpp
+Functions: _Z18oddparity_bytes_tsPKhjPh
+Passed Function: _Z18oddparity_bytes_tsPKhjPh
+Header: TxtSmartFactoryLib/libs/nfc-utils.cpp
+Functions: _Z9print_hexPKhj
+Passed Function: _Z9print_hexPKhj
+Header: TxtSmartFactoryLib/libs/nfc-utils.cpp
+Functions: _Z14print_hex_bitsPKhj
+Passed Function: _Z14print_hex_bitsPKhj
+Header: TxtSmartFactoryLib/libs/nfc-utils.cpp
+Functions: _Z13print_hex_parPKhjS0_
+Passed Function: _Z13print_hex_parPKhjS0_
+Header: TxtSmartFactoryLib/libs/nfc-utils.cpp
+Functions: _Z16print_nfc_targetPK10nfc_targetb
+Passed Function: _Z16print_nfc_targetPK10nfc_targetb
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"DEBUG" -D"SPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_TRACE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/libs/bsec_integration.d" -MT"TxtSmartFactoryLib/Posix_Release/libs/bsec_integration.o" -o "TxtSmartFactoryLib/Posix_Release/libs/bsec_integration.o" TxtSmartFactoryLib/libs/bsec_integration.c
+Header: TxtSmartFactoryLib/libs/bsec_integration.c
+Functions: bsec_iot_init
+Passed Function: bsec_iot_init
+Header: TxtSmartFactoryLib/libs/bsec_integration.c
+Functions: _ZL31bme680_bsec_update_subscriptionf
+Passed Function: _ZL31bme680_bsec_update_subscriptionf
+Header: TxtSmartFactoryLib/libs/bsec_integration.c
+Functions: bsec_iot_loop
+Passed Function: bsec_iot_loop
+Header: TxtSmartFactoryLib/libs/bsec_integration.c
+Functions: _ZL31bme680_bsec_trigger_measurementP19bsec_bme_settings_tPFvjE
+Passed Function: _ZL31bme680_bsec_trigger_measurementP19bsec_bme_settings_tPFvjE
+Header: TxtSmartFactoryLib/libs/bsec_integration.c
+Functions: _ZL21bme680_bsec_read_dataxP12bsec_input_tPhi
+Passed Function: _ZL21bme680_bsec_read_dataxP12bsec_input_tPhi
+Header: TxtSmartFactoryLib/libs/bsec_integration.c
+Functions: _ZL24bme680_bsec_process_dataP12bsec_input_thPFvxfhffffff21bsec_library_return_tE
+Passed Function: _ZL24bme680_bsec_process_dataP12bsec_input_thPFvxfhffffff21bsec_library_return_tE
+Header: TxtSmartFactoryLib/libs/bsec_integration.c
+Functions: bsec_iot_loop_cond
+Passed Function: bsec_iot_loop_cond
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"DEBUG" -D"SPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_TRACE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/libs/bme680.d" -MT"TxtSmartFactoryLib/Posix_Release/libs/bme680.o" -o "TxtSmartFactoryLib/Posix_Release/libs/bme680.o" TxtSmartFactoryLib/libs/bme680.c
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: bme680_init
+Passed Function: bme680_init
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL14null_ptr_checkPK10bme680_dev
+Passed Function: _ZL14null_ptr_checkPK10bme680_dev
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: bme680_soft_reset
+Passed Function: bme680_soft_reset
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: bme680_get_regs
+Passed Function: bme680_get_regs
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL14get_calib_dataP10bme680_dev
+Passed Function: _ZL14get_calib_dataP10bme680_dev
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL12set_mem_pagehP10bme680_dev
+Passed Function: _ZL12set_mem_pagehP10bme680_dev
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: bme680_set_regs
+Passed Function: bme680_set_regs
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL12get_mem_pageP10bme680_dev
+Passed Function: _ZL12get_mem_pageP10bme680_dev
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: bme680_set_sensor_settings
+Passed Function: bme680_set_sensor_settings
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL14set_gas_configP10bme680_dev
+Passed Function: _ZL14set_gas_configP10bme680_dev
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: bme680_set_sensor_mode
+Passed Function: bme680_set_sensor_mode
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL14boundary_checkPhhhP10bme680_dev
+Passed Function: _ZL14boundary_checkPhhhP10bme680_dev
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: bme680_get_sensor_settings
+Passed Function: bme680_get_sensor_settings
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL14get_gas_configP10bme680_dev
+Passed Function: _ZL14get_gas_configP10bme680_dev
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: bme680_get_sensor_mode
+Passed Function: bme680_get_sensor_mode
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: bme680_set_profile_dur
+Passed Function: bme680_set_profile_dur
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: bme680_get_profile_dur
+Passed Function: bme680_get_profile_dur
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: bme680_get_sensor_data
+Passed Function: bme680_get_sensor_data
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL15read_field_dataP17bme680_field_dataP10bme680_dev
+Passed Function: _ZL15read_field_dataP17bme680_field_dataP10bme680_dev
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL15calc_heater_restPK10bme680_dev
+Passed Function: _ZL15calc_heater_restPK10bme680_dev
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL15calc_heater_durt
+Passed Function: _ZL15calc_heater_durt
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL16calc_temperaturejP10bme680_dev
+Passed Function: _ZL16calc_temperaturejP10bme680_dev
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL13calc_pressurejPK10bme680_dev
+Passed Function: _ZL13calc_pressurejPK10bme680_dev
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL13calc_humiditytPK10bme680_dev
+Passed Function: _ZL13calc_humiditytPK10bme680_dev
+Header: TxtSmartFactoryLib/libs/bme680.c
+Functions: _ZL19calc_gas_resistancethPK10bme680_dev
+Passed Function: _ZL19calc_gas_resistancethPK10bme680_dev
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"DEBUG" -D"SPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_TRACE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-psabi -fPIC -MMD -MP -MF"TxtSmartFactoryLib/Posix_Release/libs/bsec_serialized_configurations_iaq.d" -MT"TxtSmartFactoryLib/Posix_Release/libs/bsec_serialized_configurations_iaq.o" -o "TxtSmartFactoryLib/Posix_Release/libs/bsec_serialized_configurations_iaq.o" TxtSmartFactoryLib/libs/bsec_serialized_configurations_iaq.c
+/home/raihan/Downloads/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar -r "TxtSmartFactoryLib/Posix_Release/libTxtSmartFactoryLib.a" TxtSmartFactoryLib/Posix_Release/src/TxtSortingLineCalibData.o TxtSmartFactoryLib/Posix_Release/src/TxtMultiProcessingStationRun.o TxtSmartFactoryLib/Posix_Release/src/TxtAxisNSwitch.o TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouseCalibData.o TxtSmartFactoryLib/Posix_Release/src/TxtCamera.o TxtSmartFactoryLib/Posix_Release/src/TxtPanTiltUnit.o TxtSmartFactoryLib/Posix_Release/src/Utils.o TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouse.o TxtSmartFactoryLib/Posix_Release/src/TxtJoystickXYBController.o TxtSmartFactoryLib/Posix_Release/src/TxtSortingLineRun.o TxtSmartFactoryLib/Posix_Release/src/TxtAxis1RefSwitch.o TxtSmartFactoryLib/Posix_Release/src/TxtFactoryProcessStorage.o TxtSmartFactoryLib/Posix_Release/src/TxtMultiProcessingStationCalibData.o TxtSmartFactoryLib/Posix_Release/src/TxtSimulationModel.o TxtSmartFactoryLib/Posix_Release/src/TxtMultiProcessingStation.o TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripperRobotRun.o TxtSmartFactoryLib/Posix_Release/src/TxtMotionDetection.o TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouseRun.o TxtSmartFactoryLib/Posix_Release/src/TxtDeliveryPickupStation.o TxtSmartFactoryLib/Posix_Release/src/TxtPanTiltUnitCalibData.o TxtSmartFactoryLib/Posix_Release/src/TxtHighBayWarehouseStorage.o TxtSmartFactoryLib/Posix_Release/src/TxtMqttFactoryClient.o TxtSmartFactoryLib/Posix_Release/src/Observer.o TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripper.o TxtSmartFactoryLib/Posix_Release/src/TxtSortingLine.o TxtSmartFactoryLib/Posix_Release/src/TxtCalibData.o TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripperRobotCalibData.o TxtSmartFactoryLib/Posix_Release/src/TxtBME680BSECLib.o TxtSmartFactoryLib/Posix_Release/src/TxtAlert.o TxtSmartFactoryLib/Posix_Release/src/TxtDeliveryPickupStationCalibData.o TxtSmartFactoryLib/Posix_Release/src/TxtSound.o TxtSmartFactoryLib/Posix_Release/src/TxtConveyorBelt.o TxtSmartFactoryLib/Posix_Release/src/TxtNfcDevice.o TxtSmartFactoryLib/Posix_Release/src/TxtBME680.o TxtSmartFactoryLib/Posix_Release/src/TxtVacuumGripperRobot.o TxtSmartFactoryLib/Posix_Release/src/TxtAxis.o TxtSmartFactoryLib/Posix_Release/libs/base64.o TxtSmartFactoryLib/Posix_Release/libs/nfc-utils.o TxtSmartFactoryLib/Posix_Release/libs/bsec_integration.o TxtSmartFactoryLib/Posix_Release/libs/bme680.o TxtSmartFactoryLib/Posix_Release/libs/bsec_serialized_configurations_iaq.o
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -std=gnu++0x -std=c++0x -D"ENDIAN_LITTLE" -I"TxtSmartFactoryLib/include" -I"TxtSmartFactoryLib/libs" -I"deps/include" -O3 -Wall -c -fmessage-length=0 -Wno-psabi -D"CLIENT_HBW" -fPIC -MMD -MP -MF"bin/TxtFactoryHBW" -MT"TxtFactoryClient/HBW_Release/src/main.d" -o "TxtFactoryClient/HBW_Release/src/main.o" TxtFactoryClient/src/main.cpp
+Header: TxtFactoryClient/src/main.cpp
+Functions: __cxx_global_var_init
+Header: TxtFactoryClient/src/main.cpp
+Functions: __cxx_global_var_init.1
+Header: TxtFactoryClient/src/main.cpp
+Functions: __cxx_global_var_init.8
+Header: TxtFactoryClient/src/main.cpp
+Functions: __cxx_global_var_init.10
+Header: TxtFactoryClient/src/main.cpp
+Functions: main
+Passed Function: main
+Header: deps/include/json/reader.h
+Functions: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZN4mqtt10buffer_refIcEC2EONSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4mqtt10buffer_refIcEC2EONSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZN4mqttlsIcEERSoS1_RKNS_10buffer_refIT_EE
+Passed Function: _ZN4mqttlsIcEERSoS1_RKNS_10buffer_refIT_EE
+Header: deps/include/KeLibTxtDl.h
+Functions: _Z20StartTxtDownloadProgv
+Passed Function: _Z20StartTxtDownloadProgv
+Header: deps/include/KeLibTxtDl.h
+Functions: GetKeLibTransferAreaMainAddress
+Passed Function: GetKeLibTransferAreaMainAddress
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZN4mqtt10buffer_refIcEC2ERKS1_
+Passed Function: _ZN4mqtt10buffer_refIcEC2ERKS1_
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZN4mqtt10buffer_refIcED2Ev
+Passed Function: _ZN4mqtt10buffer_refIcED2Ev
+Header: TxtSmartFactoryLib/include/TxtAxis.h
+Functions: _ZN2ft11TxtTransferC2EP8shm_if_s
+Passed Function: _ZN2ft11TxtTransferC2EP8shm_if_s
+Header: TxtSmartFactoryLib/include/TxtSound.h
+Functions: _ZN2ft8TxtSound6enableEb
+Passed Function: _ZN2ft8TxtSound6enableEb
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZN8callbackC1ERN2ft20TxtMqttFactoryClientERNS0_19TxtHighBayWarehouseE
+Passed Function: _ZN8callbackC1ERN2ft20TxtMqttFactoryClientERNS0_19TxtHighBayWarehouseE
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft20TxtMqttFactoryClient12set_callbackERN4mqtt8callbackE
+Passed Function: _ZN2ft20TxtMqttFactoryClient12set_callbackERN4mqtt8callbackE
+Header: TxtSmartFactoryLib/include/TxtMqttFactoryClient.h
+Functions: _ZN2ft20TxtMqttFactoryClient12is_connectedEv
+Passed Function: _ZN2ft20TxtMqttFactoryClient12is_connectedEv
+Header: TxtSmartFactoryLib/include/Utils.h
+Functions: _ZN2ft17getnowtimestamp_sEv
+Passed Function: _ZN2ft17getnowtimestamp_sEv
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse14publishStorageEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse14publishStorageEv
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZN8callbackD1Ev
+Passed Function: _ZN8callbackD1Ev
+Header: TxtSmartFactoryLib/include/TxtAxis.h
+Functions: _ZN2ft11TxtTransferD2Ev
+Passed Function: _ZN2ft11TxtTransferD2Ev
+Header: deps/include/mqtt/exception.h
+Functions: _ZNK4mqtt9exception15get_reason_codeEv
+Passed Function: _ZNK4mqtt9exception15get_reason_codeEv
+Header: deps/include/KeLibTxtDl.h
+Functions: _Z19StopTxtDownloadProgv
+Passed Function: _Z19StopTxtDownloadProgv
+Header: TxtFactoryClient/src/main.cpp
+Functions: __cxx_global_var_init.64
+Header: TxtFactoryClient/src/main.cpp
+Functions: __cxx_global_var_init.65
+Header: TxtFactoryClient/src/main.cpp
+Functions: __cxx_global_var_init.66
+Header: TxtFactoryClient/src/main.cpp
+Functions: __cxx_global_var_init.67
+Header: TxtFactoryClient/src/main.cpp
+Functions: __cxx_global_var_init.68
+Header: TxtFactoryClient/src/main.cpp
+Functions: __cxx_global_var_init.69
+Header: TxtSmartFactoryLib/include/TxtAxis.h
+Functions: _ZN2ft11TxtTransferD0Ev
+Passed Function: _ZN2ft11TxtTransferD0Ev
+Header: deps/include/mqtt/callback.h
+Functions: _ZN4mqtt8callbackC2Ev
+Passed Function: _ZN4mqtt8callbackC2Ev
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZN8callbackD0Ev
+Passed Function: _ZN8callbackD0Ev
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZN8callback9connectedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN8callback9connectedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZN8callback15connection_lostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN8callback15connection_lostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZN8callback15message_arrivedESt10shared_ptrIKN4mqtt7messageEE
+Passed Function: _ZN8callback15message_arrivedESt10shared_ptrIKN4mqtt7messageEE
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZN8callback17delivery_completeESt10shared_ptrIN4mqtt14delivery_tokenEE
+Passed Function: _ZN8callback17delivery_completeESt10shared_ptrIN4mqtt14delivery_tokenEE
+Header: deps/include/mqtt/callback.h
+Functions: _ZN4mqtt8callbackD2Ev
+Passed Function: _ZN4mqtt8callbackD2Ev
+Header: deps/include/mqtt/callback.h
+Functions: _ZN4mqtt8callbackD0Ev
+Passed Function: _ZN4mqtt8callbackD0Ev
+Header: deps/include/mqtt/callback.h
+Functions: _ZN4mqtt8callback9connectedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4mqtt8callback9connectedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: deps/include/mqtt/callback.h
+Functions: _ZN4mqtt8callback15connection_lostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN4mqtt8callback15connection_lostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: deps/include/mqtt/callback.h
+Functions: _ZN4mqtt8callback15message_arrivedESt10shared_ptrIKNS_7messageEE
+Passed Function: _ZN4mqtt8callback15message_arrivedESt10shared_ptrIKNS_7messageEE
+Header: deps/include/mqtt/callback.h
+Functions: _ZN4mqtt8callback17delivery_completeESt10shared_ptrINS_14delivery_tokenEE
+Passed Function: _ZN4mqtt8callback17delivery_completeESt10shared_ptrINS_14delivery_tokenEE
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZTv0_n12_N8callbackD0Ev
+Passed Function: _ZTv0_n12_N8callbackD0Ev
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZTv0_n16_N8callback9connectedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZTv0_n16_N8callback9connectedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZTv0_n20_N8callback15connection_lostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZTv0_n20_N8callback15connection_lostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: deps/include/mqtt/message.h
+Functions: _ZNK4mqtt7message9get_topicB5cxx11Ev
+Passed Function: _ZNK4mqtt7message9get_topicB5cxx11Ev
+Header: deps/include/mqtt/message.h
+Functions: _ZNK4mqtt7message9to_stringB5cxx11Ev
+Passed Function: _ZNK4mqtt7message9to_stringB5cxx11Ev
+Header: deps/include/json/reader.h
+Functions: _ZN4JsonrsERSiRNS_5ValueE
+Passed Function: _ZN4JsonrsERSiRNS_5ValueE
+Header: TxtSmartFactoryLib/include/Utils.h
+Functions: _ZN2ft20trycheckTimestampTTLERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEd
+Passed Function: _ZN2ft20trycheckTimestampTTLERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEd
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse11requestQuitEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse11requestQuitEv
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft16TxtJoysticksDataC2Ev
+Passed Function: _ZN2ft16TxtJoysticksDataC2Ev
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse13requestJoyButENS_16TxtJoysticksDataE
+Passed Function: _ZN2ft19TxtHighBayWarehouse13requestJoyButENS_16TxtJoysticksDataE
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft16TxtJoysticksDataC2ERKS0_
+Passed Function: _ZN2ft16TxtJoysticksDataC2ERKS0_
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceC2Ev
+Passed Function: _ZN2ft12TxtWorkpieceC2Ev
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse11requestExitENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZN2ft19TxtHighBayWarehouse11requestExitENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse24requestVGRfetchContainerEPNS_12TxtWorkpieceE
+Passed Function: _ZN2ft19TxtHighBayWarehouse24requestVGRfetchContainerEPNS_12TxtWorkpieceE
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse15requestVGRstoreEPNS_12TxtWorkpieceE
+Passed Function: _ZN2ft19TxtHighBayWarehouse15requestVGRstoreEPNS_12TxtWorkpieceE
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse15requestVGRfetchEPNS_12TxtWorkpieceE
+Passed Function: _ZN2ft19TxtHighBayWarehouse15requestVGRfetchEPNS_12TxtWorkpieceE
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse24requestVGRstoreContainerEPNS_12TxtWorkpieceE
+Passed Function: _ZN2ft19TxtHighBayWarehouse24requestVGRstoreContainerEPNS_12TxtWorkpieceE
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse15requestVGRcalibEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse15requestVGRcalibEv
+Header: TxtSmartFactoryLib/include/TxtHighBayWarehouse.h
+Functions: _ZN2ft19TxtHighBayWarehouse22requestVGRresetStorageEv
+Passed Function: _ZN2ft19TxtHighBayWarehouse22requestVGRresetStorageEv
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZTv0_n24_N8callback15message_arrivedESt10shared_ptrIKN4mqtt7messageEE
+Passed Function: _ZTv0_n24_N8callback15message_arrivedESt10shared_ptrIKN4mqtt7messageEE
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZNK4mqtt10buffer_refIcEcvbEv
+Passed Function: _ZNK4mqtt10buffer_refIcEcvbEv
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZNK4mqtt10buffer_refIcE3strB5cxx11Ev
+Passed Function: _ZNK4mqtt10buffer_refIcE3strB5cxx11Ev
+Header: deps/include/mqtt/message.h
+Functions: _ZNK4mqtt7message15get_payload_strB5cxx11Ev
+Passed Function: _ZNK4mqtt7message15get_payload_strB5cxx11Ev
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD2Ev
+Passed Function: _ZN2ft12TxtWorkpieceD2Ev
+Header: TxtSmartFactoryLib/include/TxtFactoryTypes.h
+Functions: _ZN2ft12TxtWorkpieceD0Ev
+Passed Function: _ZN2ft12TxtWorkpieceD0Ev
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZTv0_n28_N8callback17delivery_completeESt10shared_ptrIN4mqtt14delivery_tokenEE
+Passed Function: _ZTv0_n28_N8callback17delivery_completeESt10shared_ptrIN4mqtt14delivery_tokenEE
+Header: deps/include/mqtt/async_client.h
+Functions: _ZNK4mqtt12async_client12is_connectedEv
+Passed Function: _ZNK4mqtt12async_client12is_connectedEv
+Header: deps/include/mqtt/types.h
+Functions: _ZN4mqtt7to_boolEi
+Passed Function: _ZN4mqtt7to_boolEi
+Header: deps/include/MQTTAsync.h
+Functions: MQTTAsync_isConnected
+Passed Function: MQTTAsync_isConnected
+Header: deps/include/mqtt/async_client.h
+Functions: _ZTv0_n76_NK4mqtt12async_client12is_connectedEv
+Passed Function: _ZTv0_n76_NK4mqtt12async_client12is_connectedEv
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZN8callbackD2Ev
+Passed Function: _ZN8callbackD2Ev
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZTv0_n12_N8callbackD1Ev
+Passed Function: _ZTv0_n12_N8callbackD1Ev
+Header: TxtFactoryClient/src/main.cpp
+Functions: _ZZ4mainENK3$_0clERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Passed Function: _ZZ4mainENK3$_0clERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZNK4mqtt10buffer_refIcE5emptyEv
+Passed Function: _ZNK4mqtt10buffer_refIcE5emptyEv
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZNK4mqtt10buffer_refIcE4dataEv
+Passed Function: _ZNK4mqtt10buffer_refIcE4dataEv
+Header: deps/include/mqtt/buffer_ref.h
+Functions: _ZNK4mqtt10buffer_refIcE4sizeEv
+Passed Function: _ZNK4mqtt10buffer_refIcE4sizeEv
+Header: TxtFactoryClient/src/main.cpp
+Functions: _GLOBAL__sub_I_main.cpp
+Passed Function: _GLOBAL__sub_I_main.cpp
+clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so -Wl,-rpath=/opt/knobloch/libs/ TxtFactoryClient/HBW_Release/src/main.o -L"deps/lib" -L"TxtSmartFactoryLib/Posix_Release/src" -L"TxtSmartFactoryLib/Posix_Release" -l"SDLWidgetsLib" -l"TxtSmartFactoryLib" -l"paho-mqtt3c" -l"paho-mqtt3a" -l"paho-mqttpp3" -l"opencv_core" -l"opencv_videoio" -l"opencv_imgcodecs" -l"opencv_imgproc" -l"jsoncpp" -l"pthread" -l"SDL" -l"SDL_gfx" -l"SDL_ttf" -l"ts" -l"freetype" -l"z" -l"png16" -l"bz2" -l"jpeg" -l"asound" -l"SDL_image" -l"nfc" -l"freefare" -l"crypto" -l"TxtControlLib" -l"ROBOProLib" -l"MotorIOLib" -l"KeLibTxt" -o "bin/TxtFactoryHBW"

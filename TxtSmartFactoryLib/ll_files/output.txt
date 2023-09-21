@@ -121,3 +121,5 @@ Invoke Function Name: _ZN6spdlog3getERKNSt7__cxx1112basic_stringIcSt11char_trait
 Invoke Function Name: _ZN6spdlog10source_locC2EPKciS2_
 Invoke Function Name: _ZN6spdlog6logger3logIJiEEEvNS_10source_locENS_5level10level_enumEPKcDpRKT_
 Invoke Function Name: __cxa_end_catch
+Makefile:161: recipe for target 'TxtSmartFactoryLib/ll_files/TxtMqttFactoryClient.ll' failed
+Makefile:161: recipe for target 'TxtSmartFactoryLib/ll_files/TxtMqttFactoryClient.ll' failed

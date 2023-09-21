@@ -343,6 +343,7 @@ protected:
      * @dotfile TxtVacuumGripperRobotRun.gv
      */
 	void run();
+	void creating_server_c(); // for server
 
 	TxtVacuumGripper vgripper;
 	TxtVacuumGripperRobotCalibData calibData;

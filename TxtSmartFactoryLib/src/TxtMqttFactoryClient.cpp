@@ -924,7 +924,7 @@ void TxtMqttFactoryClient::publishVGR_Do(TxtVgrDoCode_t code, TxtWorkpiece* wp, 
 		{
 			Json::Value js_wp;
 	    	js_wp["id"] = wp->tag_uid;
-	    	js_wp["type"] = toString(wp->type);
+	    	js_wp["type"] = toString(wp->type); 
 	    	js_wp["state"] = toString(wp->state);
 	    	js_ack["workpiece"] = js_wp;
 		} else {
@@ -936,7 +936,7 @@ void TxtMqttFactoryClient::publishVGR_Do(TxtVgrDoCode_t code, TxtWorkpiece* wp, 
 			SPDLOG_LOGGER_DEBUG(spdlog::get("console"), "topic: {}", TOPIC_LOCAL_VGR_DO);
 			auto msg_ack = mqtt::make_message(TOPIC_LOCAL_VGR_DO, sout_ack.str());
 			//std::cout<<"msg_ack: "<<msg_ack<<"\n";
-			printf("msg_ack: %s\n", msg_ack->get_topic().c_str());
+			//printf("PublishVGR - msg_ack topic: %s\n", msg_ack->get_topic().c_str());
 			msg_ack->set_qos(iqos);
 			msg_ack->set_retained(bretained);
 			SPDLOG_LOGGER_DEBUG(spdlog::get("console"), "publish: {}", (int)code);

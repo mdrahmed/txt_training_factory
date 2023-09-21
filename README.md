@@ -1,60 +1,36 @@
-## This is the original file that is present in my ubuntu18. [TXT-testbed-main-ubuntu-18](https://github.com/mdrahmed/TXT-testbed-main-ubuntu-18) repo contains duplicate. But all the changes are made here.
+# ICS - code analysis
 
+## Controller Graphs 
+* [FSM MPO](https://fischertechnik.github.io/txt_training_factory_doc/html/dot_TxtMultiProcessingStationRun.png)
+* [FSM HBW](https://fischertechnik.github.io/txt_training_factory_doc/html/dot_TxtHighBayWarehouseRun.png)
+* [FSM VGR](https://fischertechnik.github.io/txt_training_factory_doc/html/dot_TxtVacuumGripperRobotRun.png)
+* [FSM SLD](https://fischertechnik.github.io/txt_training_factory_doc/html/dot_TxtSortingLineRun.png)
 
-this is present as txt-factory.git in ubuntu18-vm as shown following from the VM,
-```
-~/txt_training_factory$ git remote -v
-origin	git@github.com:mdrahmed/txt-factory.git (fetch)
-origin	git@github.com:mdrahmed/txt-factory.git (push)
-```
+## Code's performing checks in a state
+### VGR 
+For delivery,
+The grip function is called from,
+[`moveDeliveryInAndGrip();`](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp#L355)
+[`vgripper.grip();`](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtVacuumGripperRobot.cpp#L274)
+[grip()](https://github.com/mdrahmed/txt_training_factory/blob/master/TxtSmartFactoryLib/src/TxtVacuumGripper.cpp#L28) - This function is checking the speed of the vgr
+[uid.empty()](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp#L358) - This check is made to detect if it's wrong color in the `vgr`.
+[dps.is_DIN()](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp#L192) and [dps.is_DOUT()](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp#L490) - Both of these conditions are used to determine the presence of the workpiece
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+For Storing,
+[dps.getLastColor() == WP_TYPE_NONE](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtVacuumGripperRobotRun.cpp#L535) - This condition is used to validate the workpiece.
+[setTimestampNow(const std::string tag_uid, TxtHistoryIndex_t i)](https://github.com/mdrahmed/txt_training_factory/blob/master/TxtSmartFactoryLib/src/TxtFactoryProcessStorage.cpp#L26) - Within this function, it is checking the map of the testbed.
 
+### HBW
+The store and fetch functions are checking the storage and the storage is updated with this function - [`saveStorageState()`](https://github.com/mdrahmed/txt_training_factory/blob/master/TxtSmartFactoryLib/src/TxtHighBayWarehouseStorage.cpp#L98)
 
+### MPO
+**Note: `MPO` and `SLD` are only used during delivery**
+[isOvenTriggered()](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtMultiProcessingStationRun.cpp#L122) - This condition is checking the status of over at first when the `vgr` is using the `mpo` for delivering a workpiece.
+[isEndConveyorBeltTriggered()](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtMultiProcessingStationRun.cpp#L262) - It is checking the conveyor belt. The conveyor belt which is used to send the workpiece to the sld. 
 
-> If you have any questions, please contact fischertechnik-technik@fischer.de
-
-> DEUTSCH: [**fischertechnik Lernfabrik 4.0 (de)**](README_de.md)
-
-## fischertechnik Training Factory Industry 4.0 (en)
-This project contains the C/C++ library *TxtSmartFactoryLib* and the main and client programs for the fischertechnik [**Training Factory Industry 4.0**](https://www.fischertechnik.de/en/service/elearning/teaching/lernfabrik-4). The library requires at least the [TXT firmware version 4.5.1](https://github.com/fischertechnik/FT-TXT/releases).
-
-The current txt_training_factory version v0.8.0 ([Release Notes](https://github.com/fischertechnik/txt_training_factory/releases)) requires at least TXT firmware 4.6.6 ([Release Notes](https://github.com/fischertechnik/FT-TXT/releases)). See [HowTo](doc/Factory_Update.md) for more details. An upgrade takes some time and should best be done by an experienced user, because all the data on the TXT controllers will be overwritten.
-
-## Overview
-The factory consists of the following stations:
-* **SSC**: Sensor Station with Camera (Main)
-* **HBW**: High-Bay Warehouse
-* **VGR**: Vacuum Gripper Robot
-* **DPS**: Delivery and Pickup Station
-* **MPO**: Multi-Processing Station with Oven
-* **SLD**: Sorting Line with Color Detection
-
-## Programs
-The default user programs implement the standard demo scenario with the [www.fischertechnik-cloud.com](https://www.fischertechnik-cloud.com). These programs you will find in the [bin](https://github.com/fischertechnik/txt_training_factory/tree/master/bin) folder:
-* **TxtFactoryMain.cloud** (local MQTT broker, MQTT bridge, MQTT client for SSC)
-* **TxtFactoryMPO** [[Finite State Machine MPO](https://fischertechnik.github.io/txt_training_factory_doc/html/dot_TxtMultiProcessingStationRun.png)]
-* **TxtFactoryHBW** [[Finite State Machine HBW](https://fischertechnik.github.io/txt_training_factory_doc/html/dot_TxtHighBayWarehouseRun.png)]
-* **TxtFactoryVGR** [[Finite State Machine VGR](https://fischertechnik.github.io/txt_training_factory_doc/html/dot_TxtVacuumGripperRobotRun.png)] (main flow control)
-* **TxtFactorySLD** [[Finite State Machine SLD](https://fischertechnik.github.io/txt_training_factory_doc/html/dot_TxtSortingLineRun.png)]
-
-The programs for the parking position you will find in the [bin](https://github.com/fischertechnik/txt_training_factory/tree/master/bin) folder:
-* **TxtParkPosSSC**, **TxtParkPosMPO**, **TxtParkPosHBW**, **TxtParkPosVGR**
-
-The programs can be copied to the TXT controllers using the [WEB server](doc/WEBServer.md).
-
-## Build
-You can import the git repository as a workspace in [eclipse CDT](https://www.eclipse.org/cdt/downloads.php) or build the programs with *make*. Please read the [building instructions](doc/IDE_Setup.md). 
-
-## Network
-The next picture shows the [network](doc/Network_Config.md) overview with the TXT controllers.
-![Overview Network](doc/Overview_Network.PNG "Overview Network")
-
-## MQTT Interface
-The [MQTT Interface](TxtSmartFactoryLib/doc/MqttInterface.md) describes the topics and the payload of the MQTT clients and the configuration of the mosquitto MQTT bridge. 
-
-## Node-RED
-An example for  Training Factory Industry 4.0 and [Node-RED](https://nodered.org/) you can find in [Node-RED folder](Node-RED/README.md). 
-
-## API Reference C/C++ Library
-The Doxygen documentation of the C/C ++ library classes can be found in the [API Reference](https://fischertechnik.github.io/txt_training_factory_doc/html/index.html).
+### SLD
+[isColorSensorTriggered()](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtSortingLineRun.cpp#L136) - Checking if color sensor is triggered.
+[readColorValue() < detectedColorValue](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtSortingLineRun.cpp#L166) - reading the color value.
+[getDetectedColor()](https://github.com/mdrahmed/txt_training_factory/blob/1ed18ad3cbdb572e658717b17052ecd8f3c344dc/TxtSmartFactoryLib/src/TxtSortingLineRun.cpp#L196) - Based on the color it is checking which workpiece to eject.
+[getDetectedColor()](https://github.com/mdrahmed/txt_training_factory/blob/master/TxtSmartFactoryLib/src/TxtSortingLine.cpp#L129) - This function is used to detect the colors based on predefined checks.
+[getLastColor()](https://github.com/mdrahmed/txt_training_factory/blob/master/TxtSmartFactoryLib/src/TxtSortingLine.cpp#L111) - This function is also getting the last color based on the checks which is later used here [if (dps.getLastColor() == WP_TYPE_NONE)]()

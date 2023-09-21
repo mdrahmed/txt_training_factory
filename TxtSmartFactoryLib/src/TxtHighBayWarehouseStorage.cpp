@@ -231,10 +231,14 @@ bool TxtHighBayWarehouseStorage::fetch(TxtWPType_t t)
 			{
 				StoragePos2 p;
 				p.x = i; p.y = j;
-				if (wp[i][j] == NULL)
+				if (wp[i][j] == NULL){
+					std::cout<<"[i][j]: "<<i<<j<<"\n";
 					continue;
+				}
 				if (wp[i][j]->type == t)
 				{
+					std::cout<<"[i][j]: "<<i<<j<<"\n";
+					std::cout<<"wp[i][j]->type: "<<wp[i][j]->type<<"\n";
 					SPDLOG_LOGGER_DEBUG(spdlog::get("console"), "t {} -> nextFetchPos {} {}",t, p.x, p.y);
 					nextFetchPos = p;
 					found = true;
@@ -266,8 +270,10 @@ bool TxtHighBayWarehouseStorage::fetchContainer()
 		{
 			StoragePos2 p;
 			p.x = i; p.y = j;
+			//std::cout<<"wp[i][j]: "<<wp[i][j]->state<<"\n";
 			if (wp[i][j] == 0)
 			{
+				std::cout<<"[i][j]: "<<i<<j<<"\n";
 				SPDLOG_LOGGER_DEBUG(spdlog::get("console"), "cont -> nextFetchPos {} {}",p.x, p.y);
 				nextFetchPos = p;
 				found = true;

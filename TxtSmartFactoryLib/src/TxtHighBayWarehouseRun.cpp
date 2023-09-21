@@ -113,6 +113,7 @@ void TxtHighBayWarehouse::fsmStep()
 	//-----------------------------------------------------------------
 	case IDLE:
 	{
+		// FSM_TRANSITION( FETCH_CONTAINER, color=blue, label='req fetch\ncontainer' );
 		//printState(IDLE);
 		if (reqVGRfetchContainer)
 		{

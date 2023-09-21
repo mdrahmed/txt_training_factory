@@ -344,7 +344,7 @@ class callback : public virtual mqtt::callback
 	// Callback for when a message arrives.
 	void message_arrived(mqtt::const_message_ptr msg) override {
 		assert(msg);
-		printf("Topic from TxtFactoryMain: %s\n", msg->get_topic().c_str());
+		//printf("Topic from TxtFactoryMain: %s\n", msg->get_topic().c_str());
 		SPDLOG_LOGGER_DEBUG(spdlog::get("console"), "message_arrived  message:{} payload:{}", msg->get_topic(), msg->to_string());
 		//BUGFIX: msg->get_topic() is empty
 		//FIX paho.mqtt.cpp: https://github.com/eclipse/paho.mqtt.c/issues/440#issuecomment-380161713
@@ -651,6 +651,8 @@ public:
 
 int main(int argc, char* argv[])
 {
+	std::cout<<"TxtFactoryMain is called\n";
+
 	sprintf(TxtAppVer, "%d.%d.%d", (VERSION_HEX >> 16) & 0xff,
 	            (VERSION_HEX >> 8) & 0xff, (VERSION_HEX >> 0) & 0xff);
 	fprintf( stdout, "TxtFactoryMain V%d.%d.%d\n", (VERSION_HEX >> 16) & 0xff,

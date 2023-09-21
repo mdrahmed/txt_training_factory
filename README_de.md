@@ -23,7 +23,7 @@ Die Doxygen-Dokumentation der C/C++ Bibliotheksklassen finden Sie in der [API-Re
 ## MQTT Interface
 Die [MQTT Schnittstelle](TxtSmartFactoryLib/doc/MqttInterface.md)  beschreibt die Nutzdaten der MQTT-Clients und die Konfiguration der mosquitto MQTT Bridge.
 
-## Zustandsmaschinen
+## Controller Graphs 
 * [FSM MPO](https://fischertechnik.github.io/txt_training_factory_doc/html/dot_TxtMultiProcessingStationRun.png)
 * [FSM HBW](https://fischertechnik.github.io/txt_training_factory_doc/html/dot_TxtHighBayWarehouseRun.png)
 * [FSM VGR](https://fischertechnik.github.io/txt_training_factory_doc/html/dot_TxtVacuumGripperRobotRun.png)
