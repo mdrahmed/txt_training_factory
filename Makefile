@@ -3,7 +3,7 @@
 
 #check if TOOLCHAIN_BIN_PATH environment variable is set:
 #TOOLCHAIN_BIN_PATH=/home/u18new/Downloads/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/bin
-TOOLCHAIN_BIN_PATH=/home/raihan/Downloads/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/bin
+TOOLCHAIN_BIN_PATH=/home/raihan/txt_training_factory/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/bin
 
 ifndef TOOLCHAIN_BIN_PATH
 $(error TOOLCHAIN_BIN_PATH is undefined! Set with 'export TOOLCHAIN_BIN_PATH=/path/to/toolchain/bin')

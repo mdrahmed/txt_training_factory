@@ -227,7 +227,7 @@ void TxtMultiProcessingStation::fsmStep()
 	case TABLE_BELT:
 	{
 		printState(TABLE_BELT);
-		axisRotTable.moveS3();
+		axisRotTable.moveS3(); 
 		FSM_TRANSITION( EJECT, color=blue, label='produced' );
 		break;
 	}

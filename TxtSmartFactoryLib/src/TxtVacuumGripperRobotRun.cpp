@@ -132,6 +132,18 @@ void TxtVacuumGripperRobot::fsmStep()
 		break;
 	}
 	//-----------------------------------------------------------------
+	// This is the starting point of a retrieval process
+	/*Cases to deliver a workpiece
+		IDLE
+		START_DELIVERY
+		COLOR_DETECTION
+		NFC_RAW
+		NFC_REJECTED
+		WRONG_COLOR
+		NFC_PRODUCED
+		MOVE_PICKUP_WAIT
+		MOVE_PICKUP
+	*/
 	case IDLE:
 	{
 		//printState(IDLE);
@@ -513,6 +525,16 @@ void TxtVacuumGripperRobot::fsmStep()
 		break;
 	}
 	//-----------------------------------------------------------------
+	//// This will move and pickup the workpiece from the store pickup position
+	/*Cases to store a workpiece,
+		MOVE_PICKUP_WAIT
+		MOVE_PICKUP
+		START_DELIVERY
+		COLOR_DETECTION
+		NFC_RAW
+		STORE_WP_VGR
+		STORE_WP
+	*/
 	case MOVE_PICKUP:
 	{
 		printState(MOVE_PICKUP);
