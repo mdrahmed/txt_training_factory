@@ -22,7 +22,6 @@
 
 namespace ft {
 
-
 bool TxtSortingLineCalibData::load()
 {
 	SPDLOG_LOGGER_TRACE(spdlog::get("console"), "load",0);

@@ -74,6 +74,9 @@ double timestamp_ldr = 0.; //s
 
 std::chrono::system_clock::time_point tsLastDetectedTemp;
 std::chrono::system_clock::time_point tsLastDetectedHum;
+
+auto duration = std::chrono::milliseconds(0);
+
 #ifdef DEBUG
 std::chrono::system_clock::time_point startLast;
 #endif
@@ -182,6 +185,9 @@ public:
 			double wait_ms = period_ms - secs.count()/1000.0;
 			SPDLOG_LOGGER_DEBUG(spdlog::get("console"), "fps:{} diff_s:{} period_ms:{} wait_ms:{}",
 					1./secs.count(), secs.count(), period_ms, wait_ms);
+
+			std::cout << "Camera miliseconds time taken - period_ms:" << period_ms << "ms" << "fps:" << 1./secs.count() << "diff_s:" << secs.count() << "wait_ms:" << wait_ms << std::endl;
+
 			startLast = start;
 #endif
 			if (mleds==1) {
@@ -468,6 +474,7 @@ class callback : public virtual mqtt::callback
 			}
 		} else if (msg->get_topic() == TOPIC_CONFIG_CAM) {
 			SPDLOG_LOGGER_DEBUG(spdlog::get("console"), "DETECTED cam config: {}", msg->get_topic());
+			std::cout << "DETECTED cam config" << std::endl;
 			if (force_max_rate) {
 				std::cout << "force_max_rate=true: ignoring cam config" << std::endl;
 			} else {
@@ -651,6 +658,14 @@ public:
 
 int main(int argc, char* argv[])
 {
+
+	auto cam_ms = std::chrono::high_resolution_clock::now();
+	// auto end_ms = std::chrono::high_resolution_clock::now();
+
+	time_t start, end; 
+	time(&start); 
+	std::cout << start<<std::endl;
+
 	std::cout<<"TxtFactoryMain is called\n";
 
 	sprintf(TxtAppVer, "%d.%d.%d", (VERSION_HEX >> 16) & 0xff,
@@ -722,6 +737,17 @@ int main(int argc, char* argv[])
 		<< " broadcast_retry_delay:" << broadcast_retry_delay
 		<< std::endl;
 
+	time(&end); 
+	std::cout << end<<std::endl;
+	double time_taken_whole_process = double(end - start); 
+	std::cout << "Factory main/Camera: TOTAL Time taken by program is : " << std::fixed 
+		<< time_taken_whole_process << std::setprecision(5); 
+	std::cout << " sec " << std::endl;
+
+	auto end_ms = std::chrono::high_resolution_clock::now();
+	duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_ms - cam_ms);
+	std::cout << "Camera miliseconds time taken: " << duration.count() << "ms" << std::endl;
+
     if (StartTxtDownloadProg() == KELIB_ERROR_NONE)
     {
         pTArea = GetKeLibTransferAreaMainAddress();
@@ -782,6 +808,11 @@ int main(int argc, char* argv[])
 						std::cerr << "Error: init TxtMotionDetection" << std::endl;
 						return retcam;
 					}
+
+					// Cam is done working
+					auto end_ms = std::chrono::high_resolution_clock::now();
+					duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_ms - cam_ms);
+					std::cout << "Camera miliseconds time taken: " << duration.count() << "ms" << std::endl;
 				}
 
 				std::cout << "Connect MQTTClient" << std::endl;
@@ -908,6 +939,8 @@ int main(int argc, char* argv[])
 						}
 
 						std::this_thread::sleep_for(std::chrono::milliseconds(50));
+
+						
 					}
 				}
 
@@ -940,5 +973,8 @@ int main(int argc, char* argv[])
         }
         StopTxtDownloadProg();
     }
+
+	
+
 	return 0;
 }

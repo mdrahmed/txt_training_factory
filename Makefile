@@ -16,32 +16,23 @@ AR = ar
 LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libtcmalloc.so
 HEAPPROFILE=my_heap_profile_output
 # EXECUTEABLE_g++ used by the testbed original code
-#EXECUTEABLE_g++ = $(TOOLCHAIN_BIN_PATH)/$(TOOLCHAIN_PREFIX)$(COMPILER)
+EXECUTEABLE_g++ = $(TOOLCHAIN_BIN_PATH)/$(TOOLCHAIN_PREFIX)$(COMPILER)
+
+
+## LATEST WORKING COMMAND
+#EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -fno-discard-value-names -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/FAVCIGVT\*/instrument.so
 
 
 # Main txt folder and files
 # Worked
-# EXECUTEABLE_g++ = clang++-14 --target=arm-linux-gnueabihf
+#EXECUTEABLE_g++ = clang++-14 --target=arm-linux-gnueabihf
+
 # Worked with PASS
 # EXECUTEABLE_g++ = clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/ubuntu-18/LLVM_passes/injectFunc/printf.so
 
 #EXECUTEABLE_g++ = clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/ubuntu-18/LLVM_passes/functionPassses/funcNArg.so
 
 # WORKING WITH THIS ONE,
-
-# Following executable is using pass from recordCallInst which will extract all the call instruction and load instructions with values
-#EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so
-# Trying to extract topic using following executable from message_arrived function
-
-## Inside the ubuntu-18 dual boot
-## This pass is inserting the callInst and the global variables
-#EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/recordCallInst/instrument.so
-
-## This is the combination of `CallerFromCallInstPass-v6.2.cpp` and `longPass.cpp`(logs functions, arguments & values)
-#EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/FArVlCIGv-combined/instrument.so
-
-#EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/instrument.so
-
 ## Inside the ubuntu-18 dual boot
 ## Using the mqtt pass to get the TOPIC FROM PUBLISH - WORKED 
 #EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/publishTpExtD/instrument.so
@@ -50,7 +41,6 @@ HEAPPROFILE=my_heap_profile_output
 ## Using pass to get all the topic 
 #EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/msgAndPubTopic/instrument.so
 ## Using pass to get all the topic, function names, arguments, values, callInsts, global variables => THINGS TO REMEMBER THE `-fno-discard-value-names` WILL KEEP NAMES
-EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -fno-discard-value-names -flegacy-pass-manager -g -Xclang -load -Xclang /home/raihan/LogPasses-new/FAVCIGVT\*/instrument.so
 
 ### Inside u18new - VM
 #EXECUTEABLE_g++ =  clang++-14 --target=arm-linux-gnueabihf -flegacy-pass-manager -g -Xclang -load -Xclang /home/u18new/LLVM_PASSES/LogPasses-new/messagePublishFunc/TopicExtraction/mqtt/instrument.so
